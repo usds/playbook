@@ -2,4 +2,3 @@ permalink: pretty
 highlighter: pygments
 # Need to change this when we go live:
 url: http://playbook.cio.gov
-baseurl: /playbook
