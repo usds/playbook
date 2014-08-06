@@ -1,0 +1,23 @@
+callback([
+
+  {
+    "text": "About",
+    "href": "/playbook/about/"
+  } ,
+
+  {
+    "text": "Hello World",
+    "href": "/playbook/blog/2013/05/09/hello-world/"
+  } ,
+
+  {
+    "text": "Another Post",
+    "href": "/playbook/blog/2013/06/10/another-post/"
+  } ,
+
+  {
+    "text": "Hello Again",
+    "href": "/playbook/blog/2013/06/16/hello-again/"
+  } 
+
+])

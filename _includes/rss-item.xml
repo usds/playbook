@@ -1,0 +1,8 @@
+<item>
+  <title>{{item.title | xml_escape}}</title>
+  <link>{{site.baseurl}}{{item.url}}</link>
+  <description>{{item.content | markdownify | xml_escape}}</description>
+  <pubDate>{{item.date | date_to_xmlschema}}</pubDate>
+  <dc:creator>SITE NAME</dc:creator>
+  <guid isPermaLink="true">{{site.baseurl}}{{item.url}}</guid>
+</item>
