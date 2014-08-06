@@ -1,1 +1,5 @@
 permalink: pretty
+highlighter: pygments
+# Need to change this when we go live:
+url: https://whitehouse.github.io
+baseurl: project
