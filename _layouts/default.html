@@ -1,0 +1,61 @@
+---
+title: 'This is my Site Title'
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The U.S. Digital Services Playbook {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
+  <meta charset='UTF-8'/>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700|Open+Sans:300,400' rel='stylesheet' type='text/css'>
+  <!-- <link href='{{site.baseurl}}/assets/reset.css' rel='stylesheet' /> -->
+  <link href='{{site.baseurl}}/assets/css/styles.css' rel='stylesheet' />
+</head>
+
+<body>
+
+<!-- <div id="navigation_bar">
+  <div class="outer_container">
+    This is a navigation.    
+  </div>
+</div>
+ -->
+<div id="introduction">
+  <div class="outer_container">
+    {% capture introduction %}{% include introduction.md %}{% endcapture %}
+    {{ introduction | markdownify }}
+  </div>
+</div>
+
+<div id="plays_index">
+  <div class="outer_container">
+    {% capture plays_index %}{% include plays_index.md %}{% endcapture %}
+    {{ plays_index | markdownify }}
+  </div>
+</div>
+
+<div id="plays">
+  <div class="outer_container" id="play1">
+    {% capture play1 %}{% include play1.md %}{% endcapture %}
+    {{ play1 | markdownify }}
+  </div>
+</div>
+  <!-- 
+  <div class='container'>
+    <div class='col12 clearfix'>
+      <div class='header col6 margin3 pad4h'>
+        <div class='clearfix col12'>
+          <div class='menu fr'>
+            <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a>
+            <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
+            <a href='//github.com/prose/starter'>Fork on GitHub</a>
+          </div>
+          <h1 class='title'><a href='{{site.baseurl}}/'>{{page.title}}</a></h1>
+        </div>
+      </div>
+    </div>
+    {{content}}
+  </div> -->
+  <script src='{{site.baseurl}}/assets/site.js'></script>
+</body>
