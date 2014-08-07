@@ -1,2 +1,6 @@
 permalink: pretty
 markdown: rdiscount
+highlighter: pygments
+# Need to change this when we go live:
+url: http://playbook.cio.gov
+# baseurl: /operationplaybook

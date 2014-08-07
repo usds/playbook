@@ -11,7 +11,8 @@ body {
 a {
   color: inherit;
   font-family: inherit;
-  font-weight: inherit; }
+  font-weight: inherit;
+  text-decoration: none; }
 
 a:hover {
   text-decoration: underline; }
