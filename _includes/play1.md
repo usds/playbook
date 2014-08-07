@@ -1,4 +1,5 @@
 ##### PLAY 1
+
 ## Understand what people need
 
 We must begin digital projects by exploring and pinpointing the needs of the people who will use the service, and the ways in which the service will fit into their lives. Whether the users are members of the public or government employees, policy makers must include real people in their design process from the very beginning. The needs of people — not constraints of govern- ment structures or silos — should drive technical and design decisions.

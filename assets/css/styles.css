@@ -1,37 +1,12 @@
-@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/*  Reset ♥
-    http://meyerweb.com/eric/tools/css/reset/
-    v2.0 | 20110126
-    License: none (public domain)
-------------------------------------------------------- */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
 body {
   background: #eae4d2;
-  font-family: "Merriweather", serif; }
+  font-family: "Merriweather", serif;
+  margin: 0; }
 
 a {
   color: inherit;
@@ -52,7 +27,8 @@ h1 {
   font-weight: 300;
   border-bottom: 1px solid #eeeeee;
   padding-bottom: 0.25em;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  line-height: 65px; }
 
 h2 {
   font-family: "Merriweather", serif;
@@ -83,9 +59,12 @@ h5 {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 57.35098%;
+    width: 65.88078%;
     font-family: "Open Sans", sans-serif;
-    font-size: 18px; }
+    font-size: 20px;
+    line-height: 38px;
+    margin-top: 19px;
+    font-weight: lighter; }
     #introduction p:last-child {
       margin-right: 0; }
 
@@ -94,10 +73,11 @@ h5 {
   color: #333333; }
   #plays_index h3 {
     color: #eeeeee;
-    font-size: 22px; }
+    font-size: 26px;
+    font-weight: lighter; }
   #plays_index ol li {
-    color: #eeeeee;
-    font-size: 22px;
+    color: #333;
+    font-size: 23px;
     font-weight: 400; }
   #plays_index a {
     color: #333333; }
@@ -111,6 +91,8 @@ h5 {
     margin-right: 0; }
 #plays h4 {
   margin-top: 1em; }
+#plays h5 {
+  font-size: 14px; }
 #plays p, #plays ol, #plays ul {
   float: left;
   display: block;
