@@ -1,4 +1,4 @@
-### DIGITAL SERVICE PLAYS
+<!-- DIGITAL SERVICE PLAYS -->
 
 1. [Understand what people need](#play1)
 2. [Address the whole experience, from start to finish](#play2)

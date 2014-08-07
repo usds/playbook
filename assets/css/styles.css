@@ -57,17 +57,12 @@ h5 {
   background: #32436e;
   color: #eeeeee; }
   #introduction p {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 65.88078%;
+    max-width: 600px;
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     line-height: 38px;
-    margin-top: 19px;
+    margin-top: 40px;
     font-weight: lighter; }
-    #introduction p:last-child {
-      margin-right: 0; }
 
 #plays_index {
   background: #3a96b7;
@@ -76,10 +71,21 @@ h5 {
     color: #eeeeee;
     font-size: 26px;
     font-weight: lighter; }
+  #plays_index .columns {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px; }
+  #plays_index ol {
+    list-style-position: outside; }
   #plays_index ol li {
-    color: #333;
+    color: #eeeeee;
     font-size: 23px;
-    font-weight: 400; }
+    font-weight: lighter;
+    margin-top: 0;
+    margin-left: 10px; }
   #plays_index a {
     color: #333333; }
 

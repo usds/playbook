@@ -30,8 +30,11 @@ title: 'This is my Site Title'
 
 <div id="plays_index">
   <div class="outer_container">
-    {% capture plays_index %}{% include plays_index.md %}{% endcapture %}
-    {{ plays_index | markdownify }}
+    <h3>DIGITAL SERVICE PLAYS</h3>
+    <div class="columns">
+      {% capture plays_index %}{% include plays_index.md %}{% endcapture %}
+      {{ plays_index | markdownify }}
+    </div>
   </div>
 </div>
 

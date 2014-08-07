@@ -80,11 +80,12 @@ h5 {
   color: $white;
 
   p {
-    @include span-columns(8);
+    max-width: 600px;
+    // @include span-columns(8);
     font-family: $sans-serif;
     font-size: 20px;
     line-height: 38px;
-    margin-top: 19px;
+    margin-top: 40px;
     font-weight: lighter;
   }
 }
@@ -92,20 +93,43 @@ h5 {
 #plays_index {
   background: $miami_vice_blue;
   color: $black;
+
   h3 { 
     color: $white;
     font-size: 26px;
     font-weight: lighter;
   }
   
-  ol li {
-    color: #333;
-    font-size: 23px;
-    font-weight: 400;
+  .columns {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
   }
+
+  ol {
+    list-style-position: outside;
+  }
+  
+  ol li {
+    color: $white;
+    font-size: 23px;
+    font-weight: lighter;
+    // padding-right: 40px;
+    // padding-left: 40px;
+    margin-top: 0;
+    margin-left: 10px;
+  }
+  
   a {
     color: $black;
   }
+
+  // .plays_column {
+  //   @include span-columns(6);
+  // }
 }
 
 #plays {
