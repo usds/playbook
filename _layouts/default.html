@@ -39,7 +39,28 @@ title: 'This is my Site Title'
 </div>
 
 <div id="plays">
+  {% for play_number in 1..13 %}
   <div class="outer_container" id="play1">
+    {% capture play1 %}{% include play1.md %}{% endcapture %}
+    {{ play1 | markdownify }}
+  </div>
+  <div class="outer_container" id="play2">
+    {% capture play1 %}{% include play1.md %}{% endcapture %}
+    {{ play1 | markdownify }}
+  </div>
+  <div class="outer_container" id="play3">
+    {% capture play1 %}{% include play1.md %}{% endcapture %}
+    {{ play1 | markdownify }}
+  </div>
+  <div class="outer_container" id="play4">
+    {% capture play4 %}{% include play4.md %}{% endcapture %}
+    {{ play4 | markdownify }}
+  </div>
+  <div class="outer_container" id="play5">
+    {% capture play1 %}{% include play1.md %}{% endcapture %}
+    {{ play1 | markdownify }}
+  </div>
+  <div class="outer_container" id="play6">
     {% capture play1 %}{% include play1.md %}{% endcapture %}
     {{ play1 | markdownify }}
   </div>
