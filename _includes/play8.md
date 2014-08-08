@@ -1,1 +1,16 @@
-file.
+##### PLAY 8
+
+## Choose a modern technology stack
+
+The technology decisions we make need to enable development teams to work efficiently and enable services to scale easily and cost-effectively. Our choices for hosting infrastructure, databases, software frameworks, programming languages and the rest of the technology stack should seek to avoid vendor lock-in and match what successful modern consumer and enterprise software companies would choose today. In particular, digital services teams should consider using open source, cloud based, and commodity solutions across the technology stack, as these solutions have seen widespread adoption and support by the most successful private-sector consumer and enterprise software technology companies.
+
+#### checklist
+1. Choose software frameworks that are commonly used by private-sector companies creating similar services
+2. To the extent practical, ensure that software can be deployed on a variety of commodity hardware types
+3. Ensure that each project has easy to understand instructions for setting up a local development environment, and that team members can be quickly added or removed from projects
+4. Consider open source software solutions at all layers of the stack
+
+#### questions
+- What is your development stack and why did you choose it?
+- What database(s) are you using and why did you choose them?
+- How long does it take for a new team member to set up a local development environment?
