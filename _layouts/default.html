@@ -57,13 +57,13 @@ plays:
 
 <div id="plays" class="outer_container">
 
-  <nav id="play_navigation" class="inner_container">
+  <div id="play_navigation" class="inner_container">
     <ul>
       {% for play in page.plays %}
-        <li><a href="#{{play}}">{{ play | remove: "play" }}</a></li>
+        <li class="play_square"><a href="#{{play}}">{{ play | remove: "play" }}</a></li>
       {% endfor %}
     </ul>
-  </nav>
+  </div>
 
 
   <div class="inner_container" id="play1">
@@ -119,21 +119,33 @@ plays:
     {{ play13 | markdownify }}
   </div>  
 </div>
-  <!-- 
-  <div class='container'>
-    <div class='col12 clearfix'>
-      <div class='header col6 margin3 pad4h'>
-        <div class='clearfix col12'>
-          <div class='menu fr'>
-            <a class='{% if page.section == "blog" %}active{% endif %}' href='{{site.baseurl}}/'>Blog</a>
-            <a class='{% if page.url == "about/" %}active{% endif %}' href='{{site.baseurl}}/about'>About</a>
-            <a href='//github.com/prose/starter'>Fork on GitHub</a>
-          </div>
-          <h1 class='title'><a href='{{site.baseurl}}/'>{{page.title}}</a></h1>
-        </div>
-      </div>
-    </div>
-    {{content}}
-  </div> -->
-  <script src='{{site.baseurl}}/assets/site.js'></script>
+
+<script src='{{site.baseurl}}/assets/js/jquery-1.11.1.min.js'></script>
+<script src='{{site.baseurl}}/assets/js/stickUp.min.js'></script>
+<script type="text/javascript">
+    jQuery(function($) {
+      $(document).ready( function() {
+        $('#play_navigation').stickUp({
+                      parts: {
+                        0: 'play1',
+                        1: 'play2',
+                        2: 'play3',
+                        3: 'play4',
+                        4: 'play5',
+                        5: 'play6',
+                        6: 'play7',
+                        7: 'play8',
+                        8: 'play9',
+                        9: 'play10',
+                        10: 'play11',
+                        11: 'play12',
+                        12: 'play13'
+                      },
+                      itemClass: 'play_square',
+                      itemHover: 'active_play',
+                      topMargin: 'auto'
+                    });
+      });
+    });
+  </script>
 </body>

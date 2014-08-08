@@ -144,7 +144,12 @@ h5 {
     margin-right: 0; }
 #plays #play_navigation ul {
   padding: 0;
-  list-style-position: outside; }
+  list-style-position: outside;
+  background: #eae4d2; }
+#plays #play_navigation .active_play a {
+  background: #3a96b7;
+  color: #eeeeee;
+  text-decoration: none; }
 #plays #play_navigation li {
   float: left;
   margin-right: 20px;
@@ -155,8 +160,12 @@ h5 {
     height: 40px;
     width: 40px;
     text-align: center;
-    padding: 6px 0px;
+    padding: 7px 0px;
     font-size: 18px;
     font-family: "Open Sans", sans-serif;
     color: #3a96b7;
     border: 1px solid #3a96b7; }
+  #plays #play_navigation li a:hover {
+    background: #3a96b7;
+    color: #eeeeee;
+    text-decoration: none; }

@@ -175,6 +175,15 @@ h5 {
     ul {
       padding: 0;
       list-style-position: outside;
+      background: $background_white;
+    }
+
+    .active_play {
+      a {
+        background: $miami_vice_blue;
+        color: $white;
+        text-decoration: none;
+      }
     }
 
     li {
@@ -187,11 +196,17 @@ h5 {
         height: 40px;
         width: 40px;
         text-align: center;
-        padding: 6px 0px;
+        padding: 7px 0px;
         font-size: 18px;
         font-family: $sans-serif;
         color: $miami_vice_blue;
         border: 1px solid $miami_vice_blue;
+      }
+
+      a:hover {
+        background: $miami_vice_blue;
+        color: $white;
+        text-decoration: none;
       }
     }
   }
