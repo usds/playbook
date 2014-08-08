@@ -17,43 +17,16 @@ In every agency, there are multiple stakeholders who share in the responsibility
 
 This handbook is not intended to usurp existing laws, regulations, or Agency policy.  It calls out specific sections of the FAR as examples, but the TechFAR should not be read too narrowly to only apply to the sections specifically mentioned.  All Federal agency stakeholders are encouraged to use this guidance.  It is a living document; users are urged to provide feedback, share experiences, and offer additional strategies, practice tips, policies, or contract language that may be used to assure that IT acquisitions achieve their desired results. This feedback will be used to inform where additional guidance or reference materials may be appropriate.
 
+## TechFAR Handbook Table of Contents
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-TechFAR Handbook Table of Contents
-
-Topic	Issues Covered	Pages
-Purpose	•	Describing purpose of the document	1
-General Considerations	•	Defining Agile software development 
-•	Using Agile software development to address IT needs
-•	Aligning with modular development goals
-•	Assessing risk
-•	Applying privacy and disclosure requirements  	
+- Purpose
+  - Describing the purpose of this document
+- General Considerations
+  - Defining Agile software development 
+  - Using Agile software development to address IT needs
+  - Aligning with modular development goals
+  - Assessing risk
+  - Applying privacy and disclosure requirements  	
 
 
 
