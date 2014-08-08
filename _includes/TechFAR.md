@@ -64,7 +64,7 @@ For each stage of the acquisition lifecycle, this document highlights key regula
 ## General Considerations
 
 
-> **Question** -- Generally speaking, what is Agile software development, and how does it fit into the acquisition development lifecycle?
+> **Question** -- Generally speaking, what is Agile software development, and how does it fit into the acquisition development lifecycle?  
 **Answer** -- Agile software development is a method of software development that utilizes an iterative development process, designs services based on real user needs, and constantly improves software from user feedback.  Agile software development principles apply to both pre-award and post-award contexts.   
 
 Agile software development is a method of software development that is based on iterative and incremental processes and collaboration among a team.  It is a methodology for the creative process that anticipates the need for flexibility and applies a level of pragmatism into the delivery of the finished product. The focus is on keeping code simple, testing often, and delivering functional bits of the application as soon as they are ready.  There are various Agile methodologies (DSDM, Scrum, XP, Kanban, etc.), which all adhere to the same values: individuals and interactions, working software, customer collaboration, and responding to change.  
