@@ -16,6 +16,7 @@ body {
   background: $background_white;
   font-family: $serif;
   margin: 0;
+  line-height: 28px;
 }
 
 a {
@@ -48,7 +49,9 @@ h1 {
 h2 {
   font-family: $serif;
   font-size: 54px;
+  line-height: 65px;
   font-weight: 300;
+  margin-top: 0;
 }
 
 h3 {
@@ -60,20 +63,32 @@ h4 {
   font-family: $serif;
   font-size: 18px;
   color: $miami_vice_blue;
+  margin-bottom: 0;
 }
 
 h5 {
   font-family: $sans-serif;
   font-size: 14px;
+  margin-bottom: 15px;
 }
 
-#navigation_bar {
-  background: red;
-  color: blue;
-  // @include outer-container();
-  .title {
-  }
+.outer_container {
+  @include outer-container();
+  padding: 40px;
 }
+
+.inner_container {
+  @include shift(1);
+  @include span-columns(10);
+}
+
+// #navigation_bar {
+//   background: red;
+//   color: blue;
+//   // @include outer-container();
+//   .title {
+//   }
+// }
 
 #introduction {
   background: $atlantic_blue;
@@ -81,7 +96,6 @@ h5 {
 
   p {
     max-width: 600px;
-    // @include span-columns(8);
     font-family: $sans-serif;
     font-size: 20px;
     line-height: 38px;
@@ -132,7 +146,7 @@ h5 {
   // }
 }
 
-#plays {
+#plays {  
   h2, h4 {
     @include span-columns(7);
   }
@@ -149,7 +163,8 @@ h5 {
     list-style-type: square;
   }
   li {
-    font-size: 14px;
+    font-size: 15px;
+    line-height: 25px;
   }
   ul {
     list-style-type: circle;
@@ -157,7 +172,3 @@ h5 {
   }
 }
 
-.outer_container {
-  @include outer-container();
-  padding: 40px;
-}

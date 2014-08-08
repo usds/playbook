@@ -6,7 +6,8 @@
 body {
   background: #eae4d2;
   font-family: "Merriweather", serif;
-  margin: 0; }
+  margin: 0;
+  line-height: 28px; }
 
 a {
   color: inherit;
@@ -34,7 +35,9 @@ h1 {
 h2 {
   font-family: "Merriweather", serif;
   font-size: 54px;
-  font-weight: 300; }
+  line-height: 65px;
+  font-weight: 300;
+  margin-top: 0; }
 
 h3 {
   font-family: "Open Sans", sans-serif;
@@ -43,15 +46,32 @@ h3 {
 h4 {
   font-family: "Merriweather", serif;
   font-size: 18px;
-  color: #3a96b7; }
+  color: #3a96b7;
+  margin-bottom: 0; }
 
 h5 {
   font-family: "Open Sans", sans-serif;
-  font-size: 14px; }
+  font-size: 14px;
+  margin-bottom: 15px; }
 
-#navigation_bar {
-  background: red;
-  color: blue; }
+.outer_container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px; }
+  .outer_container:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.inner_container {
+  margin-left: 8.5298%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%; }
+  .inner_container:last-child {
+    margin-right: 0; }
 
 #introduction {
   background: #32436e;
@@ -110,17 +130,8 @@ h5 {
 #plays ol {
   list-style-type: square; }
 #plays li {
-  font-size: 14px; }
+  font-size: 15px;
+  line-height: 25px; }
 #plays ul {
   list-style-type: circle;
   list-style-position: inside; }
-
-.outer_container {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 40px; }
-  .outer_container:after {
-    content: "";
-    display: table;
-    clear: both; }
