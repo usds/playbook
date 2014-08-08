@@ -64,21 +64,20 @@ For each stage of the acquisition lifecycle, this document highlights key regula
 ## General Considerations
 
 
-> **Question** -- Generally speaking, what is Agile software development, and how does it fit into the acquisition development lifecycle?  
-**Answer** -- Agile software development is a method of software development that utilizes an iterative development process, designs services based on real user needs, and constantly improves software from user feedback.  Agile software development principles apply to both pre-award and post-award contexts.   
+> **Question** -- Generally speaking, what is Agile software development, and how does it fit into the acquisition development lifecycle?
+
+> **Answer** -- Agile software development is a method of software development that utilizes an iterative development process, designs services based on real user needs, and constantly improves software from user feedback.  Agile software development principles apply to both pre-award and post-award contexts.   
 
 Agile software development is a method of software development that is based on iterative and incremental processes and collaboration among a team.  It is a methodology for the creative process that anticipates the need for flexibility and applies a level of pragmatism into the delivery of the finished product. The focus is on keeping code simple, testing often, and delivering functional bits of the application as soon as they are ready.  There are various Agile methodologies (DSDM, Scrum, XP, Kanban, etc.), which all adhere to the same values: individuals and interactions, working software, customer collaboration, and responding to change.  
-Per the Digital Services Playbook, Agile software development is the preferred methodology for software development contracts that contribute to the creation and maintenance of digital services, whether they are websites, mobile applications, or other digital channels.  It supports frequent changes, updates, and enhancements to the software.  By breaking up the development process into small, manageable pieces – each with desired segments of functionality, and having end users involved throughout the process – and guided by the Product Vision, users receive software that better meets their needs (in terms of both functionality and usability) without wasting money and time on unused or unusable features.  The following chart compares traditional software development with Agile software development by describing the key events in the pre-award and post-award contexts.  
+
+Per the [Digital Services Playbook](http://playbook.cio.gov), Agile software development is the preferred methodology for software development contracts that contribute to the creation and maintenance of digital services, whether they are websites, mobile applications, or other digital channels.  It supports frequent changes, updates, and enhancements to the software.  By breaking up the development process into small, manageable pieces – each with desired segments of functionality, and having end users involved throughout the process – and guided by the Product Vision, users receive software that better meets their needs (in terms of both functionality and usability) without wasting money and time on unused or unusable features.  The following chart compares traditional software development with Agile software development by describing the key events in the pre-award and post-award contexts.  
+
+Traditional Software Development | Agile Software Development |
+--- | --- |
+**Pre-Award** | **Pre-Award**|
+  - **Program identifies need** - includes Government lead and other Government stakeholders |  - Test thing also in column
 
 
-
-
-
-
-
-
-
-Traditional Software Development	Agile Software Development
 
   
 First and foremost, when using Agile processes, the acquisition community must differentiate between contract requirements and system requirements.  Agile software development starts with a Product Vision and does not specify exact system features, but addresses the desired high-level functionality of the system (not the specific system features to achieve that functionality).  Deliverables are the functional, working software (deployable code) that are produced through a repeatable iterative delivery process in a production environment.  Cost and schedule are adhered to because there is a set schedule of releases in which the contractor must produce deployable code.
