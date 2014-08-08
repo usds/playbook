@@ -26,60 +26,33 @@ This handbook is not intended to usurp existing laws, regulations, or Agency pol
   - Using Agile software development to address IT needs
   - Aligning with modular development goals
   - Assessing risk
-  - Applying privacy and disclosure requirements  	
+  - Applying privacy and disclosure requirements	
+- Requirements Development & Acquisition Planning
+  - Identifying requirements 
+  - Documenting needs 
+  - Identifying inherently governmental work
+  - Watching for conflicts of interest
+- Contract Vehicles and Use of Existing IT Contracts
+  - Selecting a suitable contract vehicle
+  - Giving consideration to existing enterprise-wide vehicles
+- Pricing Considerations
+  - Selecting the best contract pricing structure 
+  - Creating a Fixed-Price (FP)  line item structure
+  - Using incentives 
+  - Ensuring fair and reasonable pricing	
+- Use of Competition	
+  - Achieving effective competition
+  - Avoiding out of scope modifications
+  - Managing protest risk
+  - Facilitating small business participation
+- Contract Administration
+  - Managing agency resources 
+  - Holding contractors accountable
+  - Tracking progress
 
 
+## Purpose of this Document 
 
-2-9
-Requirements Development & Acquisition Planning 	•	Identifying requirements 
-•	Documenting needs 
-•	Identifying inherently governmental work
-•	Watching for conflicts of interest	
-10-15
-Contract Vehicles and Use of Existing IT Contracts	•	Selecting a suitable contract vehicle  
-•	Giving consideration to existing enterprise-wide vehicles	
-
-15-16
-Pricing Considerations	•	Selecting the best contract pricing structure 
-•	Creating a Fixed-Price (FP)  line item structure
-•	Using incentives 
-•	Ensuring fair and reasonable pricing	
-
-
-16-22
-Use of Competition	•	Achieving effective competition
-•	Avoiding out of scope modifications
-•	Managing protest risk
-•	Facilitating small business participation  	
-
-23-26
-Contract Administration 	•	Managing agency resources 
-•	Holding contractors accountable
-•	Tracking progress	27-32
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
-TechFAR Handbook: Procuring Digital Services Using Agile Processes under the FAR
-DISCUSSION DRAFT
-A.	Purpose of this Document 
 The President’s Management Agenda lays the foundation for creating a 21st century Government that delivers better results to our citizens and improves the way we deliver digital services to better serve the American people.  This foundation includes an efficient and effective acquisition system that maximizes the value of every taxpayer dollar invested in technology.
 
 The FAR and each agency’s supplement to the FAR, set forth Government-wide overarching Federal procurement principles, policies, processes and procedures on procuring goods and services, including IT and digital services.  The FAR provides contracting officials with considerable flexibility to conduct their acquisitions in smart, innovative ways that take advantage of proven commercial strategies.  The TechFAR Handbook focuses on provisions of the FAR that are most relevant to digital services acquisitions and explains how agencies can align their applications of FAR authorities with contemporary development  approaches that improve investment manageability and budgetary feasibility, reduce risk, and shorten time to value. It is designed to support effective risk management and break down common myths that inhibit the modernization of Government’s approaches to digital service development. 
@@ -88,12 +61,11 @@ Within the realm of IT acquisition, this handbook concentrates primarily on soft
 
 For each stage of the acquisition lifecycle, this document highlights key regulatory provisions and explains how Agile approaches can be effectively and successfully implemented consistent with core values of public procurement, including impartiality, accountability for results, and providing the best value to the taxpayer.  It does not teach Agile software development, but includes practice tips and sample language from agencies that have successfully used these tools to support mission needs.  
  
+## General Considerations
 
 
-
-B.	General Considerations
-1	Question – Generally speaking, what is Agile software development, and how does it fit into the acquisition development lifecycle? 
-	Answer – Agile software development is a method of software development that utilizes an iterative development process, designs services based on real user needs, and constantly improves software from user feedback.  Agile software development principles apply to both pre-award and post-award contexts.   
+> **Question** -- Generally speaking, what is Agile software development, and how does it fit into the acquisition development lifecycle?
+> **Answer** -- Agile software development is a method of software development that utilizes an iterative development process, designs services based on real user needs, and constantly improves software from user feedback.  Agile software development principles apply to both pre-award and post-award contexts.   
 
 Agile software development is a method of software development that is based on iterative and incremental processes and collaboration among a team.  It is a methodology for the creative process that anticipates the need for flexibility and applies a level of pragmatism into the delivery of the finished product. The focus is on keeping code simple, testing often, and delivering functional bits of the application as soon as they are ready.  There are various Agile methodologies (DSDM, Scrum, XP, Kanban, etc.), which all adhere to the same values: individuals and interactions, working software, customer collaboration, and responding to change.  
 Per the Digital Services Playbook, Agile software development is the preferred methodology for software development contracts that contribute to the creation and maintenance of digital services, whether they are websites, mobile applications, or other digital channels.  It supports frequent changes, updates, and enhancements to the software.  By breaking up the development process into small, manageable pieces – each with desired segments of functionality, and having end users involved throughout the process – and guided by the Product Vision, users receive software that better meets their needs (in terms of both functionality and usability) without wasting money and time on unused or unusable features.  The following chart compares traditional software development with Agile software development by describing the key events in the pre-award and post-award contexts.  
