@@ -135,3 +135,28 @@ h5 {
 #plays ul {
   list-style-type: circle;
   list-style-position: inside; }
+#plays #play_navigation ul, #plays #play_navigation ol {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  #plays #play_navigation ul:last-child, #plays #play_navigation ol:last-child {
+    margin-right: 0; }
+#plays #play_navigation ul {
+  padding: 0;
+  list-style-position: outside; }
+#plays #play_navigation li {
+  float: left;
+  margin-right: 20px;
+  list-style-type: none; }
+  #plays #play_navigation li a {
+    display: inline-block;
+    background: none;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 6px 0px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #3a96b7;
+    border: 1px solid #3a96b7; }

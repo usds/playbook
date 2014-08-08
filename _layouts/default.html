@@ -1,5 +1,19 @@
 ---
 title: 'This is my Site Title'
+plays: 
+  - play1
+  - play2
+  - play3
+  - play4
+  - play5
+  - play6
+  - play7
+  - play8
+  - play9
+  - play10
+  - play11
+  - play12
+  - play13
 ---
 <!DOCTYPE html>
 <html>
@@ -42,6 +56,16 @@ title: 'This is my Site Title'
 </div>
 
 <div id="plays" class="outer_container">
+
+  <nav id="play_navigation" class="inner_container">
+    <ul>
+      {% for play in page.plays %}
+        <li><a href="#{{play}}">{{ play | remove: "play" }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+
   <div class="inner_container" id="play1">
     {% capture play1 %}{% include play1.md %}{% endcapture %}
     {{ play1 | markdownify }}

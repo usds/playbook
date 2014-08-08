@@ -140,10 +140,6 @@ h5 {
   a {
     color: $black;
   }
-
-  // .plays_column {
-  //   @include span-columns(6);
-  // }
 }
 
 #plays {  
@@ -170,5 +166,33 @@ h5 {
     list-style-type: circle;
     list-style-position: inside;
   }
-}
 
+  #play_navigation {
+    ul, ol {
+      @include span-columns(12);
+    }
+
+    ul {
+      padding: 0;
+      list-style-position: outside;
+    }
+
+    li {
+      float: left;
+      margin-right: 20px;
+      list-style-type: none;
+      a {
+        display: inline-block;
+        background: none;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        padding: 6px 0px;
+        font-size: 18px;
+        font-family: $sans-serif;
+        color: $miami_vice_blue;
+        border: 1px solid $miami_vice_blue;
+      }
+    }
+  }
+}
