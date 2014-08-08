@@ -74,8 +74,8 @@ Per the [Digital Services Playbook](http://playbook.cio.gov), Agile software dev
 
 Traditional Software Development | Agile Software Development |
 --- | --- |
-**Pre-Award** | **Pre-Award**|
-  - **Program identifies need** - includes Government lead and other Government stakeholders |  - Test thing also in column
+**Pre-Award** | **Pre-Award**
+**Program identifies need** - includes Government lead and other Government stakeholders |  **Program identifies need** - Test thing also in column
 
 
 
