@@ -167,6 +167,18 @@ h5 {
     list-style-position: inside;
   }
 
+  #play_navigation.isStuck {
+    // background: red;
+    // margin-left: -1%;
+    // @include outer-container();
+    // @include shift(1);
+    background: $background_white;
+    margin-left: 6%;
+    li {
+      // margin-top: 0px;
+    }
+  }
+
   #play_navigation {
     ul, ol {
       @include span-columns(12);

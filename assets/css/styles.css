@@ -135,6 +135,9 @@ h5 {
 #plays ul {
   list-style-type: circle;
   list-style-position: inside; }
+#plays #play_navigation.isStuck {
+  background: #eae4d2;
+  margin-left: 6%; }
 #plays #play_navigation ul, #plays #play_navigation ol {
   float: left;
   display: block;
