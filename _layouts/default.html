@@ -39,7 +39,6 @@ title: 'This is my Site Title'
 </div>
 
 <div id="plays">
-  {% for play_number in 1..13 %}
   <div class="outer_container" id="play1">
     {% capture play1 %}{% include play1.md %}{% endcapture %}
     {{ play1 | markdownify }}
