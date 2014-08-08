@@ -10,7 +10,7 @@ The technology decisions we make need to enable development teams to work effici
 3. Ensure that each project has easy to understand instructions for setting up a local development environment, and that team members can be quickly added or removed from projects
 4. Consider open source software solutions at all layers of the stack
 
-#### questions
+#### key questions
 - What is your development stack and why did you choose it?
 - What database(s) are you using and why did you choose them?
 - How long does it take for a new team member to set up a local development environment?
