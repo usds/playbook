@@ -4,7 +4,7 @@ title: 'This is my Site Title'
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Page Not Found</title>
+  <title>Digital Services Playbook</title>
   <meta charset='UTF-8'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
@@ -15,18 +15,40 @@ title: 'This is my Site Title'
 
 <body>
 
-<!-- <div id="navigation_bar">
-  <div class="outer_container">
-    This is a navigation.    
-  </div>
-</div>
- -->
-{{content}}
-
 <div id="introduction">
   <div class="outer_container">
-    {% capture notfound %}{% include notfound.md %}{% endcapture %}
-    {{ notfound | markdownify }}
+    <h3>DIGITAL SERVICE PLAYS</h3>
+    <div class="columns">
+      {% capture plays_index %}{% include plays_index.md %}{% endcapture %}
+      {{ plays_index | markdownify }}
+    </div>
+  </div>
+</div>
+
+<div id="plays">
+  <div class="outer_container" id="play1">
+    {% capture play1 %}{% include play1.md %}{% endcapture %}
+    {{ play1 | markdownify }}
+  </div>
+  <div class="outer_container" id="play2">
+    {% capture play1 %}{% include play1.md %}{% endcapture %}
+    {{ play1 | markdownify }}
+  </div>
+  <div class="outer_container" id="play3">
+    {% capture play1 %}{% include play1.md %}{% endcapture %}
+    {{ play1 | markdownify }}
+  </div>
+  <div class="outer_container" id="play4">
+    {% capture play4 %}{% include play4.md %}{% endcapture %}
+    {{ play4 | markdownify }}
+  </div>
+  <div class="outer_container" id="play5">
+    {% capture play1 %}{% include play1.md %}{% endcapture %}
+    {{ play1 | markdownify }}
+  </div>
+  <div class="outer_container" id="play6">
+    {% capture play1 %}{% include play1.md %}{% endcapture %}
+    {{ play1 | markdownify }}
   </div>
 </div>
 <script src='{{site.baseurl}}/assets/site.js'></script>

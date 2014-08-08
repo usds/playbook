@@ -1,0 +1,21 @@
+##### PLAY 3
+
+## Make it simple and intuitive
+
+Using a government service shouldn’t be stressful, confusing, or daunting — it’s our job to build services that are simple and intuitive enough that users succeed the first time, unaided.
+
+#### checklist
+1. Create or use an existing, simple, and flexible design style guide for the service
+2. Use the design style guide across related digital services 
+3. Provide users with clear information about where they are in the process as they use the service
+4. Follow accessibility best practices to ensure all people can use the service
+5. Provide users with a way to exit and return later to complete the process
+6. Use language that is familiar to the user and is easy to understand
+7. Use language and design consistently throughout the service, including in the online and offline (non-digital) touch points people use to interact with the service
+
+#### key questions
+- What primary tasks are the user trying to accomplish?
+- What is the reading level of the language the service uses?
+- What languages is your service offered in?
+- If a user needs help while using the service how do they go about getting it?
+- How does the service’s design visually relate to other government services?
