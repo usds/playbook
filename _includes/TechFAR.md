@@ -5,7 +5,7 @@
 
 ## Executive Summary
 
-In the Government, digital services projects too often fail to meet user expectations or contain unused or unusable features.  Several factors contribute to these outcomes, including the use of outdated development practices and, in some cases, overly narrow interpretations of what is allowed by acquisition regulations.  OMB is developing tools to significantly upgrade the ability of Government digital services to deliver better results to our citizens and improve the way we capitalize on information technology (IT*1*) to better serve the American people.  
+In the Government, digital services projects too often fail to meet user expectations or contain unused or unusable features.  Several factors contribute to these outcomes, including the use of outdated development practices and, in some cases, overly narrow interpretations of what is allowed by acquisition regulations.  OMB is developing tools to significantly upgrade the ability of Government digital services to deliver better results to our citizens and improve the way we capitalize on information technology (IT *1*) to better serve the American people.  
 
 > [1] “Information Technology” is defined in FAR 2.101.
 
