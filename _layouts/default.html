@@ -62,71 +62,14 @@ plays:
   </div>
 </div>
 
-<!-- <div id="play_navigation_container">
-  <div id="plays" class="outer_container">
-    <div id="play_navigation" class="inner_container">
-      <ul>
-        {% for play in page.plays %}
-          <li class="play_square"><a href="#{{play}}">{{ play | remove: "play" }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div> -->
-
 <div id="plays" class="outer_container">
-  <div class="inner_container" id="play1">
-    {% capture play1 %}{% include play1.md %}{% endcapture %}
-    {{ play1 | markdownify }}
-  </div>
-  <div class="inner_container" id="play2">
-    {% capture play2 %}{% include play2.md %}{% endcapture %}
-    {{ play2 | markdownify }}
-  </div>
-  <div class="inner_container" id="play3">
-    {% capture play3 %}{% include play3.md %}{% endcapture %}
-    {{ play3 | markdownify }}
-  </div>
-  <div class="inner_container" id="play4">
-    {% capture play4 %}{% include play4.md %}{% endcapture %}
-    {{ play4 | markdownify }}
-  </div>
-  <div class="inner_container" id="play5">
-    {% capture play5 %}{% include play5.md %}{% endcapture %}
-    {{ play5 | markdownify }}
-  </div>
-  <div class="inner_container" id="play6">
-    {% capture play6 %}{% include play6.md %}{% endcapture %}
-    {{ play6 | markdownify }}
-  </div>
-  <div class="inner_container" id="play7">
-    {% capture play7 %}{% include play7.md %}{% endcapture %}
-    {{ play7 | markdownify }}
-  </div>
-  <div class="inner_container" id="play8">
-    {% capture play8 %}{% include play8.md %}{% endcapture %}
-    {{ play8 | markdownify }}
-  </div>
-  <div class="inner_container" id="play9">
-    {% capture play9 %}{% include play9.md %}{% endcapture %}
-    {{ play9 | markdownify }}
-  </div>
-  <div class="inner_container" id="play10">
-    {% capture play10 %}{% include play10.md %}{% endcapture %}
-    {{ play10 | markdownify }}
-  </div>
-  <div class="inner_container" id="play11">
-    {% capture play11 %}{% include play11.md %}{% endcapture %}
-    {{ play11 | markdownify }}
-  </div>
-  <div class="inner_container" id="play12">
-    {% capture play12 %}{% include play12.md %}{% endcapture %}
-    {{ play12 | markdownify }}
-  </div>
-  <div class="inner_container" id="play13">
-    {% capture play13 %}{% include play13.md %}{% endcapture %}
-    {{ play13 | markdownify }}
-  </div>  
+  {% for play in page.plays %}
+    <div class="inner_container">
+      <a class="anchor_offset" id="{{ play }}"></a>
+      {% capture play_content %}{% include {{ play | append: '.md'}} %}{% endcapture %}
+      {{ play_content | markdownify }}
+    </div>
+  {% endfor %}
 </div>
 
 <script src='{{site.baseurl}}/assets/js/jquery-1.11.1.min.js'></script>
