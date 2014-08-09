@@ -84,6 +84,29 @@ h5 {
     margin-top: 40px;
     font-weight: lighter; }
 
+#navigation_bar {
+  visibility: hidden;
+  position: fixed;
+  width: 100%;
+  background: #32436e;
+  color: #eeeeee;
+  font-family: "Merriweather", serif; }
+  #navigation_bar .outer_container {
+    padding: 0 40px; }
+  #navigation_bar h4 {
+    padding: 20px 0;
+    margin-top: 0;
+    font-size: 24px;
+    color: #eeeeee;
+    font-weight: lighter;
+    line-height: 24px;
+    display: inline-block; }
+  #navigation_bar h4:hover {
+    text-decoration: underline; }
+
+#navigation_bar.show {
+  visibility: visible; }
+
 #plays_index {
   background: #3a96b7;
   color: #333333; }
@@ -108,19 +131,6 @@ h5 {
     margin-left: 10px; }
   #plays_index a {
     color: #333333; }
-
-#play_navigation_container {
-  padding-top: 20px;
-  background: #eae4d2; }
-  #play_navigation_container .outer_container {
-    padding: 0px 40px; }
-
-.isStuck {
-  width: 100%; }
-  .isStuck .outer_container {
-    padding: 0px 40px; }
-    .isStuck .outer_container #play_navigation ul {
-      margin-top: 0; }
 
 #plays h2, #plays h4 {
   float: left;

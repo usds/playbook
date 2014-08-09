@@ -18,7 +18,7 @@ plays:
 <!DOCTYPE html>
 <html>
 <head>
-  <title>The U.S. Digital Services Playbook {% if page.url != '/index.html' %}| {{page.title}}{% endif %}</title>
+  <title>The U.S. Digital Services Playbook</title>
   <meta charset='UTF-8'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
@@ -27,13 +27,23 @@ plays:
 </head>
 
 <body>
-
-<!-- <div id="navigation_bar">
-  <div class="outer_container">
-    This is a navigation.    
+<!-- 
+<div id="testy">
+   <div class="outer_container">
+    <div class="inner_container">
+      <h1>U.S. Digital Services Playbook</h1>
+    </div>
   </div>
 </div>
  -->
+<div id="navigation_bar">
+   <div class="outer_container">
+    <div class="inner_container">
+      <a href="#introduction"><h4>U.S. Digital Services Playbook</h4></a>
+    </div>
+  </div>
+</div>
+
 <div id="introduction">
   <div class="outer_container">
     <div class="inner_container">
@@ -55,7 +65,7 @@ plays:
   </div>
 </div>
 
-<div id="play_navigation_container">
+<!-- <div id="play_navigation_container">
   <div id="plays" class="outer_container">
     <div id="play_navigation" class="inner_container">
       <ul>
@@ -65,7 +75,7 @@ plays:
       </ul>
     </div>
   </div>
-</div>
+</div> -->
 
 <div id="plays" class="outer_container">
   <div class="inner_container" id="play1">
@@ -124,29 +134,30 @@ plays:
 
 <script src='{{site.baseurl}}/assets/js/jquery-1.11.1.min.js'></script>
 <script src='{{site.baseurl}}/assets/js/stickUp.min.js'></script>
+<script src='{{site.baseurl}}/assets/js/site.js'></script>
 <script type="text/javascript">
-    jQuery(function($) {
-      $(document).ready( function() {
-        $('#play_navigation_container').stickUp({
-                      parts: {
-                        0: 'play1',
-                        1: 'play2',
-                        2: 'play3',
-                        3: 'play4',
-                        4: 'play5',
-                        5: 'play6',
-                        6: 'play7',
-                        7: 'play8',
-                        8: 'play9',
-                        9: 'play10',
-                        10: 'play11',
-                        11: 'play12',
-                        12: 'play13'
-                      },
-                      itemClass: 'play_square',
-                      itemHover: 'active_play'
-                    });
-      });
-    });
+    // jQuery(function($) {
+    //   $(document).ready( function() {
+    //     $('#introduction').stickUp({
+    //                   // parts: {
+    //                   //   0: 'play1',
+    //                   //   1: 'play2',
+    //                   //   2: 'play3',
+    //                   //   3: 'play4',
+    //                   //   4: 'play5',
+    //                   //   5: 'play6',
+    //                   //   6: 'play7',
+    //                   //   7: 'play8',
+    //                   //   8: 'play9',
+    //                   //   9: 'play10',
+    //                   //   10: 'play11',
+    //                   //   11: 'play12',
+    //                   //   12: 'play13'
+    //                   // },
+    //                   // itemClass: 'play_square',
+    //                   // itemHover: 'active_play'
+    //                 });
+    //   });
+    // });
   </script>
 </body>

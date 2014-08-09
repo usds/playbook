@@ -104,6 +104,34 @@ h5 {
   }
 }
 
+#navigation_bar {
+  visibility: hidden;
+  position: fixed;
+  width: 100%;
+  background: $atlantic_blue;
+  color: $white;
+  font-family: $serif;
+  .outer_container {
+    padding: 0 40px;
+  }
+  h4 {
+    padding: 20px 0;
+    margin-top: 0;
+    font-size: 24px;
+    color: $white;
+    font-weight: lighter;
+    line-height: 24px;
+    display: inline-block;
+  }
+  h4:hover {
+    text-decoration: underline;
+  }
+}
+
+#navigation_bar.show {
+  visibility: visible;
+}
+
 #plays_index {
   background: $miami_vice_blue;
   color: $black;
@@ -142,27 +170,27 @@ h5 {
   }
 }
 
-#play_navigation_container {
-  padding-top: 20px;
-  background: $background_white;
-  .outer_container {
-    padding: 0px 40px;
-  }
-}
+// #play_navigation_container {
+//   padding-top: 20px;
+//   background: $background_white;
+//   .outer_container {
+//     padding: 0px 40px;
+//   }
+// }
 
-.isStuck {
-  // position:fixed;
-  // top: 0;
-  width: 100%;
-  .outer_container {
-    padding: 0px 40px;
-    #play_navigation {
-      ul {
-        margin-top: 0;
-      }
-    }
-  }
-}
+// .isStuck {
+//   // position:fixed;
+//   // top: 0;
+//   width: 100%;
+//   .outer_container {
+//     padding: 0px 40px;
+//     #play_navigation {
+//       ul {
+//         margin-top: 0;
+//       }
+//     }
+//   }
+// }
 
 
 #plays {  
