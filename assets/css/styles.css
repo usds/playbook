@@ -96,13 +96,39 @@ h5 {
   #navigation_bar h4 {
     padding: 20px 0;
     margin-top: 0;
-    font-size: 24px;
+    font-size: 20px;
     color: #eeeeee;
     font-weight: lighter;
-    line-height: 24px;
+    line-height: 20px;
     display: inline-block; }
   #navigation_bar h4:hover {
     text-decoration: underline; }
+  #navigation_bar ul {
+    float: right;
+    display: inline;
+    padding: 0;
+    list-style-position: outside; }
+  #navigation_bar .active_play a {
+    background: #eeeeee;
+    text-decoration: none; }
+  #navigation_bar li {
+    display: inline;
+    margin-left: 5px;
+    list-style-type: none;
+    background: #3a96b7; }
+    #navigation_bar li a {
+      display: inline-block;
+      background: #3a96b7;
+      height: 24px;
+      width: 24px;
+      text-align: center;
+      font-size: 12px;
+      font-family: "Merriweather", serif;
+      color: #32436e;
+      border: 1px solid #3a96b7; }
+    #navigation_bar li a:hover {
+      background: #eeeeee;
+      text-decoration: none; }
 
 #navigation_bar.show {
   visibility: visible; }

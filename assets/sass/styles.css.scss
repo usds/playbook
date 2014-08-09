@@ -114,17 +114,58 @@ h5 {
   .outer_container {
     padding: 0 40px;
   }
+
   h4 {
     padding: 20px 0;
     margin-top: 0;
-    font-size: 24px;
+    font-size: 20px;
     color: $white;
     font-weight: lighter;
-    line-height: 24px;
+    line-height: 20px;
     display: inline-block;
   }
   h4:hover {
     text-decoration: underline;
+  }
+
+  ul {
+    float: right;
+    display: inline;
+    padding: 0;
+    list-style-position: outside;
+  }
+
+  .active_play {
+    a {
+      background: $white;
+      // color: $white;
+      text-decoration: none;
+    }
+  }
+
+  li {
+    display: inline;
+    margin-left: 5px;
+    list-style-type: none;
+    background: $miami_vice_blue;
+
+    a {
+      display: inline-block;
+      background: $miami_vice_blue;
+      height: 24px;
+      width: 24px;
+      text-align: center;
+      // padding: 2px 0px;
+      font-size: 12px;
+      font-family: $serif;
+      color: $atlantic_blue;
+      border: 1px solid $miami_vice_blue;
+    }
+    a:hover {
+      background: $white;
+      // color: $white;
+      text-decoration: none;
+    }
   }
 }
 

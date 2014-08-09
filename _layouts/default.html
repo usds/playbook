@@ -27,19 +27,16 @@ plays:
 </head>
 
 <body>
-<!-- 
-<div id="testy">
-   <div class="outer_container">
-    <div class="inner_container">
-      <h1>U.S. Digital Services Playbook</h1>
-    </div>
-  </div>
-</div>
- -->
+
 <div id="navigation_bar">
    <div class="outer_container">
     <div class="inner_container">
       <a href="#introduction"><h4>U.S. Digital Services Playbook</h4></a>
+      <ul>
+        {% for play in page.plays %}
+          <li class="play_square"><a href="#{{play}}">{{ play | remove: "play" }}</a></li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </div>
