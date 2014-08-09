@@ -55,17 +55,19 @@ plays:
   </div>
 </div>
 
-<div id="plays" class="outer_container">
-
-  <div id="play_navigation" class="inner_container">
-    <ul>
-      {% for play in page.plays %}
-        <li class="play_square"><a href="#{{play}}">{{ play | remove: "play" }}</a></li>
-      {% endfor %}
-    </ul>
+<div id="play_navigation_container">
+  <div id="plays" class="outer_container">
+    <div id="play_navigation" class="inner_container">
+      <ul>
+        {% for play in page.plays %}
+          <li class="play_square"><a href="#{{play}}">{{ play | remove: "play" }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
+</div>
 
-
+<div id="plays" class="outer_container">
   <div class="inner_container" id="play1">
     {% capture play1 %}{% include play1.md %}{% endcapture %}
     {{ play1 | markdownify }}
@@ -125,7 +127,7 @@ plays:
 <script type="text/javascript">
     jQuery(function($) {
       $(document).ready( function() {
-        $('#play_navigation').stickUp({
+        $('#play_navigation_container').stickUp({
                       parts: {
                         0: 'play1',
                         1: 'play2',

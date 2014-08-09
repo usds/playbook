@@ -142,6 +142,29 @@ h5 {
   }
 }
 
+#play_navigation_container {
+  padding-top: 20px;
+  background: $background_white;
+  .outer_container {
+    padding: 0px 40px;
+  }
+}
+
+.isStuck {
+  // position:fixed;
+  // top: 0;
+  width: 100%;
+  .outer_container {
+    padding: 0px 40px;
+    #play_navigation {
+      ul {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+
 #plays {  
   h2, h4 {
     @include span-columns(7);
@@ -165,18 +188,6 @@ h5 {
   ul {
     list-style-type: circle;
     list-style-position: inside;
-  }
-
-  #play_navigation.isStuck {
-    // background: red;
-    // margin-left: -1%;
-    // @include outer-container();
-    // @include shift(1);
-    background: $background_white;
-    margin-left: 6%;
-    li {
-      // margin-top: 0px;
-    }
   }
 
   #play_navigation {

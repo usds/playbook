@@ -109,6 +109,19 @@ h5 {
   #plays_index a {
     color: #333333; }
 
+#play_navigation_container {
+  padding-top: 20px;
+  background: #eae4d2; }
+  #play_navigation_container .outer_container {
+    padding: 0px 40px; }
+
+.isStuck {
+  width: 100%; }
+  .isStuck .outer_container {
+    padding: 0px 40px; }
+    .isStuck .outer_container #play_navigation ul {
+      margin-top: 0; }
+
 #plays h2, #plays h4 {
   float: left;
   display: block;
@@ -135,9 +148,6 @@ h5 {
 #plays ul {
   list-style-type: circle;
   list-style-position: inside; }
-#plays #play_navigation.isStuck {
-  background: #eae4d2;
-  margin-left: 6%; }
 #plays #play_navigation ul, #plays #play_navigation ol {
   float: left;
   display: block;
