@@ -215,9 +215,27 @@ p {
     }
   }
 
+  #menu_icon {
+    display: none;
+    height: 14px;
+    width: 16px;
+    margin-top: 16px;
+    float: right;
+    background-image: url('../images/menu_icon.svg');
+    background-size: contain;
+    a {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
   @include media($mobile) {
     ul {
       display: none;
+    }
+    #menu_icon {
+      display: inline-block;
     }
     .outer_container {
       padding: 0 20px;
@@ -226,6 +244,18 @@ p {
       font-size: 16px;
       padding: 16px 0;
       line-height: 16px;
+    }
+  }
+
+  @include media($slimmer) {
+    ul { 
+      display: none;
+    }
+    #menu_icon {
+      display: inline-block;
+      margin-top: 20px;
+      height: 18px;
+      width: 20px;
     }
   }
 }

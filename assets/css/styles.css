@@ -180,15 +180,37 @@ p {
     #navigation_bar li a:hover {
       background: #eeeeee;
       text-decoration: none; }
+  #navigation_bar #menu_icon {
+    display: none;
+    height: 14px;
+    width: 16px;
+    margin-top: 16px;
+    float: right;
+    background-image: url("../images/menu_icon.svg");
+    background-size: contain; }
+    #navigation_bar #menu_icon a {
+      display: block;
+      height: 100%;
+      width: 100%; }
   @media screen and (min-width: 0px) and (max-width: 640px) {
     #navigation_bar ul {
       display: none; }
+    #navigation_bar #menu_icon {
+      display: inline-block; }
     #navigation_bar .outer_container {
       padding: 0 20px; }
     #navigation_bar h4 {
       font-size: 16px;
       padding: 16px 0;
       line-height: 16px; } }
+  @media screen and (min-width: 641px) and (max-width: 980px) {
+    #navigation_bar ul {
+      display: none; }
+    #navigation_bar #menu_icon {
+      display: inline-block;
+      margin-top: 20px;
+      height: 18px;
+      width: 20px; } }
 
 #navigation_bar.show {
   visibility: visible; }

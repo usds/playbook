@@ -37,6 +37,9 @@ plays:
           <li class="play_square"><a href="#{{play}}">{{ play | remove: "play" }}</a></li>
         {% endfor %}
       </ul>
+      <div id="menu_icon">
+        <a href="#plays_index_anchor" title="Return to Index"></a>
+      </div>
     </div>
   </div>
 </div>
@@ -53,6 +56,7 @@ plays:
 <div id="plays_index">
   <div class="outer_container">
     <div class="inner_container">
+      <a class="anchor_offset" id="plays_index_anchor"></a>
       <h3>DIGITAL SERVICE PLAYS</h3>
       <div class="columns">
         {% capture plays_index %}{% include plays_index.md %}{% endcapture %}
