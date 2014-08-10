@@ -252,53 +252,56 @@ h5 {
   li {
     font-size: 15px;
     line-height: 25px;
+    padding-left: 5px;
   }
   ul {
-    list-style-type: circle;
-    list-style-position: inside;
+    // list-style-type: circle;
+    list-style-image: url("../images/bullet-circle1.svg");
+    list-style-position: outside;
+    padding-left: 25px;
   }
 
-  #play_navigation {
-    ul, ol {
-      @include span-columns(12);
-    }
+  // #play_navigation {
+  //   ul, ol {
+  //     @include span-columns(12);
+  //   }
 
-    ul {
-      padding: 0;
-      list-style-position: outside;
-      background: $background_white;
-    }
+  //   ul {
+  //     padding: 0;
+  //     list-style-position: outside;
+  //     background: $background_white;
+  //   }
 
-    .active_play {
-      a {
-        background: $miami_vice_blue;
-        color: $white;
-        text-decoration: none;
-      }
-    }
+  //   .active_play {
+  //     a {
+  //       background: $miami_vice_blue;
+  //       color: $white;
+  //       text-decoration: none;
+  //     }
+  //   }
 
-    li {
-      float: left;
-      margin-right: 20px;
-      list-style-type: none;
-      a {
-        display: inline-block;
-        background: none;
-        height: 40px;
-        width: 40px;
-        text-align: center;
-        padding: 7px 0px;
-        font-size: 18px;
-        font-family: $sans-serif;
-        color: $miami_vice_blue;
-        border: 1px solid $miami_vice_blue;
-      }
+  //   li {
+  //     float: left;
+  //     margin-right: 20px;
+  //     list-style-type: none;
+  //     a {
+  //       display: inline-block;
+  //       background: none;
+  //       height: 40px;
+  //       width: 40px;
+  //       text-align: center;
+  //       padding: 7px 0px;
+  //       font-size: 18px;
+  //       font-family: $sans-serif;
+  //       color: $miami_vice_blue;
+  //       border: 1px solid $miami_vice_blue;
+  //     }
 
-      a:hover {
-        background: $miami_vice_blue;
-        color: $white;
-        text-decoration: none;
-      }
-    }
-  }
+  //     a:hover {
+  //       background: $miami_vice_blue;
+  //       color: $white;
+  //       text-decoration: none;
+  //     }
+  //   }
+  // }
 }

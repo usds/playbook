@@ -207,41 +207,9 @@ h5 {
   margin-top: 0px; }
 #plays li {
   font-size: 15px;
-  line-height: 25px; }
+  line-height: 25px;
+  padding-left: 5px; }
 #plays ul {
-  list-style-type: circle;
-  list-style-position: inside; }
-#plays #play_navigation ul, #plays #play_navigation ol {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%; }
-  #plays #play_navigation ul:last-child, #plays #play_navigation ol:last-child {
-    margin-right: 0; }
-#plays #play_navigation ul {
-  padding: 0;
+  list-style-image: url("../images/bullet-circle1.svg");
   list-style-position: outside;
-  background: #eae4d2; }
-#plays #play_navigation .active_play a {
-  background: #3a96b7;
-  color: #eeeeee;
-  text-decoration: none; }
-#plays #play_navigation li {
-  float: left;
-  margin-right: 20px;
-  list-style-type: none; }
-  #plays #play_navigation li a {
-    display: inline-block;
-    background: none;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    padding: 7px 0px;
-    font-size: 18px;
-    font-family: "Open Sans", sans-serif;
-    color: #3a96b7;
-    border: 1px solid #3a96b7; }
-  #plays #play_navigation li a:hover {
-    background: #3a96b7;
-    color: #eeeeee;
-    text-decoration: none; }
+  padding-left: 25px; }
