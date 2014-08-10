@@ -1,6 +1,6 @@
 ##### PLAY 12
 
-## Manage security and privacy through reusable processes
+## Use data to drive decisions
 
 At all stages of a digital project, we should measure how well our service is working for our users. This includes measuring how well a system performs and how people are interacting with the system in real time. Our teams and agency leadership should carefully watch these metrics to proactively spot issues and identify which improvements should be prioritized. In addition to monitoring tools, a feedback mechanism should be in place for people to report issues directly.
 

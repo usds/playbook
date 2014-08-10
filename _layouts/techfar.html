@@ -1,24 +1,10 @@
 ---
 title: 'This is my Site Title'
-plays: 
-  - play1
-  - play2
-  - play3
-  - play4
-  - play5
-  - play6
-  - play7
-  - play8
-  - play9
-  - play10
-  - play11
-  - play12
-  - play13
 ---
 <!DOCTYPE html>
 <html>
 <head>
-  <title>The U.S. Digital Services Playbook</title>
+  <title>The TechFAR</title>
   <meta charset='UTF-8'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
@@ -50,10 +36,7 @@ plays:
       {% capture introduction %}{% include introduction.md %}{% endcapture %}
       {{ introduction | markdownify }}
       <div class="button">
-        <a href="#plays_index_anchor" title="View the Plays">SEE THE PLAYS</a>
-      </div>
-      <div class="button">
-        <a href="https://github.com/WhiteHouse/playbook" title="Improve this Content">HELP IMPROVE THE PLAYBOOK</a>
+        <a href="#plays_index_anchor" title="View the Plays">THE PLAYS</a>
       </div>
     </div>
   </div>
@@ -67,9 +50,6 @@ plays:
       <div class="columns">
         {% capture plays_index %}{% include plays_index.md %}{% endcapture %}
         {{ plays_index | markdownify }}
-      </div>
-      <div class="button">
-        <a href="#play1" title="View the In Detail">IN DETAIL</a>
       </div>
     </div>
   </div>

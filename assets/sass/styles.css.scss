@@ -127,6 +127,36 @@ p {
   }
 }
 
+.button {
+  font-size: inherit;
+  font-family: $sans-serif;
+  display: inline-block;  
+  margin-top: 40px;
+  margin-right: 20px;
+  text-align: center;
+  a {
+    display: inline-block;
+    padding: 10px 30px;
+    // width: 160px;
+    border: 1px solid $white;
+  }
+  a:hover {
+    background: $white;
+    color: $atlantic_blue;
+  }
+  @include media($mobile) {
+    margin-top: 20px;
+  }
+}
+
+#alpha_tag {
+  float: right;
+  background: green;
+  color: $white;
+  padding: 10px;
+  font-family: $sans-serif;
+}
+
 
 #introduction {
   background: $atlantic_blue;
@@ -299,6 +329,14 @@ p {
     margin-top: 0;
   }
   
+  .button {
+    a {
+      vertical-align: inherit;
+      margin-top: inherit;
+      width: 100%;
+    }
+  }
+
   a {
     vertical-align: top;
     color: $black;

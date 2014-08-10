@@ -115,6 +115,31 @@ p {
       .inner_container:last-child {
         margin-right: 0; } }
 
+.button {
+  font-size: inherit;
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  margin-top: 40px;
+  margin-right: 20px;
+  text-align: center; }
+  .button a {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid #eeeeee; }
+  .button a:hover {
+    background: #eeeeee;
+    color: #32436e; }
+  @media screen and (min-width: 0px) and (max-width: 640px) {
+    .button {
+      margin-top: 20px; } }
+
+#alpha_tag {
+  float: right;
+  background: green;
+  color: #eeeeee;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif; }
+
 #introduction {
   background: #32436e;
   color: #eeeeee;
@@ -240,6 +265,10 @@ p {
     font-size: 20px;
     font-weight: lighter;
     margin-top: 0; }
+  #plays_index .button a {
+    vertical-align: inherit;
+    margin-top: inherit;
+    width: 100%; }
   #plays_index a {
     vertical-align: top;
     color: #333333;
