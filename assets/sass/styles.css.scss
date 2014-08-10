@@ -9,8 +9,15 @@ $white:               #eee;
 $black:               #333;
 $gray:                #4D4D4D;
 $background_white:    #EAE4D2;
+
+// Fonts
 $serif:               'Merriweather', serif;
 $sans-serif:          'Open Sans', sans-serif;
+
+// Mobile Breakpoints
+$mobile: new-breakpoint(min-width 0px max-width 640px 4);
+$slimmer: new-breakpoint(min-width 641px max-width 980px 12);
+
 
 body {
   background: $background_white;
@@ -53,6 +60,10 @@ h1 {
   padding-bottom: 0.25em;
   margin-bottom: 20px;
   line-height: 65px;
+  @include media($mobile){
+    font-size: 28px;
+    line-height: 36px;
+  }
 }
 
 h2 {
@@ -62,6 +73,10 @@ h2 {
   font-weight: 300;
   margin-top: 0;
   color: $black;
+  @include media($mobile) {
+    font-size: 32px;
+    line-height: 42px;
+  }
 }
 
 h3 {
@@ -81,16 +96,35 @@ h5 {
   font-size: 14px;
   margin-bottom: 15px;
   color: $black;
+  font-weight: lighter;
+}
+
+p {
+  color: $black;
 }
 
 .outer_container {
   @include outer-container();
   padding: 40px;
+
+  @include media($mobile) {
+    padding: 20px;
+  }
 }
 
 .inner_container {
   @include shift(1);
   @include span-columns(10);
+
+  @include media($mobile) {
+    @include shift(0);
+    @include span-columns(4);
+  }
+
+  @include media($slimmer) {
+    @include shift(0);
+    @include span-columns(12);
+  }
 }
 
 
@@ -106,6 +140,16 @@ h5 {
     line-height: 38px;
     margin-top: 40px;
     font-weight: lighter;
+    color: $white;
+  }
+
+  @include media($mobile) {
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      margin-top: 20px;
+    }
+    padding-bottom: 20px;
   }
 }
 
@@ -170,6 +214,20 @@ h5 {
       text-decoration: none;
     }
   }
+
+  @include media($mobile) {
+    ul {
+      display: none;
+    }
+    .outer_container {
+      padding: 0 20px;
+    }
+    h4 {
+      font-size: 16px;
+      padding: 16px 0;
+      line-height: 16px;
+    }
+  }
 }
 
 #navigation_bar.show {
@@ -204,7 +262,7 @@ h5 {
     margin-top: 0px;
   }
   
-  ol li {
+  ol, li {
     color: $white;
     font-size: 20px;
     font-weight: lighter;
@@ -216,7 +274,41 @@ h5 {
     color: $black;
     margin-top: 0;
     display: inline-block;
-    width: 90%;
+    width: 85%;
+  }
+
+  @include media($mobile) {
+    h3 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    ol, li {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    padding-bottom: 20px;
+  }
+
+  @include media($slimmer) {
+    .columns {
+      -moz-column-count: 1;
+      -moz-column-gap: 0px;
+      -webkit-column-count: 1;
+      -webkit-column-gap: 0px;
+      column-count: 1;
+      column-gap: 00px;
+    }
+  }
+
+   @include media($mobile) {
+    .columns {
+      -moz-column-count: 1;
+      -moz-column-gap: 0px;
+      -webkit-column-count: 1;
+      -webkit-column-gap: 0px;
+      column-count: 1;
+      column-gap: 00px;
+    }
   }
 }
 
@@ -239,26 +331,54 @@ h5 {
 
   p {
     @include span-columns(9);
-
   }
+
   ol, ul {
     @include span-columns(8);
-
+    list-style-position: outside;
+    padding-left: 25px;
   }
+
   ol {
-    list-style-type: square;
+    list-style-image: url("../images/bullet-sq1.svg");
     margin-top: 0px;
   }
+
   li {
     font-size: 15px;
     line-height: 25px;
     padding-left: 5px;
   }
+
   ul {
-    // list-style-type: circle;
     list-style-image: url("../images/bullet-circle1.svg");
-    list-style-position: outside;
-    padding-left: 25px;
+  }
+
+  @include media($mobile) {
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    ol, li {
+      font-size: 14px;
+      line-height: 20px;
+      // padding-left: 16px;
+    }
+    // li {
+    //   padding-left: 2px;
+    // }
+    h2, h4, p, ol, ul {
+      @include span-columns(4);
+    }
+  }
+
+  @include media($slimmer) {
+    h2, h4 {
+      @include span-columns(9);
+    }
+    p {
+      @include span-columns(10);
+    }
   }
 
   // #play_navigation {

@@ -38,6 +38,10 @@ h1 {
   padding-bottom: 0.25em;
   margin-bottom: 20px;
   line-height: 65px; }
+  @media screen and (min-width: 0px) and (max-width: 640px) {
+    h1 {
+      font-size: 28px;
+      line-height: 36px; } }
 
 h2 {
   font-family: "Merriweather", serif;
@@ -46,6 +50,10 @@ h2 {
   font-weight: 300;
   margin-top: 0;
   color: #333333; }
+  @media screen and (min-width: 0px) and (max-width: 640px) {
+    h2 {
+      font-size: 32px;
+      line-height: 42px; } }
 
 h3 {
   font-family: "Open Sans", sans-serif;
@@ -61,6 +69,10 @@ h5 {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   margin-bottom: 15px;
+  color: #333333;
+  font-weight: lighter; }
+
+p {
   color: #333333; }
 
 .outer_container {
@@ -72,6 +84,9 @@ h5 {
     content: "";
     display: table;
     clear: both; }
+  @media screen and (min-width: 0px) and (max-width: 640px) {
+    .outer_container {
+      padding: 20px; } }
 
 .inner_container {
   margin-left: 8.5298%;
@@ -81,6 +96,24 @@ h5 {
   width: 82.94039%; }
   .inner_container:last-child {
     margin-right: 0; }
+  @media screen and (min-width: 0px) and (max-width: 640px) {
+    .inner_container {
+      margin-left: 0%;
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%; }
+      .inner_container:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 641px) and (max-width: 980px) {
+    .inner_container {
+      margin-left: 0%;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .inner_container:last-child {
+        margin-right: 0; } }
 
 #introduction {
   background: #32436e;
@@ -92,7 +125,15 @@ h5 {
     font-size: 20px;
     line-height: 38px;
     margin-top: 40px;
-    font-weight: lighter; }
+    font-weight: lighter;
+    color: #eeeeee; }
+  @media screen and (min-width: 0px) and (max-width: 640px) {
+    #introduction {
+      padding-bottom: 20px; }
+      #introduction p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 20px; } }
 
 #navigation_bar {
   visibility: hidden;
@@ -139,6 +180,15 @@ h5 {
     #navigation_bar li a:hover {
       background: #eeeeee;
       text-decoration: none; }
+  @media screen and (min-width: 0px) and (max-width: 640px) {
+    #navigation_bar ul {
+      display: none; }
+    #navigation_bar .outer_container {
+      padding: 0 20px; }
+    #navigation_bar h4 {
+      font-size: 16px;
+      padding: 16px 0;
+      line-height: 16px; } }
 
 #navigation_bar.show {
   visibility: visible; }
@@ -163,7 +213,7 @@ h5 {
     list-style-position: inside;
     padding-left: 0px;
     margin-top: 0px; }
-  #plays_index ol li {
+  #plays_index ol, #plays_index li {
     color: #eeeeee;
     font-size: 20px;
     font-weight: lighter;
@@ -173,7 +223,32 @@ h5 {
     color: #333333;
     margin-top: 0;
     display: inline-block;
-    width: 90%; }
+    width: 85%; }
+  @media screen and (min-width: 0px) and (max-width: 640px) {
+    #plays_index {
+      padding-bottom: 20px; }
+      #plays_index h3 {
+        font-size: 18px;
+        margin-bottom: 20px; }
+      #plays_index ol, #plays_index li {
+        font-size: 16px;
+        line-height: 24px; } }
+  @media screen and (min-width: 641px) and (max-width: 980px) {
+    #plays_index .columns {
+      -moz-column-count: 1;
+      -moz-column-gap: 0px;
+      -webkit-column-count: 1;
+      -webkit-column-gap: 0px;
+      column-count: 1;
+      column-gap: 00px; } }
+  @media screen and (min-width: 0px) and (max-width: 640px) {
+    #plays_index .columns {
+      -moz-column-count: 1;
+      -moz-column-gap: 0px;
+      -webkit-column-count: 1;
+      -webkit-column-gap: 0px;
+      column-count: 1;
+      column-gap: 00px; } }
 
 #plays h2, #plays h4 {
   float: left;
@@ -199,17 +274,46 @@ h5 {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 65.88078%; }
+  width: 65.88078%;
+  list-style-position: outside;
+  padding-left: 25px; }
   #plays ol:last-child, #plays ul:last-child {
     margin-right: 0; }
 #plays ol {
-  list-style-type: square;
+  list-style-image: url("../images/bullet-sq1.svg");
   margin-top: 0px; }
 #plays li {
   font-size: 15px;
   line-height: 25px;
   padding-left: 5px; }
 #plays ul {
-  list-style-image: url("../images/bullet-circle1.svg");
-  list-style-position: outside;
-  padding-left: 25px; }
+  list-style-image: url("../images/bullet-circle1.svg"); }
+@media screen and (min-width: 0px) and (max-width: 640px) {
+  #plays p {
+    font-size: 16px;
+    line-height: 24px; }
+  #plays ol, #plays li {
+    font-size: 14px;
+    line-height: 20px; }
+  #plays h2, #plays h4, #plays p, #plays ol, #plays ul {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%; }
+    #plays h2:last-child, #plays h4:last-child, #plays p:last-child, #plays ol:last-child, #plays ul:last-child {
+      margin-right: 0; } }
+@media screen and (min-width: 641px) and (max-width: 980px) {
+  #plays h2, #plays h4 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+    #plays h2:last-child, #plays h4:last-child {
+      margin-right: 0; }
+  #plays p {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%; }
+    #plays p:last-child {
+      margin-right: 0; } }
