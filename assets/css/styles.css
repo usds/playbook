@@ -81,7 +81,8 @@ h5 {
 
 #introduction {
   background: #32436e;
-  color: #eeeeee; }
+  color: #eeeeee;
+  padding-bottom: 60px; }
   #introduction p {
     max-width: 600px;
     font-family: "Open Sans", sans-serif;
@@ -141,11 +142,13 @@ h5 {
 
 #plays_index {
   background: #3a96b7;
-  color: #333333; }
+  color: #333333;
+  padding-bottom: 60px; }
   #plays_index h3 {
     color: #eeeeee;
-    font-size: 26px;
-    font-weight: lighter; }
+    font-size: 23px;
+    font-weight: normal;
+    margin-bottom: 38px; }
   #plays_index .columns {
     -moz-column-count: 2;
     -moz-column-gap: 20px;
@@ -154,33 +157,45 @@ h5 {
     column-count: 2;
     column-gap: 20px; }
   #plays_index ol {
-    list-style-position: outside; }
+    list-style-position: inside;
+    padding-left: 0px;
+    margin-top: 0px; }
   #plays_index ol li {
     color: #eeeeee;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: lighter;
-    margin-top: 0;
-    margin-left: 10px; }
+    margin-top: 0; }
   #plays_index a {
-    color: #333333; }
+    vertical-align: top;
+    color: #333333;
+    margin-top: 0;
+    display: inline-block;
+    width: 90%; }
 
 #plays h2, #plays h4 {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 57.35098%; }
+  width: 65.88078%; }
   #plays h2:last-child, #plays h4:last-child {
     margin-right: 0; }
 #plays h4 {
   margin-top: 1em; }
 #plays h5 {
   font-size: 14px; }
-#plays p, #plays ol, #plays ul {
+#plays p {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%; }
+  #plays p:last-child {
+    margin-right: 0; }
+#plays ol, #plays ul {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 65.88078%; }
-  #plays p:last-child, #plays ol:last-child, #plays ul:last-child {
+  #plays ol:last-child, #plays ul:last-child {
     margin-right: 0; }
 #plays ol {
   list-style-type: square; }

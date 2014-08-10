@@ -90,17 +90,11 @@ h5 {
   @include span-columns(10);
 }
 
-// #navigation_bar {
-//   background: red;
-//   color: blue;
-//   // @include outer-container();
-//   .title {
-//   }
-// }
 
 #introduction {
   background: $atlantic_blue;
   color: $white;
+  padding-bottom: 60px;
 
   p {
     max-width: 600px;
@@ -146,7 +140,6 @@ h5 {
   .active_play {
     a {
       background: $white;
-      // color: $white;
       text-decoration: none;
     }
   }
@@ -171,7 +164,6 @@ h5 {
     }
     a:hover {
       background: $white;
-      // color: $white;
       text-decoration: none;
     }
   }
@@ -184,11 +176,14 @@ h5 {
 #plays_index {
   background: $miami_vice_blue;
   color: $black;
+  padding-bottom: 60px;
+
 
   h3 { 
     color: $white;
-    font-size: 26px;
-    font-weight: lighter;
+    font-size: 23px;
+    font-weight: normal;
+    margin-bottom: 38px;
   }
   
   .columns {
@@ -201,59 +196,47 @@ h5 {
   }
 
   ol {
-    list-style-position: outside;
+    list-style-position: inside;
+    padding-left: 0px;
+    margin-top: 0px;
   }
   
   ol li {
     color: $white;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: lighter;
-    // padding-right: 40px;
-    // padding-left: 40px;
     margin-top: 0;
-    margin-left: 10px;
   }
   
   a {
+    vertical-align: top;
     color: $black;
+    margin-top: 0;
+    display: inline-block;
+    width: 90%;
   }
 }
 
-// #play_navigation_container {
-//   padding-top: 20px;
-//   background: $background_white;
-//   .outer_container {
-//     padding: 0px 40px;
-//   }
-// }
+#plays {
 
-// .isStuck {
-//   // position:fixed;
-//   // top: 0;
-//   width: 100%;
-//   .outer_container {
-//     padding: 0px 40px;
-//     #play_navigation {
-//       ul {
-//         margin-top: 0;
-//       }
-//     }
-//   }
-// }
-
-
-#plays {  
   h2, h4 {
-    @include span-columns(7);
+    @include span-columns(8);
   }
+
   h4 {
     margin-top: 1em;
   }
   h5 {
     font-size: 14px;
   }
-  p, ol, ul {
+
+  p {
+    @include span-columns(9);
+
+  }
+  ol, ul {
     @include span-columns(8);
+
   }
   ol {
     list-style-type: square;
