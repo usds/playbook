@@ -28,7 +28,8 @@ ol, ul {
   list-style-type: decimal;
   list-style-position: inside; }
   ol li, ul li {
-    margin: 1em 0; }
+    margin: 1em 0;
+    color: #333333; }
 
 h1 {
   font-size: 50px;
@@ -43,7 +44,8 @@ h2 {
   font-size: 54px;
   line-height: 65px;
   font-weight: 300;
-  margin-top: 0; }
+  margin-top: 0;
+  color: #333333; }
 
 h3 {
   font-family: "Open Sans", sans-serif;
@@ -58,7 +60,8 @@ h4 {
 h5 {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  color: #333333; }
 
 .outer_container {
   max-width: 68em;
@@ -180,7 +183,9 @@ h5 {
   #plays h2:last-child, #plays h4:last-child {
     margin-right: 0; }
 #plays h4 {
-  margin-top: 1em; }
+  margin-top: 0px; }
+#plays h2 {
+  margin-bottom: 24px; }
 #plays h5 {
   font-size: 14px; }
 #plays p {
@@ -198,7 +203,8 @@ h5 {
   #plays ol:last-child, #plays ul:last-child {
     margin-right: 0; }
 #plays ol {
-  list-style-type: square; }
+  list-style-type: square;
+  margin-top: 0px; }
 #plays li {
   font-size: 15px;
   line-height: 25px; }
