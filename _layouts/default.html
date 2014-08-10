@@ -34,7 +34,7 @@ plays:
       <a href="#introduction"><h4>U.S. Digital Services Playbook</h4></a>
       <ul>
         {% for play in page.plays %}
-          <li class="play_square"><a href="#{{play}}">{{ play | remove: "play" }}</a></li>
+          <li class="play_square"><a href="#{{play}}" title="View Play {{ play | remove: "play" }}">{{ play | remove: "play" }}</a></li>
         {% endfor %}
       </ul>
       <div id="menu_icon">
@@ -53,7 +53,7 @@ plays:
         <a href="#plays_index_anchor" title="View the Plays">SEE THE PLAYS</a>
       </div>
       <div class="button">
-        <a href="https://github.com/WhiteHouse/playbook" title="Improve this Content">HELP IMPROVE THE PLAYBOOK</a>
+        <a href="https://github.com/WhiteHouse/playbook" title="Visit Github to Improve This Content">HELP IMPROVE THE PLAYBOOK</a>
       </div>
     </div>
   </div>

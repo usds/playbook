@@ -1,7 +1,0 @@
-7. [Bring in experienced teams](#play7)
-8. [Choose a modern technology stack](#play8)
-9. [Deploy in a flexible hosting environment](#play9)
-10. [Automate testing and deployments](#play10)
-11. [Manage security and privacy through reusable processes](#play11)
-12. [Use data to drive decisions](#play12)
-13. [Default to open](#play13)
