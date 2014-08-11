@@ -4,13 +4,13 @@
   box-sizing: border-box; }
 
 body {
-  background: #eae4d2;
+  background: #ffffff;
   font-family: "Merriweather", serif;
   margin: 0;
   line-height: 28px; }
 
 body#techfar_landing_page {
-  background: #32436e; }
+  background: #36495a; }
 
 a {
   color: inherit;
@@ -65,7 +65,7 @@ h3 {
 h4 {
   font-family: "Merriweather", serif;
   font-size: 18px;
-  color: #3a96b7;
+  color: #2b99e8;
   margin-bottom: 0; }
 
 h5 {
@@ -132,7 +132,7 @@ p {
     border: 1px solid #eeeeee; }
   .button a:hover {
     background: #eeeeee;
-    color: #32436e;
+    color: #36495a;
     text-decoration: none; }
   @media screen and (min-width: 0px) and (max-width: 640px) {
     .button {
@@ -146,7 +146,7 @@ p {
   font-family: "Open Sans", sans-serif; }
 
 #introduction {
-  background: #32436e;
+  background: #36495a;
   color: #eeeeee;
   padding-bottom: 60px; }
   #introduction a {
@@ -180,7 +180,7 @@ p {
   position: fixed;
   width: 100%;
   height: 0;
-  background: #32436e;
+  background: #36495a;
   color: #eeeeee;
   font-family: "Merriweather", serif; }
   #navigation_bar .outer_container {
@@ -201,7 +201,7 @@ p {
     padding: 0;
     list-style-position: outside; }
   #navigation_bar .active_play a {
-    background: #3a96b7;
+    background: #2b99e8;
     color: #eeeeee;
     text-decoration: none; }
   #navigation_bar li {
@@ -219,7 +219,7 @@ p {
       color: #eeeeee;
       border: 1px solid #1164b0; }
     #navigation_bar li a:hover {
-      background: #3a96b7;
+      background: #2b99e8;
       color: #eeeeee;
       text-decoration: none; }
   #navigation_bar #menu_icon {
@@ -265,7 +265,7 @@ p {
       display: block; } }
 
 #plays_index {
-  background: #3a96b7;
+  background: #2b99e8;
   color: #333333;
   padding-bottom: 60px; }
   #plays_index h3 {
@@ -336,7 +336,7 @@ p {
     margin-right: 0; }
 #plays h4, #techfar h4 {
   margin-top: 0px;
-  color: #32436e; }
+  color: #36495a; }
 #plays h2, #techfar h2 {
   margin-bottom: 24px; }
 #plays h5, #techfar h5 {
@@ -367,12 +367,12 @@ p {
 #plays ul, #techfar ul {
   list-style-image: url("../images/bullet-circle.svg"); }
 #plays a, #techfar a {
-  color: #32436e;
+  color: #36495a;
   text-decoration: underline;
   display: inline-block; }
 #plays a:hover, #techfar a:hover {
   color: #eeeeee;
-  background: #32436e; }
+  background: #36495a; }
 @media screen and (min-width: 0px) and (max-width: 640px) {
   #plays p, #techfar p {
     font-size: 16px;
