@@ -1,7 +1,6 @@
 <!-- TechFAR, built from "8 7 14" version  -->
 
-# TechFAR
-#### Handbook for Procuring Digital Services Using Agile Processes
+#### The TechFAR Handbook for Procuring Digital Services Using Agile Processes
 
 ## Executive Summary
 
@@ -9,9 +8,13 @@ In the Government, digital services projects too often fail to meet user expecta
 
 > [1] “Information Technology” is defined in FAR 2.101.
 
-One tool is the Digital Services Playbook, which identifies a series of “plays” drawn from proven private sector best practices to help agencies successfully deliver digital services.  Another tool is the TechFAR, which highlights flexibilities  in the Federal Acquisition Regulation (FAR ) that can help agencies implement “plays” in the Playbook that would be accomplished with acquisition support.
+One tool is the [Digital Services Playbook](http://playbook.cio.gov "Link to Digital Services Playbook"), which identifies a series of “plays” drawn from proven private sector best practices to help agencies successfully deliver digital services.  Another tool is the TechFAR, which highlights flexibilities  in the Federal Acquisition Regulation (FAR ) that can help agencies implement “plays” in the Playbook that would be accomplished with acquisition support.
 
-The vision for the TechFAR is that it will be expanded in future iterations to address many areas of IT.  This edition of the TechFAR is aligned with the Digital Services Playbook’s guidance to use contractors to support an iterative development process.  In particular, it emphasizes Agile software development,  a technique for doing modular contracting and a proven commercial methodology that is characterized by incremental and iterative processes where releases are produced in close collaboration with the customer.  This process improves investment manageability, lowers risk of project failure, shortens the time to realize value, and allows agencies to better adapt to changing needs.  Agile software development is geared towards projects where significant design and development are needed, such as digital services (e.g., healthcare.gov or recreation.gov) as well as internal digital services and business systems.  It is not designed to be used for commodity IT purchases, especially where commercially available off-the-shelf items can be used as-is at a lower cost and lower risk to the Government.  
+> [2] While the FAR offers flexibility in contracting, agencies must adhere to restrictions imposed on the appropriated funds used to pay for IT.
+
+> [3] The FAR System is established for the codification and publication of uniform policies and procedures for acquisition by all executive agencies.  The FAR System consists of the Federal Acquisition Regulation (FAR), which is the primary document, and agency acquisition regulations that implement or supplement the FAR.  The FAR System does not include internal agency guidance of the type described in FAR 1.301(a)(2).   The FAR is issued as Chapter 1 of Title 48, Code of Federal Regulations (CFR) and is accessible at [www.acquisition.gov/far](http://www.acquisition.gov/far "Link to the FAR").  Executive agency FAR supplements are accessible in Title 48, CFR at [www.ecfr.gov](http://www.ecfr.gov "Link to Code of Federal Regulation"). 
+
+The vision for the TechFAR is that it will be expanded in future iterations to address many areas of IT.  This edition of the TechFAR is aligned with the [Digital Services Playbook's](http://playbook.cio.gov "Link to Digital Services Playbook") guidance to use contractors to support an iterative development process.  In particular, it emphasizes Agile software development,  a technique for doing modular contracting and a proven commercial methodology that is characterized by incremental and iterative processes where releases are produced in close collaboration with the customer.  This process improves investment manageability, lowers risk of project failure, shortens the time to realize value, and allows agencies to better adapt to changing needs.  Agile software development is geared towards projects where significant design and development are needed, such as digital services (e.g., healthcare.gov or recreation.gov) as well as internal digital services and business systems.  It is not designed to be used for commodity IT purchases, especially where commercially available off-the-shelf items can be used as-is at a lower cost and lower risk to the Government.  
 
 In every agency, there are multiple stakeholders who share in the responsibility for achieving successful results from their IT investments and who form the acquisition team, including program officials, IT officials, acquisition officials, and agency legal counsel.  Agencies need to ensure adequate resources are dedicated to these stakeholders involved in Agile software development efforts.   The TechFAR is designed to facilitate a common understanding among these stakeholders of the best ways to use acquisition authorities in making these investments to level set expectations and maximize the likelihood for success.  The TechFAR consists of a handbook, which discusses relevant FAR authorities and includes practice tips, sample language, and a compilation of FAR provisions that are relevant to Agile software development.  
 
@@ -19,36 +22,13 @@ This handbook is not intended to usurp existing laws, regulations, or Agency pol
 
 ## TechFAR Handbook Table of Contents
 
-- Purpose
-  - Describing the purpose of this document
+- Purpose of This Document
 - General Considerations
-  - Defining Agile software development 
-  - Using Agile software development to address IT needs
-  - Aligning with modular development goals
-  - Assessing risk
-  - Applying privacy and disclosure requirements	
 - Requirements Development & Acquisition Planning
-  - Identifying requirements 
-  - Documenting needs 
-  - Identifying inherently governmental work
-  - Watching for conflicts of interest
 - Contract Vehicles and Use of Existing IT Contracts
-  - Selecting a suitable contract vehicle
-  - Giving consideration to existing enterprise-wide vehicles
 - Pricing Considerations
-  - Selecting the best contract pricing structure 
-  - Creating a Fixed-Price (FP)  line item structure
-  - Using incentives 
-  - Ensuring fair and reasonable pricing	
 - Use of Competition	
-  - Achieving effective competition
-  - Avoiding out of scope modifications
-  - Managing protest risk
-  - Facilitating small business participation
 - Contract Administration
-  - Managing agency resources 
-  - Holding contractors accountable
-  - Tracking progress
 
 
 ## Purpose of this Document 
@@ -64,38 +44,37 @@ For each stage of the acquisition lifecycle, this document highlights key regula
 ## General Considerations
 
 
-> **Question** -- Generally speaking, what is Agile software development, and how does it fit into the acquisition development lifecycle?
+**Question** — Generally speaking, what is Agile software development, and how does it fit into the acquisition development lifecycle?
 
-> **Answer** -- Agile software development is a method of software development that utilizes an iterative development process, designs services based on real user needs, and constantly improves software from user feedback.  Agile software development principles apply to both pre-award and post-award contexts.   
+**Answer** — Agile software development is a method of software development that utilizes an iterative development process, designs services based on real user needs, and constantly improves software from user feedback.  Agile software development principles apply to both pre-award and post-award contexts.   
 
 Agile software development is a method of software development that is based on iterative and incremental processes and collaboration among a team.  It is a methodology for the creative process that anticipates the need for flexibility and applies a level of pragmatism into the delivery of the finished product. The focus is on keeping code simple, testing often, and delivering functional bits of the application as soon as they are ready.  There are various Agile methodologies (DSDM, Scrum, XP, Kanban, etc.), which all adhere to the same values: individuals and interactions, working software, customer collaboration, and responding to change.  
 
-Per the [Digital Services Playbook](http://playbook.cio.gov), Agile software development is the preferred methodology for software development contracts that contribute to the creation and maintenance of digital services, whether they are websites, mobile applications, or other digital channels.  It supports frequent changes, updates, and enhancements to the software.  By breaking up the development process into small, manageable pieces – each with desired segments of functionality, and having end users involved throughout the process – and guided by the Product Vision, users receive software that better meets their needs (in terms of both functionality and usability) without wasting money and time on unused or unusable features.  The following chart compares traditional software development with Agile software development by describing the key events in the pre-award and post-award contexts.  
+Per the [Digital Services Playbook](http://playbook.cio.gov "Link to Digital Services Playbook"), Agile software development is the preferred methodology for software development contracts that contribute to the creation and maintenance of digital services, whether they are websites, mobile applications, or other digital channels.  It supports frequent changes, updates, and enhancements to the software.  By breaking up the development process into small, manageable pieces – each with desired segments of functionality, and having end users involved throughout the process – and guided by the Product Vision, users receive software that better meets their needs (in terms of both functionality and usability) without wasting money and time on unused or unusable features.  The following chart compares traditional software development with Agile software development by describing the key events in the pre-award and post-award contexts.  
 
-Traditional Software Development | Agile Software Development |
---- | --- |
-**Pre-Award** | **Pre-Award**
-**Program identifies need** - includes Government lead and other Government stakeholders |  **Program identifies need** - Test thing also in column
+!["Comparison of Waterfall"](../assets/images/techfar1.png "Comparison of Traditional Software Development with Agile Software Development")
 
-
-
-  
 First and foremost, when using Agile processes, the acquisition community must differentiate between contract requirements and system requirements.  Agile software development starts with a Product Vision and does not specify exact system features, but addresses the desired high-level functionality of the system (not the specific system features to achieve that functionality).  Deliverables are the functional, working software (deployable code) that are produced through a repeatable iterative delivery process in a production environment.  Cost and schedule are adhered to because there is a set schedule of releases in which the contractor must produce deployable code.
 The graphic below depicts a typical Agile process.  With an Agile software development process, the Product Vision feeds into the product backlog, which contains a prioritized list of user stories (technical functionality for the system).   The sprint backlog contains user stories that have been reviewed, scrubbed, and selected by the team to be worked on during a sprint.  The 1-4 week sprint cycle turns user stories into implementable and shippable code.  This code is ready for production, but is usually held or bundled into a larger software release. 
  
-A key feature of Agile software development is the emphasis on the team approach.  The Integrated Product Team (IPT) is integral to the success and administration of Agile software development contracts.  The team includes key stakeholders, and should be led by a program manager holding the appropriate level of Federal Acquisition Certification  in Program/Project Management.  It is essential that the IPT members are champions for Agile, as the cultural change from traditional methods to Agile may be challenging.  To make this shift happen as seamlessly as possible, before conducting pre-award activities, the key members of the IPT should be trained in Agile software development.  Contracting officers and contracting officer’s representatives need not be trained as software developers, but should have a working knowledge of the concepts and processes associated with an Agile IPT.   After contract award, the IPT is responsible for communication and brainstorming the system requirements. 
+!["A Diagram of the Agile Process"](../assets/images/techfar2.png "A Diagram of an Agile process, showing the steps to go from a product vision to a released product by incrementally and iteratively developing features from the 'product backlog'.")
+
+A key feature of Agile software development is the emphasis on the team approach.  The Integrated Product Team (IPT) is integral to the success and administration of Agile software development contracts.  The team includes key stakeholders, and should be led by a program manager holding the appropriate level of Federal Acquisition Certification  in Program/Project Management.  It is essential that the IPT members are champions for Agile, as the cultural change from traditional methods to Agile may be challenging.  To make this shift happen as seamlessly as possible, before conducting pre-award activities, the key members of the IPT should be trained in Agile software development.  Contracting officers and contracting officer’s representatives need not be trained as software developers, but should have a working knowledge of the concepts and processes associated with an Agile IPT.   After contract award, the IPT is responsible for communication and brainstorming the system requirements.
+
 To increase the probability of a successful Agile software development, a focus on the entire acquisition lifecycle is critical specifically to past performance, past experience, and market research.   .  Early vendor engagement, including conducting industry days and releasing Requests for Information (RFIs) and draft Requests for Proposal (RFPs) or draft Requests for Quotation (RFQ), is important for both the vendors and the Government.  Early vendor engagement informs the vendor community about the Government’s desire to utilize Agile processes and provides an avenue for the vendors to ask questions to ensure they understand the process and what the Government seeking to procure.  The Government benefits by identifying vendors who are capable of supporting the specific software and have Agile software development experience.  
+
 As detailed in this document, Agile software development expects and anticipates changing technical requirements within the agency’s high-level vision or need, which remains constant.  Therefore, it is imperative throughout the Agile process to give end users an opportunity to use the system or features to determine what should drive future technical features.  This will allow the Government to benefit from the Agile process and shape a product that is responsive to the needs of the users.  
 
-2	Question – Should Agile software development be used to address all IT needs?
-	Answer – No.  Agile software development is intended for activities that require significant software design and development.  Many IT needs can be met with commercially available off-the-shelf items   and commoditized services, such as subscription services for software licenses, with little or no development work.  In those cases when development is not needed, the Government is best served by purchasing commercially available off-the-shelf items.
+**Question** — Should Agile software development be used to address all IT needs?
 
+**Answer** — No.  Agile software development is intended for activities that require significant software design and development.  Many IT needs can be met with commercially available off-the-shelf items   and commoditized services, such as subscription services for software licenses, with little or no development work.  In those cases when development is not needed, the Government is best served by purchasing commercially available off-the-shelf items.
 
 Like most tools, Agile is not a one-size-fits-all strategy.  Digital services, especially those intended for use by the public (e.g., irs.gov, healthcare.gov or recreation.gov), generally require significant software design and development and will benefit from Agile approaches.  Agile is beneficial for software development projects, or ones that involve the configuration and modification of commercially available off-the-shelf items.  But if IT needs can be met with commercially available off-the-shelf items without configuration, design, or development, there may be no need to apply Agile processes.  
 
 
-3	Question – Are agencies authorized to shape their IT software acquisitions around Agile principles?   The FAR does not expressly speak to Agile concepts such as refining technical solutions after contract award based on testing and customer feedback or buying a product with a process rather than an identified solution.
-	Answer – The principles of Agile software development are consistent with modular contracting, which is discussed in FAR Part 39, Acquisition of Information Technology.  In addition, as a general matter, an agency may pursue acquisition practices that are not expressly endorsed in the FAR, including Agile software development, as long as they are not expressly prohibited by law. 
+**Question** —  Are agencies authorized to shape their IT software acquisitions around Agile principles?   The FAR does not expressly speak to Agile concepts such as refining technical solutions after contract award based on testing and customer feedback or buying a product with a process rather than an identified solution.
+
+**Answer** — The principles of Agile software development are consistent with modular contracting, which is discussed in FAR Part 39, Acquisition of Information Technology.  In addition, as a general matter, an agency may pursue acquisition practices that are not expressly endorsed in the FAR, including Agile software development, as long as they are not expressly prohibited by law. 
 
 	Acquisition policies and procedures for acquiring digital services (which are Information Technology services) are addressed in FAR Part 39.  Although Part 39 does not directly speak to Agile software development practices, it endorses modular contracting principles where information technology systems are acquired in successive, interoperable increments to reduce overall risk and support rapid delivery of incremental new functionality.  See FAR 39.103.  In 2012, Office of Management and Budget’s (OMB) Office of Federal Procurement Policy and Office of E-Government and Information Technology issued Contracting Guidance to Support Modular Development to promote greater use of modular IT development and contracting.  
 

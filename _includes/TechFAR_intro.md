@@ -1,0 +1,5 @@
+# The TechFAR Handbook
+
+One way to advance smarter digital service delivery is by putting the right processes and practices in place to drive outcomes and accountability and allow people and companies to do their best work.  [The Digital Services Playbook](http://playbook.cio/gov "The Digital Services Playbook") and the TechFAR Handbook work together to document these best practices and processes. 
+
+This TechFAR Handbook highlights the flexibilities in the Federal Acquisition Regulation (FAR) that can help agencies implement [“plays” from the Playbook](http://playbook.cio/gov "The Digital Services Playbook") that would be accomplished with acquisition support — with a particular focus on how to use contractors to support an iterative, customer-driven software development process, as is routinely done in the private sector.

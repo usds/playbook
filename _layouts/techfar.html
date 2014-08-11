@@ -17,15 +17,15 @@ title: 'This is my Site Title'
 <div id="navigation_bar">
    <div class="outer_container">
     <div class="inner_container">
-      <a href="#introduction"><h4>U.S. Digital Services Playbook</h4></a>
-      <ul>
+      <a href="#introduction"><h4>The TechFAR Handbook</h4></a>
+<!--       <ul>
         {% for play in page.plays %}
           <li class="play_square"><a href="#{{play}}">{{ play | remove: "play" }}</a></li>
         {% endfor %}
-      </ul>
-      <div id="menu_icon">
+      </ul> -->
+<!--       <div id="menu_icon">
         <a href="#plays_index_anchor" title="Return to Index"></a>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
@@ -33,36 +33,24 @@ title: 'This is my Site Title'
 <div id="introduction">
   <div class="outer_container">
     <div class="inner_container">
-      {% capture introduction %}{% include introduction.md %}{% endcapture %}
+      {% capture introduction %}{% include TechFAR_intro.md %}{% endcapture %}
       {{ introduction | markdownify }}
       <div class="button">
-        <a href="#plays_index_anchor" title="View the Plays">THE PLAYS</a>
+        <a href="#techfar_anchor_offset" title="Read the Handbook">READ THE HANDBOOK</a>
+      </div>
+      <div class="button">
+        <a href="http://www.github.com/whitehouse/playbook" title="Link to Comments and Discussion">SUBMIT COMMENTS</a>
       </div>
     </div>
   </div>
 </div>
 
-<div id="plays_index">
-  <div class="outer_container">
+<div id="techfar" class="outer_container">
     <div class="inner_container">
-      <a class="anchor_offset" id="plays_index_anchor"></a>
-      <h3>DIGITAL SERVICE PLAYS</h3>
-      <div class="columns">
-        {% capture plays_index %}{% include plays_index.md %}{% endcapture %}
-        {{ plays_index | markdownify }}
-      </div>
+      <a class="anchor_offset" id="techfar_anchor_offset"></a>
+      {% capture techfar %}{% include TechFAR.md %}{% endcapture %}
+      {{ techfar | markdownify }}
     </div>
-  </div>
-</div>
-
-<div id="plays" class="outer_container">
-  {% for play in page.plays %}
-    <div class="inner_container">
-      <a class="anchor_offset" id="{{ play }}"></a>
-      {% capture play_content %}{% include {{ play | append: '.md'}} %}{% endcapture %}
-      {{ play_content | markdownify }}
-    </div>
-  {% endfor %}
 </div>
 
 <script src='{{site.baseurl}}/assets/js/jquery-1.11.1.min.js'></script>

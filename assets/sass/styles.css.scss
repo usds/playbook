@@ -380,13 +380,14 @@ p {
   }
 }
 
-#plays {
+#plays, #techfar {
 
   h2, h4 {
     @include span-columns(8);
   }
   h4 {
     margin-top: 0px;
+    color: $atlantic_blue;
   }
 
   h2 {
@@ -401,27 +402,6 @@ p {
     @include span-columns(9);
   }
 
-  ol, ul {
-    @include span-columns(8);
-    list-style-position: outside;
-    padding-left: 25px;
-  }
-
-  ol {
-    list-style-image: url("../images/bullet-sq1.svg");
-    margin-top: 0px;
-  }
-
-  li {
-    font-size: 15px;
-    line-height: 25px;
-    padding-left: 5px;
-  }
-
-  ul {
-    list-style-image: url("../images/bullet-circle1.svg");
-  }
-
   @include media($mobile) {
     p {
       font-size: 16px;
@@ -430,11 +410,8 @@ p {
     ol, li {
       font-size: 14px;
       line-height: 20px;
-      // padding-left: 16px;
     }
-    // li {
-    //   padding-left: 2px;
-    // }
+
     h2, h4, p, ol, ul {
       @include span-columns(4);
     }
@@ -448,6 +425,45 @@ p {
       @include span-columns(10);
     }
   }
+}
+
+#plays, #techfar {
+  ol, ul {
+    @include span-columns(8);
+    list-style-position: outside;
+    padding-left: 25px;
+  }
+
+  ol {
+    list-style-image: url("../images/bullet-sq.svg");
+    margin-top: 0px;
+  }
+
+  li {
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 5px;
+  }
+
+  ul {
+    list-style-image: url("../images/bullet-circle.svg");
+  }
+}
+
+#techfar {
+  em {
+    font-size: 12px;
+    // margin-right: 5px;
+    line-height: 0;
+    vertical-align: super;
+  }
+  h2 {
+    margin-top: 20px;
+  }
+  img {
+    max-width: 100%;
+  }
+}
 
   // #play_navigation {
   //   ul, ol {
@@ -492,4 +508,3 @@ p {
   //     }
   //   }
   // }
-}
