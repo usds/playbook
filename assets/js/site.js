@@ -3,6 +3,10 @@ $(function(){
     var navBarHeight = $('#navigation_bar').height();
     var showNavBarMinimum = $('#introduction').height() - navBarHeight;
 
+    if ( getCurrentScroll() >= showNavBarMinimum ) {
+      $('#navigation_bar').addClass('show');
+    }
+
     $(window).scroll(function() {
       var scroll = getCurrentScroll();
         if ( scroll >= showNavBarMinimum ) {
