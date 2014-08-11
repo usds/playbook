@@ -65,7 +65,7 @@ h3 {
 h4 {
   font-family: "Merriweather", serif;
   font-size: 18px;
-  color: #3a96b7;
+  color: #2b99e8;
   margin-bottom: 0; }
 
 h5 {
@@ -191,7 +191,7 @@ p {
     padding: 0;
     list-style-position: outside; }
   #navigation_bar .active_play a {
-    background: #3a96b7;
+    background: #2b99e8;
     color: #eeeeee;
     text-decoration: none; }
   #navigation_bar li {
@@ -209,7 +209,7 @@ p {
       color: #eeeeee;
       border: 1px solid #1164b0; }
     #navigation_bar li a:hover {
-      background: #3a96b7;
+      background: #2b99e8;
       color: #eeeeee;
       text-decoration: none; }
   #navigation_bar #menu_icon {
@@ -255,7 +255,7 @@ p {
       display: block; } }
 
 #plays_index {
-  background: #3a96b7;
+  background: #2b99e8;
   color: #333333;
   padding-bottom: 60px; }
   #plays_index h3 {
