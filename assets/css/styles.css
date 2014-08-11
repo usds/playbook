@@ -162,7 +162,7 @@ p {
         margin-top: 20px; } }
 
 #navigation_bar {
-  visibility: hidden;
+  display: none;
   position: fixed;
   width: 100%;
   background: #32436e;
@@ -240,7 +240,7 @@ p {
       width: 20px; } }
 
 #navigation_bar.show {
-  visibility: visible; }
+  display: block; }
 
 #plays_index {
   background: #3a96b7;

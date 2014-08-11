@@ -185,7 +185,8 @@ p {
 }
 
 #navigation_bar {
-  visibility: hidden;
+  // visibility: hidden;
+  display: none;
   position: fixed;
   width: 100%;
   background: $atlantic_blue;
@@ -292,7 +293,7 @@ p {
 }
 
 #navigation_bar.show {
-  visibility: visible;
+  display: block;
 }
 
 #plays_index {
