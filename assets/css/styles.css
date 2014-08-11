@@ -128,7 +128,8 @@ p {
     border: 1px solid #eeeeee; }
   .button a:hover {
     background: #eeeeee;
-    color: #32436e; }
+    color: #32436e;
+    text-decoration: none; }
   @media screen and (min-width: 0px) and (max-width: 640px) {
     .button {
       margin-top: 20px; } }
@@ -271,10 +272,12 @@ p {
     width: 100%; }
   #plays_index a {
     vertical-align: top;
-    color: #333333;
+    color: #eeeeee;
     margin-top: 0;
     display: inline-block;
     width: 85%; }
+  #plays_index a:hover {
+    color: #333333; }
   @media screen and (min-width: 0px) and (max-width: 640px) {
     #plays_index {
       padding-bottom: 20px; }
@@ -340,6 +343,13 @@ p {
   padding-left: 5px; }
 #plays ul, #techfar ul {
   list-style-image: url("../images/bullet-circle.svg"); }
+#plays a, #techfar a {
+  color: #32436e;
+  text-decoration: underline;
+  display: inline-block; }
+#plays a:hover, #techfar a:hover {
+  color: #eeeeee;
+  background: #32436e; }
 @media screen and (min-width: 0px) and (max-width: 640px) {
   #plays p, #techfar p {
     font-size: 16px;

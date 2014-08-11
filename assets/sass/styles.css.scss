@@ -143,6 +143,7 @@ p {
   a:hover {
     background: $white;
     color: $atlantic_blue;
+    text-decoration: none;
   }
   @include media($mobile) {
     margin-top: 20px;
@@ -339,10 +340,14 @@ p {
 
   a {
     vertical-align: top;
-    color: $black;
+    color: $white;
     margin-top: 0;
     display: inline-block;
     width: 85%;
+  }
+
+  a:hover {
+    color: $black
   }
 
   @include media($mobile) {
@@ -421,6 +426,19 @@ p {
 
   ul {
     list-style-image: url("../images/bullet-circle.svg");
+  }
+
+  a {
+    color: $atlantic_blue;
+    // border-bottom: 1px solid $atlantic_blue;
+    text-decoration: underline;
+    display: inline-block;
+  }
+
+  a:hover {
+    color: $white;
+    // border-bottom: 1px solid $white;
+    background: $atlantic_blue;
   }
 
   @include media($mobile) {
