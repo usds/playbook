@@ -75,7 +75,7 @@ Acquisition policies and procedures for acquiring digital services (which are In
 #### Shared Goals of Modular Contracting and Agile Software Development
 1. Improvement in investment manageability and budgetary feasibility
 2. Reduction of overall risk
-3. Frequen delivery of usable capabilities that provide value to customers more rapidly
+3. Frequent delivery of usable capabilities that provide value to customers more rapidly
 4. Increased flexibility
 5. Creation of new opportunities for small businesses
 6. Greater visibility into contractor performance 
