@@ -300,6 +300,8 @@ p {
   
   @include media($mobile) {
     height: 48px;
+    visibility: visible;
+    display: block;
   }
 }
 
