@@ -217,7 +217,8 @@ p {
 
   .active_play {
     a {
-      background: $white;
+      background: $miami_vice_blue;
+      color: $white;
       text-decoration: none;
     }
   }
@@ -226,22 +227,21 @@ p {
     display: inline;
     margin-left: 5px;
     list-style-type: none;
-    background: $miami_vice_blue;
 
     a {
       display: inline-block;
-      background: $miami_vice_blue;
       height: 24px;
       width: 24px;
+      line-height: 22px;
       text-align: center;
-      // padding: 2px 0px;
-      font-size: 12px;
       font-family: $serif;
-      color: $atlantic_blue;
-      border: 1px solid $miami_vice_blue;
+      font-weight: lighter;
+      color: $white;
+      border: 1px solid $pacific_blue;
     }
     a:hover {
-      background: $white;
+      background: $miami_vice_blue;
+      color: $white;
       text-decoration: none;
     }
   }

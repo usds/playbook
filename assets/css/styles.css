@@ -186,25 +186,26 @@ p {
     padding: 0;
     list-style-position: outside; }
   #navigation_bar .active_play a {
-    background: #eeeeee;
+    background: #3a96b7;
+    color: #eeeeee;
     text-decoration: none; }
   #navigation_bar li {
     display: inline;
     margin-left: 5px;
-    list-style-type: none;
-    background: #3a96b7; }
+    list-style-type: none; }
     #navigation_bar li a {
       display: inline-block;
-      background: #3a96b7;
       height: 24px;
       width: 24px;
+      line-height: 22px;
       text-align: center;
-      font-size: 12px;
       font-family: "Merriweather", serif;
-      color: #32436e;
-      border: 1px solid #3a96b7; }
+      font-weight: lighter;
+      color: #eeeeee;
+      border: 1px solid #1164b0; }
     #navigation_bar li a:hover {
-      background: #eeeeee;
+      background: #3a96b7;
+      color: #eeeeee;
       text-decoration: none; }
   #navigation_bar #menu_icon {
     display: none;
