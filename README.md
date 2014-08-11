@@ -8,13 +8,13 @@ One way to advance smarter digital service delivery is by putting the right proc
 - [**The TechFAR Handbook**](http://playbook.cio.gov/techfar "Link to the TechFAR Handbook") highlights the flexibilities in the Federal Acquisition Regulation (FAR) that can help agencies implement “plays” from the Playbook that would be accomplished with acquisition support – with a particular focus on how to use contractors to support an iterative, customer-driven software development process, as is routinely done in the private sector.
 
 ## We Want Your Feedback
-We encourage your feedback and suggestions on these documents. Content and feature suggestions and discussions are welcome via [GitHub Issues](https://github.com/WhiteHouse/playbook/issues). You may also propose changes to the content directly by submitting a [pull request](https://github.com/WhiteHouse/playbook/pulls).
+We encourage your feedback and suggestions on these documents. Content and feature suggestions and discussions are welcome via [GitHub Issues](https://github.com/WhiteHouse/playbook/issues). You may also propose changes to the content directly by submitting a [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests").
 
 Feedback collected before September 1, 2014 will be incorporated into the next release of the Digital Services Playbook and the TechFAR Handbook.
 
 ## Technical Details
 
-The Playbook and the TechFAR Handbook are compiled from Markdown files using Jekyll. To propose a specific change, you can submit a [pull request](https://help.github.com/articles/creating-a-pull-request) with your change to one of these source Markdown files, [available in the `_includes` folder](https://github.com/WhiteHouse/playbook/tree/gh-pages/_includes "Link to the Markdown files").
+The Playbook and the TechFAR Handbook are compiled from Markdown files using Jekyll. To propose a specific change, you can submit a [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests") with your change to one of these source Markdown files, [available in the `_includes` folder](https://github.com/WhiteHouse/playbook/tree/gh-pages/_includes "Link to the Markdown files").
 
 You can also use Github's in-browser editing feature to make an edit to one of [these Markdown files](https://github.com/WhiteHouse/playbook/tree/gh-pages/_includes "Link to the Markdown Files") and submit your change for consideration without needing to install any additional software.
 
