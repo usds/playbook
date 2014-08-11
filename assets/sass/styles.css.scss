@@ -402,6 +402,27 @@ p {
     @include span-columns(9);
   }
 
+  ol, ul {
+    @include span-columns(8);
+    list-style-position: outside;
+    padding-left: 25px;
+  }
+
+  ol {
+    list-style-image: url("../images/bullet-sq.svg");
+    margin-top: 0px;
+  }
+
+  li {
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 5px;
+  }
+
+  ul {
+    list-style-image: url("../images/bullet-circle.svg");
+  }
+
   @include media($mobile) {
     p {
       font-size: 16px;
@@ -427,29 +448,6 @@ p {
   }
 }
 
-#plays, #techfar {
-  ol, ul {
-    @include span-columns(8);
-    list-style-position: outside;
-    padding-left: 25px;
-  }
-
-  ol {
-    list-style-image: url("../images/bullet-sq.svg");
-    margin-top: 0px;
-  }
-
-  li {
-    font-size: 15px;
-    line-height: 25px;
-    padding-left: 5px;
-  }
-
-  ul {
-    list-style-image: url("../images/bullet-circle.svg");
-  }
-}
-
 #techfar {
   em {
     font-size: 12px;
@@ -457,7 +455,7 @@ p {
     line-height: 0;
     vertical-align: super;
   }
-  h2 {
+  h2, h4 {
     margin-top: 20px;
   }
   img {

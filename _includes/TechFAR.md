@@ -55,6 +55,7 @@ Per the [Digital Services Playbook](http://playbook.cio.gov "Link to Digital Ser
 !["Comparison of Waterfall"](../assets/images/techfar1.png "Comparison of Traditional Software Development with Agile Software Development")
 
 First and foremost, when using Agile processes, the acquisition community must differentiate between contract requirements and system requirements.  Agile software development starts with a Product Vision and does not specify exact system features, but addresses the desired high-level functionality of the system (not the specific system features to achieve that functionality).  Deliverables are the functional, working software (deployable code) that are produced through a repeatable iterative delivery process in a production environment.  Cost and schedule are adhered to because there is a set schedule of releases in which the contractor must produce deployable code.
+
 The graphic below depicts a typical Agile process.  With an Agile software development process, the Product Vision feeds into the product backlog, which contains a prioritized list of user stories (technical functionality for the system).   The sprint backlog contains user stories that have been reviewed, scrubbed, and selected by the team to be worked on during a sprint.  The 1-4 week sprint cycle turns user stories into implementable and shippable code.  This code is ready for production, but is usually held or bundled into a larger software release. 
  
 !["A Diagram of the Agile Process"](../assets/images/techfar2.png "A Diagram of an Agile process, showing the steps to go from a product vision to a released product by incrementally and iteratively developing features from the 'product backlog'.")
@@ -76,101 +77,109 @@ Like most tools, Agile is not a one-size-fits-all strategy.  Digital services, e
 
 **Answer** — The principles of Agile software development are consistent with modular contracting, which is discussed in FAR Part 39, Acquisition of Information Technology.  In addition, as a general matter, an agency may pursue acquisition practices that are not expressly endorsed in the FAR, including Agile software development, as long as they are not expressly prohibited by law. 
 
-	Acquisition policies and procedures for acquiring digital services (which are Information Technology services) are addressed in FAR Part 39.  Although Part 39 does not directly speak to Agile software development practices, it endorses modular contracting principles where information technology systems are acquired in successive, interoperable increments to reduce overall risk and support rapid delivery of incremental new functionality.  See FAR 39.103.  In 2012, Office of Management and Budget’s (OMB) Office of Federal Procurement Policy and Office of E-Government and Information Technology issued Contracting Guidance to Support Modular Development to promote greater use of modular IT development and contracting.  
+Acquisition policies and procedures for acquiring digital services (which are Information Technology services) are addressed in FAR Part 39.  Although Part 39 does not directly speak to Agile software development practices, it endorses modular contracting principles where information technology systems are acquired in successive, interoperable increments to reduce overall risk and support rapid delivery of incremental new functionality.  See FAR 39.103.  In 2012, Office of Management and Budget’s (OMB) Office of Federal Procurement Policy and Office of E-Government and Information Technology issued Contracting Guidance to Support Modular Development to promote greater use of modular IT development and contracting.  
 
-The Shared Goals of Modular Contracting and Agile Software Development 
+#### Shared Goals of Modular Contracting and Agile Software Development
+1. Improvement in investment manageability and budgetary feasibility
+2. Reduction of overall risk
+3. Frequen delivery of usable capabilities that provide value to customers more rapidly
+4. Increased flexibility
+5. Creation of new opportunities for small businesses
+6. Greater visibility into contractor performance 
 
- 
-
-	A number of agencies have used (or are in the process of adopting) Agile software development methodologies to improve investment manageability and reduce the time to value.  As explained in this document, FAR authorities can be used to support IT projects that involve contractors performing in accordance with Agile principles.  In some cases, these practices will require agencies to think beyond traditional approaches to more efficient ones, but ones that still reflect a commitment to the core values of public procurement, including competition, impartiality, accountability for results, and providing the best value to the taxpayer.  Agile is not a method of procurement, but a methodology on how the contractor performs the work.  The FAR specifically encourages agencies to pursue business process innovations and makes clear that they should not be constrained by the lack of specific endorsement for a particular practice.  In particular, FAR 1.102-4(e) states that if a policy or procedure is not specifically addressed in the FAR nor prohibited by law, Executive Order or other regulation, agencies should not assume it is prohibited.   “Rather, absence of direction should be interpreted as permitting the Team to innovate and use sound business judgment that is otherwise consistent with law and within the limits of their authority.”  
+A number of agencies have used (or are in the process of adopting) Agile software development methodologies to improve investment manageability and reduce the time to value.  As explained in this document, FAR authorities can be used to support IT projects that involve contractors performing in accordance with Agile principles.  In some cases, these practices will require agencies to think beyond traditional approaches to more efficient ones, but ones that still reflect a commitment to the core values of public procurement, including competition, impartiality, accountability for results, and providing the best value to the taxpayer.  Agile is not a method of procurement, but a methodology on how the contractor performs the work.  The FAR specifically encourages agencies to pursue business process innovations and makes clear that they should not be constrained by the lack of specific endorsement for a particular practice.  In particular, FAR 1.102-4(e) states that if a policy or procedure is not specifically addressed in the FAR nor prohibited by law, Executive Order or other regulation, agencies should not assume it is prohibited. **“Rather, absence of direction should be interpreted as permitting the Team to innovate and use sound business judgment that is otherwise consistent with law and within the limits of their authority.”**
 
 
-4	Question – Because Agile software development is a new process, doesn’t it entail more risk?  
-	Answer – Even though Agile software development is a new practice to the Government, it dates back to the 1970s and has been used in private industry for many years (as well as some Government agencies) where it repeatedly demonstrated a shortened time to value, enabled better adaption to changing need, and lowered the risk of project failure.  These results make a compelling case to adopt Agile in federal IT projects and ensure acquisitions support these efforts.  Moreover, careful selection of contract type will mitigate risk as discussed in Section E.
+**Question** — Because Agile software development is a new process, doesn’t it entail more risk?  
+
+**Answer** — Even though Agile software development is a new practice to the Government, it dates back to the 1970s and has been used in private industry for many years (as well as some Government agencies) where it repeatedly demonstrated a shortened time to value, enabled better adaption to changing need, and lowered the risk of project failure.  These results make a compelling case to adopt Agile in federal IT projects and ensure acquisitions support these efforts.  Moreover, careful selection of contract type will mitigate risk as discussed in Section E.
 
 For many years, private industry has realized benefits from Agile software development,  and some Government agencies have begun to benefit from Agile for their software development contracts.  Agile software development methods promote effective risk management through continuous testing and short feedback loops to improve outcomes on a recurring basis.  Because the Agile process forces problems to be identified early, failure occurs on a small scale with time for corrective action.  This reduces the risk of the Government ending up with a product after a long design period that may not meet its needs or that contains unused features, or of an outright failure.  In addition, use of Agile software development methods will increase focus on the development of mobile solutions, which are advantageous to today’s workforce.
+
+>#### Use of Agile Processes by DOD’s Defense Health Service Systems to Improve Medical Readiness
+
+>Starting in 2012, DOD used Agile (Scrum) processes to enhance the Defense Medical Human Resources System-internet (DMHRSi).  This system helps to manage current and future medical human resources needs. DOD’s use of Agile processes resulted in:
+
+>- A reduction in the average number of days required to deliver a new software release from 419 days to 58 days (representing  ~87% improvement in time to market)
+- A massive reduction in Help Desk tickets by 87%
+- Increased customer satisfaction
+- Production of a better product
+
+>Reference:  The Link, [U.S. Army Communications-Electronics Command, Spring 2014 at 48-51](http://www.cecom.army.mil/THE-LINK/2014/spring/#50 "Link to Article about the Army's Experience"). 
  
 Multiple studies of the traditional “waterfall” process, where requirements are defined and documented in full detail before any testing or customer input is received, indicate a low rate of success and a high incidence of paying for features that are never used.   There is also a statutory mandate to use modular contracting to the maximum extent practicable for software development that is a major system.   Successful application of Agile software development, like all strategies that are newly adopted in the Government, will require training and a support structure to share best practices and lessons learned.  The TechFAR Handbook and Smarter Digital Services Playbook are just one step.  OMB, in close collaboration with the Chief Acquisition Officers Council, the Chief Information Officers Council, and the Acquisition Center of Excellence (ACE), will work with agencies to support these efforts.
+
 Acquisition personnel – and other stakeholders – should expect that Agile is a cross-functional and highly interactive process – both between agency team members and with the contractor.  Therefore, IPT members – the Program/Project Managers (P/PM), IT Specialists, the Contracting Officer and/or Contract Specialist, and the Contracting Officer’s Representative (COR) – should be collocated, either virtually or in person.    
+
 Agile requires that the IPT learns better what the end user needs through testing  and a culture that supports this approach.  Therefore, P/PMs, COs, CORs, and other stakeholders need to be aware that Agile software development will not produce the final expected result with the first iteration, but instead will provide usable, working software that can be iteratively improved;   it requires “touch and feel” and user feedback to get the technical features right and arrive at the final product.  
 
+**Question** — Generally speaking, how does privacy and disclosure apply to Agile software development? 
 
-
-
-
-
-
-5	Question – Generally speaking, how does privacy and disclosure apply to Agile software development? 
-	 Answer – Agile software development must adhere to existing privacy and disclosure statutory and regulatory requirements.  
+**Answer** — Agile software development must adhere to existing privacy and disclosure statutory and regulatory requirements.  
 
 FAR 1.602-1(b), provides that no contract shall be entered into unless the Contracting Officer ensures that all requirements of law, executive orders, regulations, and all other applicable procedures, including clearances and approvals, have been met.  A contract utilizing an Agile software development methodology is no different and must comply with the law.  Furthermore, the proper use of such methodology should not increase the risk of privacy issues.
 
 Part 24 of the FAR implements the provisions of the Privacy Act. Contractors and their employees who contract for the design, development, operation, or maintenance of a system of records on individuals, on behalf of the agency to accomplish an agency function, are subject to the civil and criminal provisions of the Privacy Act.  Pursuant to FAR 24.103(b)(1), the Contracting Officer will ensure that the contract work statement specifically identifies the system of records on individuals and the design, development, or operation work to be performed.  Procurement actions involving the design, development or operation of a system of records as defined by the Privacy Act will contain the Privacy Act Notification and a clause entitled "PRIVACY ACT," both of which are at FAR 52.224-1 and FAR 52.224-2, respectively. 
 
-Additionally, FAR 39.107 states that FAR 52.239-1, Privacy or Security Safeguards or other similar language, is to be included in all procurement actions for information technology which require security of information technology, and/or are for the design, development, or operation of a system of records using Commercial information technology services or support services.  See also Fair Information Practice Principles available at: http://www.nist.gov/nstic/NSTIC-FIPPs.pdf. 
+Additionally, FAR 39.107 states that FAR 52.239-1, Privacy or Security Safeguards or other similar language, is to be included in all procurement actions for information technology which require security of information technology, and/or are for the design, development, or operation of a system of records using Commercial information technology services or support services.  See also [Fair Information Practice Principles available at: http://www.nist.gov/nstic/NSTIC-FIPPs.pdf](http://www.nist.gov/nstic/NSTIC-FIPPs.pdf "Link to Fair Information Practice Principles"). 
 
+## Requirements Development & Acquisition Planning
 
+**Question** — FAR 15.203 requires agencies to identify requirements in their requests for proposals (RFPs).  How does this requirement fit with Agile processes, which are based on the premise that it is not realistic to expect users to know exactly what they need before they see it and rely on refinement of system requirements based on testing and customer feedback after the contract is awarded? 
 
-
-
-
-
-
-
-
-
-
-
-
-
-C.	Requirements Development & Acquisition Planning
-
-1	Question – FAR 15.203 requires agencies to identify requirements in their requests for proposals (RFPs).  How does this requirement fit with Agile processes, which are based on the premise that it is not realistic to expect users to know exactly what they need before they see it and rely on refinement of system requirements based on testing and customer feedback after the contract is awarded? 
-	Answer – Agencies using Agile software development can meet the requirements of FAR 15.203 by identifying a Product Vision and coupling it with an explanation of how the Agile process will be used to achieve the Product Vision.  Rather than providing a set of “how to specifications” (or Requirements Traceability Matrix), the Product Vision will focus on a desired outcome, similar to performance-based contracting, which has been permitted by the FAR for many years.   
+**Answer** — Agencies using Agile software development can meet the requirements of FAR 15.203 by identifying a Product Vision and coupling it with an explanation of how the Agile process will be used to achieve the Product Vision.  Rather than providing a set of “how to specifications” (or Requirements Traceability Matrix), the Product Vision will focus on a desired outcome, similar to performance-based contracting, which has been permitted by the FAR for many years.   
 
 For many years the FAR has provided for performance-based service contracts, where the Government issues a statement of objectives (SOO) defining its outcomes that allows for industry to provide innovative solutions that are measured under a quality assurance surveillance plan.  This same approach is applied to contracts using an Agile software development methodology. 	
+
 Agile software development, as with any software development, requires thorough acquisition planning, which is critical to the success of an acquisition.  Lack of proper acquisition planning and failure to follow FAR subpart 7.1, can be fatal to any procurement, but especially software development procurements.  With Agile software development, requirements and priorities are captured in a high level Product Vision, which establishes a high level definition of the scope of the project, specifies expected outcomes, and produces high level budgetary estimates.  The IPT (or cross functional team), defines the core capabilities of the project which are required to meet the mission objective and provide business value.  Requirements might be stated as a SOO as used in conjunction with performance-based contracts.  The offeror would respond to the SOO with a Performance Work Statement (PWS) which details how the SOO will be fulfilled under the contract. See Appendix C: Sample Language for Government Contracts for Agile Software Development Services. 
 
- 
+ !["A Diagram of Showing How Product Vision Is Broken Into Manageable Pieces that Deliver Incremental Value"](../assets/images/techfar4.png "A Diagram of Showing How Product Vision Is Broken Into Manageable Pieces that Deliver Incremental Value")
 
-A typical format for a Product Vision would specify:
-•	For (target customer)
-•	Who (statement of the need or opportunity)
-•	The (product name) is a (product category)
-•	That (key benefit, compelling reason to buy)
-•	Unlike (primary competitive alternative)
-•	Our product (statement of primary differentiation)
+**A typical format for a Product Vision would specify:**
 
+- For (target customer)
+- Who (statement of the need or opportunity)
+- The (product name) is a (product category)
+- That (key benefit, compelling reason to buy)
+- Unlike (primary competitive alternative)
+- Our product (statement of primary differentiation)
 
- 
+> #### Sample Product Visions
+> 
+> ** Collaboration Platform ** — For the Agency’s components that that need a collaboration platform as the primary workflow application to maintain a centralized view of all interactions and outreach to citizens engaging with the Agency through various methods.  Unlike the costly and outdated legacy systems, this new collaboration platform will replace all critical and major businesses processes with a more efficient, 21st century system at a reasonable cost. 
+> 
+> ** Electronic Benefits System ** — For benefits recipients who need an easier way to apply for and check the status of their benefits, the electronic benefits system will allow customers to easily create and submit a new benefits application, get the status of a new application, and will allow the customer to review the status of their benefits. Unlike the old paper-based system, the electronic benefits system will provide a faster processing time and will increase the transparency into the status of the benefits application, two key needs identified by user research. We expect the new system to also address several agency needs such as increasing the ability of the agency to identify fraudulent claims, and reducing the level of effort required for an agency claims specialist to process a benefits application.
+
 When issuing a solicitation,  it should explain the Agile software development process.  The Product Owner’s high-level requirements will guide the process, and the Agency Product Owner will work together with the Agile team to develop and estimate user stories and establish acceptance criteria (specifying the expected functionality for a user story).  The Agile team will work on multiple user stories within a series of sprints which, taken together, form the software release(s) within the provided sprint/release timeframes.  The solicitation should also describe the required testing of functional requirements and make it clear that testing should be integrated into each sprint cycle.  As part of the Agile process, the Government will approve the specific plans for each iteration, establish the priorities, approve plan revisions reflecting the experience from completed iterations, and approve the working software to determine whether it meets the stated requirements.    
 
- 
+> #### Solicitation Description of an Agile Process
+> 
+> “The contractor will work in a team-based Agile environment.  The Agency will create and maintain system roadmaps, project plans, and product and release backlogs that will be the basis for the contractor’s work. The Product Owner will specify high-level requirements to the Agile team. As in typical Scrum-based Agile processes, the Agency Product Owner will work together with the team to develop and estimate user stories and establish acceptance criteria. These acceptance criteria will specify expected functionality for a user story, as well as any non-functional requirements that must be met in the development of the story. The Agency Product Owner, supported by SMEs and business analysts, will determine whether or not acceptance criteria have been satisfied.”
 
+**Question** — Without having detailed system requirements documented up front, how will the Government ensure it has appropriate documentation and know whether a contractor is performing? 
 
-2	Question – Without having detailed system requirements documented up front, how will the Government ensure it has appropriate documentation and know whether a contractor is performing? 
-	Answer – Agile software development requires documentation for user stories, acceptance criteria, tasks to be completed to fulfill the “definition of done,” code quality, and standards compliance.  Because the Government is able to monitor progress, it will know whether a contractor is off track.  The Agile software development approach involves a highly disciplined process with Government representation on the team to set priorities and ensure whether working software is compliant with contract or system requirements.  Progress will be monitored by the delivery of deployable code on time. 
+**Answer** — Agile software development requires documentation for user stories, acceptance criteria, tasks to be completed to fulfill the “definition of done,” code quality, and standards compliance.  Because the Government is able to monitor progress, it will know whether a contractor is off track.  The Agile software development approach involves a highly disciplined process with Government representation on the team to set priorities and ensure whether working software is compliant with contract or system requirements.  Progress will be monitored by the delivery of deployable code on time. 
 
-Under the Agile methodology, documentation is produced through interactions between the product owner, other stakeholders and the contractor throughout the development process involving sprint cycles and releases, which supplement the high-level Product Vision and refine the requirements to reflect experience from completed iterations.   
-•	Working software is produced in short iterations (which can be as frequently as every 1-4 weeks ), which produces a segment of functionality (e.g., end user being able to schedule an appointment online).  
-•	Each iteration is small in scale (i.e., encompass a single or a few function(s) within a multistep process).  Multiple iterations form releases.  
-•	For each iteration, requirements, design, and development of software are identified through “user stories” produced by the product owner to identify and prioritize core requirements that are needed to produce a minimum viable product (MVP).  The MVP contains the just enough core functions of the system to be able to get validated learning from users about the system.  Features that may be useful, but not essential, are not considered until the MVP is delivered.  
-•	Testing of the software determines whether it meets the stated requirements.  Product backlogs are maintained to ensure that functionalities not included in early iterations that remain desirable are incorporated into future iterations.  
+Under the Agile methodology, documentation is produced through interactions between the product owner, other stakeholders and the contractor throughout the development process involving sprint cycles and releases, which supplement the high-level Product Vision and refine the requirements to reflect experience from completed iterations.
+
+- Working software is produced in short iterations (which can be as frequently as every 1-4 weeks ), which produces a segment of functionality (e.g., end user being able to schedule an appointment online).
+- Each iteration is small in scale (i.e., encompass a single or a few function(s) within a multistep process).  Multiple iterations form releases.  
+- For each iteration, requirements, design, and development of software are identified through “user stories” produced by the product owner to identify and prioritize core requirements that are needed to produce a minimum viable product (MVP).  The MVP contains the just enough core functions of the system to be able to get validated learning from users about the system.  Features that may be useful, but not essential, are not considered until the MVP is delivered.  
+- Testing of the software determines whether it meets the stated requirements.Product backlogs are maintained to ensure that functionalities not included in early iterations that remain desirable are incorporated into future iterations.
+
 In each iteration, the Product Owner may evaluate whether working software is responsive by looking at documentation from user stories, acceptance criteria, tasks to be completed to fulfill the “definition of done,” code quality, and standards compliance. The agency must generate all documentation required by law, regulation, and policy. 
 
-3	Question – FAR Subpart 7.5 states that contractors cannot perform inherently Governmental work.  Because software requirements are refined after contract award, would the use of a contractor in an Agile IT development contract be considered inherently Governmental?
-	Answer – Using the contractor to provide assistance to the Government with Agile software development is not, in itself, inherently Governmental work.  With Agile, the contractor provides suggestions for the system through a highly defined and disciplined process that is driven by user needs established and monitored by the Government. 
+**Question** — FAR Subpart 7.5 states that contractors cannot perform inherently Governmental work.  Because software requirements are refined after contract award, would the use of a contractor in an Agile IT development contract be considered inherently Governmental?
 
+**Answer** — Using the contractor to provide assistance to the Government with Agile software development is not, in itself, inherently Governmental work.  With Agile, the contractor provides suggestions for the system through a highly defined and disciplined process that is driven by user needs established and monitored by the Government. 
 
 The use of a contractor to provide assistance to the Government with software development does not fall within the boundaries of inherently Governmental work described in OFPP Policy Letter 11-01   or FAR 7.503.  Under Agile software development, the Government retains the responsibility for making decisions and managing the process; it plays a critical role in the IPT as the Product Owner by approving the specific plans for each iteration, establishing the priorities, approving the overall plan revisions reflecting the experience from completed iterations, and approving deliverables.  As part of its responsibility, the Government is involved, at a minimum, at critical decision points in each sprint cycle – at the requirements development phase and sprint cycle review, but it is preferable to have daily involvement from the Government Product Owner, and frequent involvement from end-user representatives. 
 
 Contractors are not involved in establishing the Product Vision or determining what overall contractual requirements are included in solicitations.  They do not decide what supplies or services are acquired by the Government, which is inherently Governmental per FAR 7.503(c)(12)(i).  Their focus is on helping the Government refine the software requirements (or detailed requirements) for the system through a highly defined and disciplined process that is driven by user needs established by the Government. 
 
+**Question** — Under FAR 9.504, agencies are required to avoid, neutralize or mitigate significant potential conflicts of interest.  FAR 9.505 addresses the underlying principle of preventing unfair competitive advantage for any given vendor.  By having a close relationship with the contractor on the Agile team, is the Government inviting a conflict of interest? 
 
-
-4	Question – Under FAR 9.504, agencies are required to avoid, neutralize or mitigate significant potential conflicts of interest.  FAR 9.505 addresses the underlying principle of preventing unfair competitive advantage for any given vendor.  By having a close relationship with the contractor on the Agile team, is the Government inviting a conflict of interest? 
-	Answer – The contractor's involvement on the Agile team is used only to help define software requirements in accordance with a highly defined and disciplined process that is driven by user needs established by the Government. There are certainly situations where a contractor working on one contract may create an OCI for another procurement, but the nature of the Agile methodology does not, per se, create a conflict of interest.  Whether a conflict may exist depends on the specific circumstances of the acquisition; confer with your Office of General Counsel for specific guidance.
-
+**Answer** — The contractor's involvement on the Agile team is used only to help define software requirements in accordance with a highly defined and disciplined process that is driven by user needs established by the Government. There are certainly situations where a contractor working on one contract may create an OCI for another procurement, but the nature of the Agile methodology does not, per se, create a conflict of interest.  Whether a conflict may exist depends on the specific circumstances of the acquisition; confer with your Office of General Counsel for specific guidance.
 
 As explained earlier in this document, Agile software development involves a highly defined and disciplined process.  A contractor being used in Agile software development to help refine technical requirements – a typical feature of Agile software development – would not be free to propose solutions to meet its own business interests over the Government’s interest.  The contractor’s expertise is being used only to help refine technical requirements in accordance with a highly defined and disciplined process that is driven by user needs established by the Government.  The needs are initially set forth in a Product Vision by the Government, which is supplemented through user stories and Government customer testing until an MVP is achieved.  In other words, the contractor is not involved in establishing the Product Vision that frames the procurement, determining what overall contractual requirements are included in the solicitation, or determining if work products meet the contract terms.  The Government retains the responsibility for making these decisions, including approving the specific plans and acceptance criteria for each iteration, as well as the overall plan revisions reflecting the feedback from completed iterations and priority changes. It is imperative that the Government retains this responsibility to ensure the integrity of the competitive process is upheld and is not overcome by the contractor trying to steer work to itself in the situation of a follow-on contract or a multiple award task order.
  
@@ -180,24 +189,25 @@ Additionally, FAR 9.505-3 applies in the respect that contracts for the evaluati
 
 As explained in FAR 9.505-2(a)(3), for development work, it is normal to select firms that have done the most advanced work in the field and would be expected to design and develop around their own prior knowledge.  FAR 9.505-2(b)(1) allows a contractor to supply a system if it has participated in the development and design work.  Given that the agency will be testing this software repeatedly throughout the development, it should already have the hardware on which it will be operating (or at least it will have already identified what hardware must be used).  Consequently, even if there is a subsequent need to acquire a hardware system to run the software, the development of the software should not be considered preparing or assisting in preparing a work statement for the acquisition of the hardware system.  
 
-D.	Contract  Vehicles and Use of Existing IT Contracts
+## Contract  Vehicles and Use of Existing IT Contracts
 
-1	Question – Are IDIQ contracts the only contract vehicle responsive enough to support the flexibility needed in Agile software development processes?
-	Answer – No.  Contracts utilizing an Agile software development methodology may be used with any contract type, subject to limitations permitted by the contract vehicle (e.g., FAR Part 12). 
+**Question** — Are IDIQ contracts the only contract vehicle responsive enough to support the flexibility needed in Agile software development processes?
+
+**Answer** — No.  Contracts utilizing an Agile software development methodology may be used with any contract type, subject to limitations permitted by the contract vehicle (e.g., FAR Part 12). 
 
 OMB’s 2012 Contracting Guidance to Support Modular Development states that IDIQ contracts may be especially suitable for Agile software development because they provide a high level of acquisition responsiveness, provide flexibility, and accommodate the full spectrum of the system lifecycle that provide both development and operational products and services.  However, there are other suitable arrangements.  For example, BPAs may work with Agile software development using modular contracting methods.  Additionally, stand-alone contracts or single award contracts may be used.  
 
+**Question** — To avoid duplication, are agencies limited to only using existing enterprise-wide contracts for IT?  What happens when existing contract vehicles do not provide for Agile software development services?
 
-2	Question – To avoid duplication, are agencies limited to only using existing enterprise-wide contracts for IT?  What happens when existing contract vehicles do not provide for Agile software development services?
-	Answer – COs need to make a determination whether an existing contract vehicle supports Agile software development.  If existing contract vehicles do not support Agile software development or have limitations, the CO is encouraged to use other contract vehicles.
+**Answer** — COs need to make a determination whether an existing contract vehicle supports Agile software development.  If existing contract vehicles do not support Agile software development or have limitations, the CO is encouraged to use other contract vehicles.
 
 Per FAR 8.002 and 8.004, agencies should be evaluating whether existing contract vehicles are suitable before creating new ones.  Many agencies have established enterprise-wide contracts to reduce duplicative contract actions for a wide range of IT needs.  That said, if a contract does not effectively support Agile software development (e.g., because contract holders do not have the requisite expertise with Agile software development processes, or other limitations on the contract vehicles), COs should follow agency procedures to document why the existing contract vehicle does not meet the particular requirements and why a new contract vehicle is necessary. 
 
-E.	Pricing Considerations
+## Pricing Considerations
 
-1	Question – Because Agile software development is heavily process-driven, must agencies only use fixed-price contracts to get the desired result?
-	Answer – The selection of a contract pricing structure for acquisitions using Agile software development is no different than those for any other contract.  Contracts utilizing Agile software development are not limited to fixed-price arrangements; the CO is encouraged to select the pricing structure that will result in reasonable contractor risk and provide the contractor with the greatest incentive for efficient and economical performance. 
+**Question** — Because Agile software development is heavily process-driven, must agencies only use fixed-price contracts to get the desired result?
 
+**Answer** — The selection of a contract pricing structure for acquisitions using Agile software development is no different than those for any other contract.  Contracts utilizing Agile software development are not limited to fixed-price arrangements; the CO is encouraged to select the pricing structure that will result in reasonable contractor risk and provide the contractor with the greatest incentive for efficient and economical performance. 
 
 The selection of a contract type for acquisitions using Agile software development is no different than those for any other contract.  As with all contracts, there is not a one size fits all pricing structure that fits all contracts using the Agile software development methodology.  FAR 16.103(a) states that selection of contract type requires exercise of sound judgment that will result in reasonable contractor risk and provide the contractor with the greatest incentive for efficient and economical performance. 
 
@@ -205,17 +215,28 @@ In cases where requirements are easily identifiable, fixed-price contract types 
 
 On the other hand, time-and-materials (T&M)  or Labor-Hour contract types may be suitable if circumstances do not allow the agency to define its requirements sufficiently to allow for a fixed-price type contract and uncertainties involved in contract performance do not permit costs to be estimated with sufficient accuracy to use a fixed-price arrangement. See FAR 16.6. In these cases, forcing a fixed-price arrangement could force the contractor to build in unnecessary contingencies that would result in a higher price for the Government.  It is important to take into account that contract types other than fixed-price may be delivered at a lower cost because the Government has more control over funding and development decisions.  Additionally, a T&M or Labor-Hour contract type may be beneficial if an agency is using a blended team where one vendor has no direct or exclusive control over the outcome of the products.  
 
- 
+> #### Types of Agile Software Development Successfully Acquired
+> 
+> ** Agencies have used T&M or Labor-Hour contracts for Agile software development for: **
+> 
+> - an integrated electronic benefit system
+> - a multi-faceted, complex integrated electronic medical record system
+> - a blended team where one vendor has no direct or exclusive control over the outcome of the products. 
+> 
+> ** Agencies have used Fixed Price contracts for Agile software development for: **
+> 
+> - an electronic enterprise platform to maintain a centralized view of all communications, interactions, and outreach
+> - design and deployment of an enterprise collaboration system using cloud-based applications.
 
 Per FAR 16.103(c), an agency might consider hybrid contracts that allow the agency to achieve a better match between the requirement and how the work is priced.  Work for which there is a basis for firm pricing could be awarded for a fixed-price (FP) while requirements for which there remains considerable uncertainty can be acquired on a T&M or Labor-Hour basis.  IDIQ contracts can be structured as hybrid contracts to allow the agency to choose among the various pricing structures.  Another example could be having a hybrid contract with FP for the milestone releases and Labor Hour type line items for the sustainment.    If the agency has a hybrid contract with T&M as a component, the agency is encouraged to move to fixed-price when pricing history is established and when the pace as an integrated team is set.
 
 If other than fixed-price based approaches are used, such as those in FAR 16.3 (addressing cost-reimbursement contracting) and FAR 16.6 (addressing T&M and Labor-Hour contracts), agencies ensure results by holding contractors accountable to the software sprint (iteration)/release schedule and by being involved in the Agile process.  
 
-Through highly disciplined time-boxed sprints (iterations), Agile forces agencies to manage risk by ensuring progress is continually monitored in real time, including with the direct involvement of end-users.  
-•	Requirements are defined at the beginning of each sprint (or iteration) – typically through “user stories,” or outcomes, that describe a feature or capability from the customer’s perspective.  User stories can be as simple as, “As a user, I want to schedule an appointment online.” 
-•	Some agencies use “Sprint Zero,” a preliminary sprint exclusively dedicated to preparing for the first sprint.  The goal is to create a basic framework and baseline for the project so future sprints can add incremental value in an efficient way.
-•	Testing is an integral part of each sprint – from the outset of the project and the beginning of system development. 
-•	Standard performance metrics should be used to measure cost and schedule performance and maximize contractor efficiency.
+Through highly disciplined time-boxed sprints (iterations), Agile forces agencies to manage risk by ensuring progress is continually monitored in real time, including with the direct involvement of end-users.
+- Requirements are defined at the beginning of each sprint (or iteration) – typically through “user stories,” or outcomes, that describe a feature or capability from the customer’s perspective.  User stories can be as simple as, “As a user, I want to schedule an appointment online.” 
+- Some agencies use “Sprint Zero,” a preliminary sprint exclusively dedicated to preparing for the first sprint.  The goal is to create a basic framework and baseline for the project so future sprints can add incremental value in an efficient way.
+- Testing is an integral part of each sprint – from the outset of the project and the beginning of system development. 
+- Standard performance metrics should be used to measure cost and schedule performance and maximize contractor efficiency.
 
 To ensure results, the Government must ensure that the “definition of done” is clear, comprehensive, and objective.  This definition is established post-award at the beginning of each sprint. The contractor is considered to be “done” if working software has been produced that meets a set of criteria that the Government will use to evaluate a software demonstration (e.g., packaged, documented, tested, independently verified, and releasable).  “Done” should ensure that the capacity of the application is such that all users are able to access and use it.  To be considered successful, a contractor must also meet cost and schedule goals.
 
@@ -224,59 +245,60 @@ Agile practices bring to light projects likely to fail much sooner than traditio
 In fact, the Government’s exposure to risk under other than a fixed-price (e.g., T&M, Labor-Hour) contract is arguably less than that under a fixed-price contract that follows the traditional methodology.  History shows that the likelihood of significant problems being surfaced late in a traditional project is substantial – by some accounts at least 70 percent  -- along with the likelihood that the Government will end up sharing, or paying for, the cost of the overrun because the initial specifications turn out to be faulty or otherwise inconsistent with what customers determine they ultimately need.
 
 
-2	Question – When using a FP contract, how could the line items be structured?  
-	Answer – In a FP contract, the line items may be structured by iterations (sprint cycles) with the unit of measure being the iteration.  The Government may also use optional line items to account for additional work if needed. 
+**Question** — When using a FP contract, how could the line items be structured?
+
+**Answer** — In a FP contract, the line items may be structured by iterations (sprint cycles) with the unit of measure being the iteration.  The Government may also use optional line items to account for additional work if needed. 
 
 For this sample line item, iterations are listed as “sprints,” but would be modified based on the type of Agile process being used.  These scenarios are used to illustrate examples of how a contract may be structured, not dictate how it should be structured.   
 
-Scenario 1: New Task Order or New Contract- no known quantity of velocity/capacity of iterations is available. This method works well where a known budget amount is set and the program office needs to determine how much work effort translates. 
+**Scenario 1: New Task Order or New Contract- no known quantity of velocity/capacity of iterations is available. This method works well where a known budget amount is set and the program office needs to determine how much work effort translates.**
 
-Fixed Price Contract.
+>**Fixed Price Contract.**
 
-Item No.	Supplies/Services	Quantity	Unit		Unit Price	Amount
+>**Item No.	Supplies/Services	Quantity	Unit		Unit Price	Amount**
 
-Period of Performance: Base Period [insert date of award through a set date]
+>Period of Performance: Base Period [insert date of award through a set date]
 
-0001		Baselining effort 	     100		day		$________	$________
+>0001		Baselining effort 	     100		day		$________	$________
 
-Upon completion of the 100 day timeframe, Government and contractor shall mutually agree upon the team’s capacity/velocity. Note: decision making under the contract is the purview of the Contracting Officer.  The contractor cannot make a decision about the nature of the contract requirements as that would be an inherently governmental function.  
+>Upon completion of the 100 day timeframe, Government and contractor shall mutually agree upon the team’s capacity/velocity. Note: decision making under the contract is the purview of the Contracting Officer.  The contractor cannot make a decision about the nature of the contract requirements as that would be an inherently governmental function.  
 
-Deliverables:
-● Implement proposed methodology (30 days)
-● Operate team under proposed method through several iterations (60 days)
-● Define and agree to mutually agreed sprint capacity (10 days)
+>Deliverables:
+1. Implement proposed methodology (30 days)
+2. Operate team under proposed method through several iterations (60 days)
+3. Define and agree to mutually agreed sprint capacity (10 days)
 
-0002		Sprints		     	     TBD 		sprint		$ __________	 NTE $500,000
+>0002		Sprints		     	     TBD 		sprint		$ __________	 NTE $500,000
 
-Upon completion of line item 0001 – the final quantity of Sprints will be determined based on the agreed upon capacity and compared to the available budget remaining in order to determine how many Sprints could be awarded. 
- 
-Scenario 2: Follow-on Effort or New Competition. This method works when the iteration has already been defined and agreed upon by the Government, whether this is through historical knowledge of a previous effort or through the solicitation requirements established in a competition. 
+>Upon completion of line item 0001 – the final quantity of Sprints will be determined based on the agreed upon capacity and compared to the available budget remaining in order to determine how many Sprints could be awarded. 
 
-Item No.	Supplies/Services	Quantity	Unit		Unit Price	Amount
+**Scenario 2: Follow-on Effort or New Competition. This method works when the iteration has already been defined and agreed upon by the Government, whether this is through historical knowledge of a previous effort or through the solicitation requirements established in a competition.** 
 
-Period of Performance: Base Period = 12 months
+>**Item No.	Supplies/Services	Quantity	Unit		Unit Price	Amount**
 
-0001		Sprint		 	     15		Sprint		$________	$________
+>Period of Performance: Base Period = 12 months
 
-Each Sprint needs to be defined either by the Government or by the contractor in their proposal. The goal of each Sprint deliverable is to have working code that has undergone some process of testing and quality assurance. An example of a sprint deliverable could be spelled out as follows: 
+>0001		Sprint		 	     15		Sprint		$________	$________
 
-Sprint = Includes Analysis, design, development, testing, QA, documentation, and production of releasable code in a 3-week iteration. Estimation method uses Small, Medium, and Large scale for user stories (S, M, L being defined in solution). 
+>Each Sprint needs to be defined either by the Government or by the contractor in their proposal. The goal of each Sprint deliverable is to have working code that has undergone some process of testing and quality assurance. An example of a sprint deliverable could be spelled out as follows: 
 
+>Sprint = Includes Analysis, design, development, testing, QA, documentation, and production of releasable code in a 3-week iteration. Estimation method uses Small, Medium, and Large scale for user stories (S, M, L being defined in solution). 
 
+**Question** — Do incentives under FAR Part 16 work with contracts for Agile software development? 
 
-
-3	Question – Do incentives under FAR Part 16 work with contracts for Agile software development? 
-	Answer – Yes, the Government is highly encouraged to use incentives in contracts for Agile software development, if appropriate, to motivate contractor performance. 
-
+**Answer** — Yes, the Government is highly encouraged to use incentives in contracts for Agile software development, if appropriate, to motivate contractor performance. 
 
 FAR Part 16 describes different incentives that may be used in contracts to ensure the best results.  Recently, Government agencies have had success with fixed-price incentive contracts (FAR 16.204, 16.403), fixed-price contracts with award fees (FAR 16.404), and performance incentives (FAR 16.402-2). See Appendix C: Sample Language for Government Contracts for Agile Software Development Services.
 
- 
+> #### Examples of Performance Incentives
+> 
+> - Use award term contracts where the contractor earns an extension after the Government determines that the contractor’s performance is excellent (extension conditioned upon the Government’s continuing need for the service and the availability of funds).
+> - Provide incentives for completing all (or a certain percentage of) sprint cycles with 100% client acceptance, or tie incentives to minor or major releases.  
+> - Use of Fixed-price incentive contracts (FAR 16.403) or Fixed-price contracts with award fee (FAR 16.404) may provide additional contractor incentives. With a fixed price incentive contract, capture 10% of the fixed fee in an incentive pool and distribute it when the contractor meets key milestones, pay the remaining 90% as a fixed price performance payment.  Agency and contractor agree in advance to acceptance criteria, performance requirements, and metrics.
 
+**Question** — How does the Government ensure fair and reasonable prices when acquiring a process such as Agile software development?
 
-
-4	Question – How does the Government ensure fair and reasonable prices when acquiring a process such as Agile software development?
-	Answer – The Government may determine whether prices are fair and reasonable in a contract utilizing an Agile software development methodology by requesting and evaluating pricing of the effort as a unit of measure that is equivalent to the proposed sprint/release cycle and demonstrating the correlation between the proposed technical solution in the PWS and the pricing.
+**Answer** — The Government may determine whether prices are fair and reasonable in a contract utilizing an Agile software development methodology by requesting and evaluating pricing of the effort as a unit of measure that is equivalent to the proposed sprint/release cycle and demonstrating the correlation between the proposed technical solution in the PWS and the pricing.
 
 COs must obtain the type and quantity of data necessary to establish a fair and reasonable price.  Generally speaking, competition drives reasonable prices.  The Government ensures fair and reasonable prices by looking at the prices per sprint (iteration) cycle, the team size, and if applicable, the labor category rates used to build the team – whether they are in line with other rates in this industry.  Expected “through-put” (team size, skillset, velocity ) and determination of specific services all factor into the offeror’s price for an IT contract utilizing Agile processes.  The Government can compare the proposed prices received in response to the solicitation (adequate price competition establishes a fair and reasonable price) to the historical prices paid by the Government or private sector for the same or similar Agile process, or compare proposed prices with prices obtained through market research.  See Appendix C: Sample Language for Government Contracts for Agile Software Development Services. 
 
@@ -285,20 +307,14 @@ The objective of price analysis is to ensure that the contractor’s price is fa
 The solicitation may provide the timeframe in which the Government desires the minimum viable product and should solicit the offerors’ proposed number of sprints (iterations) or releases and proposed pricing for each sprint (iteration).   It may also define how development work sizing is to be conducted based on the size of the team proposed.  Alternatively, the solicitation may fix the number of sprints and the timing for each sprint and have the offeror submit proposed pricing for each sprint.  
 
 When preparing an Independent Government Cost Estimate (IGCE), the agency should estimate the projected costs a contractor will incur in the effort, which includes direct costs (e.g., labor, supplies, equipment, transportation) and indirect costs (e.g., labor overhead, material overhead, general and administrative expenses, profit, or fee).  To determine the estimates, the agency may use market surveys to compare prices offered within the local area for similar Agile efforts, and also look at the agency’s previous buys of comparable Agile software development contracts if they exist. 
+
 When developing the IGCE, one strategy is to take the user stories at high levels (epics) and estimate the amount of effort involved in each epic on a coarse abstract scale (e.g., small, medium, large).  Then assign a dollar value range to each value on the scale, and tally up the final figures to provide an upper and lower bound for the total estimated cost.  Another strategy is for the Government to fix the sprint timeframes and dictate how many sprints it will be purchasing.  In this case, the IGCE would be the estimated cost/sprint times the number of sprints.
 
+## Use of Competition
 
+**Question** —  FAR 11.002 states that agencies should specify needs in a manner that promotes competition.  Given that requirements may not be fully defined when the agency solicits offers and that not every offeror knows how to perform Agile software development, what is the best way to ensure effective use of competition? 
 
-
-
-
-
-
-
-
-F.	Use of Competition
-1	Question – FAR 11.002 states that agencies should specify needs in a manner that promotes competition.  Given that requirements may not be fully defined when the agency solicits offers and that not every offeror knows how to perform Agile software development, what is the best way to ensure effective use of competition? 
-	Answer – The Government ensures effective competition by applying a similar process used for performance-based contracting by identifying the desired outcome rather than the details of the design for how to perform the work.  There are many vendors that are well-versed in Agile software development, and that number will likely increase as agencies become more familiar with Agile processes and gain experience. 
+**Answer** —  The Government ensures effective competition by applying a similar process used for performance-based contracting by identifying the desired outcome rather than the details of the design for how to perform the work.  There are many vendors that are well-versed in Agile software development, and that number will likely increase as agencies become more familiar with Agile processes and gain experience. 
 
 To ensure effective use of competition, the Government must identify a Product Vision with enough information to describe the scope of the project and allow offerors to make a reasoned business judgment whether they want to compete.  This is similar to the process used for performance-based contracting where the Government develops an SOO that describes the desired outcome for the effort rather than provides instructions on how the work is to be performed. 
 
@@ -306,8 +322,9 @@ As in any other acquisition, requirements development should be coupled with app
 
 Simply because every vendor may not perform Agile software development does not mean that the process should be viewed as unduly restrictive of competition.  As long as the agency’s strategy is justified, it should not be at risk of such a challenge being successful.  As explained throughout this document, there are many reasons why Agile software development is beneficial in helping to manage risk and drive results.  In addition, the number of contractors that are skilled in this methodology is likely to increase as agencies become more familiar with Agile software development processes and gain experience.   
 
-2	Question – If system requirements are refined after the contract has been awarded, how can an agency ensure work was evaluated as part of the initial competition and is not considered an out of scope modification in violation of FAR 6.001(c)?
-	Answer – To ensure that all work is within the scope of the contract, as requirements are refined, the software releases (including the end product) must fall within the scope of the Product Vision described in the statement of work, and the agency must give offerors reasonable notice that the scope of the project includes using Agile techniques.  
+**Question** — If system requirements are refined after the contract has been awarded, how can an agency ensure work was evaluated as part of the initial competition and is not considered an out of scope modification in violation of FAR 6.001(c)?
+
+**Answer** —  To ensure that all work is within the scope of the contract, as requirements are refined, the software releases (including the end product) must fall within the scope of the Product Vision described in the statement of work, and the agency must give offerors reasonable notice that the scope of the project includes using Agile techniques.  
 
 FAR generally requires competing the work that is called for after contract award if the work is not within the scope of the contract.  Under long-standing case law, a modification falls within the scope of the original procurement if potential offerors would have reasonably anticipated such a change prior to initial award.  In the context of Agile software development, this ultimately means that the MVP, which emerges out of user testing, must fall within the scope of the Product Vision described in the statement of work or statement of objectives.  As explained above in Section C, to give offerors reasonable notice, the agency should describe the requirements sufficiently so potential offerors can understand the scope of the project (which should be enough to produce a high level budgetary estimate) and make clear that Agile techniques will be used.  This will alert offerors that refinement of technical requirements will occur post-award using a highly-disciplined process of testing and customer feedback.  Furthermore, the Government should alert offerors to technical constraints (e.g., platforms) that may be applicable to the effort. 
 
@@ -319,138 +336,121 @@ FAR requires that the Government must describe the general scope, nature, comple
 
 The scope should state broad goals and also include functional areas.  The Government should fix the schedule/timeframe in which the work is to be completed, so the contractor can propose the number of sprints and the work required in the sprints.  If a baseline is available from prior similar work, the Government may be able to propose the set number of sprints to be completed in the schedule/timeframe.  To ensure that the prospective offerors understand the environment in which they may be working, the SOO should contain all applicable IT and environmental constraints, including legacy software, privacy, and security requirements or policies that may impact the development of the software.  See Appendix C: Sample Language for Government Contracts for Agile Software Development Services.  
 
- 
-3	Question – Doesn’t the fact that technical requirements are not defined substantially increase the risk of a protest?
-	Answer – The fact that technical requirements are developed through an Agile process should not increase the risk of a protest. 
+**Question** —  Doesn’t the fact that technical requirements are not defined substantially increase the risk of a protest?
+**Answer** —  The fact that technical requirements are developed through an Agile process should not increase the risk of a protest.
+
+> #### Tips for Successful Solicitation and Evaluation 
+> 
+> - **Use Presentations as Part of the Technical Evaluation.**  Consider including language in the solicitation that the Government intends to require oral presentations as part of the offeror’s technical portion of its quote or proposal. This will enable the Government to determine whether an offeror truly knows Agile software development. This is not mandatory, but has proven to be effective for some agencies.  Of note, oral presentations need to be tightly controlled and recorded to ensure that all offerors are treated equally, that the Government does not inadvertently open discussions, and to create a defendable record of the agency’s actions.  If using oral presentations, consider using them after the competitive range is established. The Government should clearly spell out the intended use of oral presentations in the Evaluation Criteria if it chooses to use them.
+> - **Integrate Agile into the Technical Factors in the RFQ:** For example, Factor 1 – Performance Work Statement (“Offerors shall provide a Performance Work Statement (PWS) in response to the Statement of Objectives and this RFQ. The proposed solution shall include an **explanation of how project and contract management, communication/collaboration with the Government, security and privacy requirements, documentation, and reporting will function in conjunction with the proposed Agile methodology.**”); Factor 2 – Product Development Roadmap (“Offerors shall **propose an Agile product development roadmap which correlates how the stated objective aligns with the timeframe for implementation and the offeror’s proposed Agile methodology.** The product development roadmap shall demonstrate where testing, training, security, privacy, and cut over planning, will be included.”); Factor 3 – Notional Quality Control Plan (“Offerors shall describe the QC and Performance Measurement approach, including **how proposed performance standards will be monitored, evaluated, and reported.** The purpose of the notional QCP is to provide evaluators with an understanding of how measures and metrics will be applied based on the proposed technical solution.”) 
+> - **Request Agile software development-Specific Information from Offerors.**  As part of the technical evaluation, request information from the offerors addressing how they manage Agile implementation, techniques for release planning, plans for engaging end users, methods for capturing and applying lessons learned, testing processes, reasons behind the composition of their Agile teams and the rationale behind the proposed development talent and project oversight (tied to Product Vision), how they will make resources available within schedule and budget constraints, and their approach to configuration management.
+> - **Evaluate Demonstrated Experience with Agile.**  As part of the past experience evaluation criterion, include demonstrated experience with successfully developing software using an Agile approach. 
+
 
 The contract requirements description for Agile software development contracts and the fact that technical requirements are developed through the Agile process should not increases the risk of protest.  Requirements must be defined to the SOO level to allow for vendors to know if they want to compete, and the Government must evaluate based on stated evaluation factors and apply the evaluation criteria consistently among offerors.  This is really no different than long-standing requirements applicable to all competitively awarded contracts.  Of course, a good debriefing may also help to ward off protests by helping an unsuccessful offeror to understand its weaknesses and how it can be more competitive in future competitions.  
 
-4	Question – Will small businesses be disadvantaged because they will not know Agile software development and will not be able to submit a proposal for Agile software development contracts?
-	Answer – The opportunity to award to small businesses exists and many small businesses have the expertise and capacity to perform Agile software development.
+**Question** — Will small businesses be disadvantaged because they will not know Agile software development and will not be able to submit a proposal for Agile software development contracts?
 
+**Answer** — The opportunity to award to small businesses exists and many small businesses have the expertise and capacity to perform Agile software development.
 
 FAR generally requires agencies to provide maximum practicable opportunities in its acquisitions to small businesses.  Agencies have small business goals and they should give strong consideration to those goals when determining acquisition strategy.  Agile software development is consistent with this long-standing policy.  Many small businesses in this field have the expertise and capacity to perform Agile software development services, and they are as capable as large businesses to perform this type of work.  Methods of increasing small business utilization are encouraged, such as mentor-protégé relationships or having subcontracting arrangements to be required and submitted with the respective proposals.
 
+## Contract Administration
 
+**Question** — FAR 42.302 lists the contract administration functions to be performed by the Government.  When performing contract administration, agencies have noted challenges in committing staff to support Agile software development.  Is Agile software development feasible given agencies’ limited resources? 
 
-
-
-
-
-
-
-
-G.	Contract Administration
-
-1	Question – FAR 42.302 lists the contract administration functions to be performed by the Government.  When performing contract administration, agencies have noted challenges in committing staff to support Agile software development.  Is Agile software development feasible given agencies’ limited resources? 
-	Answer – Agencies need to ensure adequate resources are applied to manage their contracts irrespective of the strategy used; Agile software development is no exception.  While the process is highly interactive, the overall amount of work is not greater - just applied differently - to produce quicker results.  
-
+**Answer** — Agencies need to ensure adequate resources are applied to manage their contracts irrespective of the strategy used; Agile software development is no exception.  While the process is highly interactive, the overall amount of work is not greater - just applied differently - to produce quicker results.  
 In its July 2012 report, Effective Practices and Federal Challenges in Applying Agile Methods,  GAO noted agencies’ challenges in committing staff.  The Agile process works only if there are appropriate dedicated resources, as the process can be labor intensive.  Agencies need to ensure adequate resources are applied to manage their contracts irrespective of the strategy used.  Strong contract management ensures projects stay on course and helps prevent the agency from becoming overly reliant on contractors.
 
 IT acquisitions involving Agile software development are no exception.  Adequate resources are critical to the highly interactive and disciplined process associated with Agile.  This includes a full time Product Owner, certified as a P/PM, and preferably one that can take on the role for the life of the project and a dedicated IPT (or cross-functional team).  While the process is highly interactive, the overall amount of work is not greater – just applied differently – to produce quicker results.  As the Agile process matures, the amount of administration work should be less, especially for the acquisition workforce.  To ensure agencies have the necessary resources, the following tips help agencies identify the right people and have the necessary arrangements and agreements in advance to ensure success. 
 
+> #### Ensuring Sufficient Resources
+> - At the outset, instead of focusing on developing detailed requirements and documentation prior to awarding a contract, **focus resources on building a cross-functional team**, developing norms of team behavior to identify customer priorities aligned with **what can be accomplished in time-boxed sprint cycles**.  This process allows the Government to produce faster results with greater success.
+> - Identify **high-performing individuals with business expertise** to fill the **roles of Product Owners at the earliest possible time** and document in the product charter.  These roles should be built into the career growth of top performing individuals.  The CIO, program leadership, and product owners should establish a **memorandum of understanding** during the acquisition strategy to memorialize common agreement for the time commitment and responsibilities of the product owner. 
+> - Utilize **Agile coaches** to look programmatically and systematically at how to increase business value and bring better businesses practices into the team.  Agile coaches are experts in Agile processes; their main responsibility is facilitation.  
 
 When agencies have limited resources, they may have the COR and the Product Owner be filled by the same person.  However, all Agile teams do not need to follow this arrangement.  Other agencies have had success with having the Product Owner separate from the COR.  This allows the technical expertise of the Product Owner to focus on setting priorities, testing, and collaborating on a daily basis with the team, while the COR takes on the higher level overview of the success of the awarded contract. See Appendix B: Examples of Team Members (IPT) Needed to Support Agile Software Development. 
 
 The emphasis on working software over documentation should decrease or eliminate the need for extensive document reviews of detailed requirements, often times for functionalities that are never used.  According to The CHAOS Manifesto 2013, only 20% of features are used often; 50% of features are hardly ever or never used, while 30% get used sometimes or infrequently.   The use of structured sprints with user cases, testing, and regular prioritization of product backlog helps to avoid the administrative burden of modifications and scope creep. 
 
+**Question** — Because Agile software development is a fluid process with technical requirements that are refined as part of the process, how can the Government hold contractors accountable in an Agile environment? 
 
-
-
-
-
-2	Question – Because Agile software development is a fluid process with technical requirements that are refined as part of the process, how can the Government hold contractors accountable in an Agile environment? 
-	Answer – Even though a key principle of Agile software development is that working software is the primary measure of progress, contractors are still responsible for meeting cost and schedule goals.  The Government holds the contractors accountable for producing working software consistent with the set sprint/release schedule and within budget.  
-
+**Answer** — Even though a key principle of Agile software development is that working software is the primary measure of progress, contractors are still responsible for meeting cost and schedule goals.  The Government holds the contractors accountable for producing working software consistent with the set sprint/release schedule and within budget.  
 
 The Government holds the contractors accountable for producing the working software consistent with the set sprint/release schedule.  The iterations are guided by the Product Vision, which establishes a high level definition of the scope and specifies expected outcomes for each sprint.  The Government also holds the contractor accountable by being involved in and managing the Agile process.  With Agile software development, the contractor determines the development processes within each cycle and proposes the way the cycle is to be run within the parameters set by the Government.  The Government approves the specific plans for each iteration (developed during one sprint), as well as the overall plan revisions reflecting the experience from completed iterations.  The Government holds the contractor accountable for each iteration and provides input on the “definition of done.” 
 
-The contractor is bound to produce software releases (containing set features) at set increments.  Agile promotes a focus on tangible outcomes, as opposed to progress against a plan.  Agile methods emphasize the delivery of value frequently.  The technical solution and quality assurance plan bind the contractor.  If the contractor is not providing implementable “Code” or “Features” to the applications, the contractor is not delivering on its process.  The goal is to have releasable and usable features.  The contractor should be responsible for delivering automated tests, as well as functional code. The Government’s exposure to failure is lessened because the Agile process forces problems to be identified early, so that failure occurs on a small scale with time for corrective action.  As a result, although a contractor will only be held to best efforts if a cost-based contract type is used, the Government’s exposure to major cost overruns will still be limited.  While Fixed-price contracts will avoid overruns, flexibility to support additional sprints or functionality may be limited.  
+The contractor is bound to produce software releases (containing set features) at set increments.  Agile promotes a focus on tangible outcomes, as opposed to progress against a plan.  Agile methods emphasize the delivery of value frequently.  The technical solution and quality assurance plan bind the contractor.  If the contractor is not providing implementable “Code” or “Features” to the applications, the contractor is not delivering on its process. The goal is to have releasable and usable features.  The contractor should be responsible for delivering automated tests, as well as functional code. The Government’s exposure to failure is lessened because the Agile process forces problems to be identified early, so that failure occurs on a small scale with time for corrective action.  As a result, although a contractor will only be held to best efforts if a cost-based contract type is used, the Government’s exposure to major cost overruns will still be limited.  While Fixed-price contracts will avoid overruns, flexibility to support additional sprints or functionality may be limited.  
 
+**Question** —Because Agile software development is a fluid process with technical requirements that are refined as part of the process, how can the Government track contractor progress?  Are there consequences for situations in which contractors fall behind?
 
-
-
-
-3	Question – Because Agile software development is a fluid process with technical requirements that are refined as part of the process, how can the Government track contractor progress?  Are there consequences for situations in which contractors fall behind?
-	Answer – The Government tracks progress by tracking completed work; in Agile, project status is evaluated based on software demonstrations, and if the contractor is not producing the releases with the required features, the CO should use discrepancy reports or other measures to put the contractor on notice and enforce consequences for poor performance.  As stated in FAR 34.2, when an Earned Value Management System is required, the EVMS data also should be used to track progress.  
+**Answer** — The Government tracks progress by tracking completed work; in Agile, project status is evaluated based on software demonstrations, and if the contractor is not producing the releases with the required features, the CO should use discrepancy reports or other measures to put the contractor on notice and enforce consequences for poor performance.  As stated in FAR 34.2, when an Earned Value Management System is required, the EVMS data also should be used to track progress.  
 
 The agency tracks progress by tracking completed work.  Velocity is also useful for predicting future software deliveries.   With Agile software development, project status is evaluated based on software demonstrations.  If new system requirements are discovered, they are queued for possible inclusion in later iterations.  The CO is encouraged to use Service Level Agreements and quality assurance plans. 
- 
 
+> #### Ensuring Success
+> 
+> - **Use of Performance Metrics.** Performance metrics are a very large component of a successful Agile software development implementation. Metrics can assist in tracking the deliverables of the proposed process by having data collected to track elements of the Agile process, such as cost variance, schedule variance, the throughput and capacity of the team(s), the number of features completed, bug defects and resolution times, and stability of deployed features over time.
+> - **Security.**  Make security a priority early in the process.  Do not have a “security sprint,” but instead start with a hardened system and regression test every day.  Implement continuous monitoring in production and ongoing authorization.  Use code scanning tools and processes to allow for ongoing evaluation of security posture.  Build any new controls during the regular sprints, test frequently, and be ready to deploy.  The system should always be in a deployable state.
+> - **Quality Assurance.**  Change the focus from document compliance to process quality evaluation.  Automated test software can pick up defects so vulnerabilities are patched in development.   
+> - **Service Level Agreements.**  Service Level Agreements may be used for a variety of purposes such as the conduct of release planning activities and the creation and closure of user stories through completed sprints. 
+> - **Section 508 Compliance.**  Accessibility should be addressed from the start as each deployable increment will have to be Section 508 compliant.  This should be done through continuous monitoring in production and ongoing authorization. 
 
 It is recommended that a notional quality control plan be submitted with the offerors’ proposals.  This plan should be evaluated to determine the rationale for the contractor’s proposed performance standards and performance measurement methodology and assessed as to whether the total solution will ensure that the performance standards are met.  These metrics should cover planning, inspecting, and understanding progress under time, and should correspond with the “definition of done” as proposed in the solicitation. These may include such measures as sprint/release success rates, defect resolutions, time to market, and end user satisfaction. 
 
-
-
+> #### Tracking Progress
+> 
+> - Adhere to Federal Regulations and Guidance.  When an EVMS is required (FAR 34.2), the EVMS data will be used to track progress.
+> - Test at every sprint cycle. Testing during software code delivery, instead of after delivery, reduces risk and remediation costs. 
+> - Ensure that the definition of how a story will be determined to be done is comprehensive and objective.  Comprehensiveness includes defining what constitutes a finished product (i.e., packaged, documented, tested, and independently verified). Objective means that it is measurable or verifiable.
+> - Establish and Prioritize Features. In each iteration, features and the prioritization of the features should be established so work can be easily tracked. 
+> - Utilize burn-up and burn-down charts. Burn-up charts show the progress in completing requirements and any changes to the total number of requirements.  They show progress towards release completion and projection of the remaining features that will be completed within a given release.  Burn-down charts show the progress of the iteration by displaying the length of the iteration compared to the requirements to be completed.
 
 Regardless of the contract type, the contractor is still responsible for issuing software releases that meet the Government’s requirements that were determined at the beginning of the iteration.  If features aren’t included in a release, then those features are reprioritized and added to future releases or disregarded if not needed.  The contractor is still required to produce working software at the release dates and adhere to the sprint/release cycle schedule; the actual release’s features may differ based on what realistically can be accomplished in the sprint and the Government’s priorities.      
+
 If the contractor is unable to delivery working software within budget and on schedule, the CO is encouraged to use discrepancy reports and meet  with the contractor to determine steps needed to get back on track.  This reinforces the need for continual Government involvement on the Agile team to help identify where the issue is –the Government and/or the contractor.    
+
 As discussed in Section E: Pricing considerations, incentives may be used as leverage.  Incentives should drive the contractor to high performance.  If there are incentives in the contract, the contractor will not get the incentive if the work is not produced.  
 
-Appendix A: Comparison of Traditional to Agile Thinking on Software Development
+#### Appendix A
+## Comparison of Traditional to Agile Thinking on Software Development
 
+!["Comparison of Agile to Waterfall"](../assets/images/techfar5.png "Comparison of Traditional Software Development with Agile Software Development")
 
-Topic	Traditional Thinking	Agile Thinking
-Requirements	Known requirements negotiated up front; preplan tasks to end of period.  Government usually applies the “kitchen sink” philosophy by including everything it can think of in the requirements list because a working product won’t be available for a year or longer. 
-	Broad goal (“what” and “why”) known (just not know “how” up front).  Government states in the solicitation that Agile processes will be used.  Contract requirements are defined pre-award; technical or system requirements are refined post-award at the beginning of each sprint, but still in line with the broad goal articulated in the pre-award Product Vision.  Rely on frequent inspection and adaptation.  Government ends up with more accurate system requirements because they are developed through the Agile process after using and providing feedback on working software.  
+#### Appendix B
+## Examples of Team Members (IPT) Needed to Support Agile Software Development 
 
-Methods	Conventional method goes through the following phases in a linear fashion: program design; document the design; create a second version of critical design/operations; plan, control, monitor, testing; and involve the customer.   	The key in Agile is compressing the five sequences of the conventional software development method into shorter cycles (e.g., 1-4 week cycles).  It does this by developing a system through repeated cycles and smaller portions and allows the developers to test and review during development. The Agile process creates a repeatable model so product is pushed into production relatively quickly.
-Task Identification	All tasks approved at beginning by customer.	Team identifies or uncovers work as they go – from sprint to sprint; Government sets priorities, approves work at beginning of each sprint, and accepts work at the end of each sprint.
-Software Delivery	Software is delivered at the end of a long, linear development phase. 	Agile delivers software quickly and frequently with the features that allow it to be deployed.  This minimum viable product produces the most amount of validated learning with the least amount of effort.  The result is faster products, less cost, and flexible processes.  
-Changes to Technical/System Requirements	Significant changes in requirements impact the cost baseline, which results in contract negotiation; J&As  or mods are needed for any variation in plan; slows process.	Requirements are refined (there may be a tradeoff, which forces prioritization by the Government). Agile offers improved quality, more opportunities for mid-course corrections, improved customer satisfaction, better alignment between business and IT, and improved time to market.  
+####Government
+- **Tester**: Government user to test features and functionality of the system
+- **Contracting Officer (CO):** Authorized to bind the Government contractually and direct contractor action
+- **Contracting Officer’s Representative (COR):**	Performs functions specifically delegated to them by the CO in writing for the particular contract/order.  This individual may also serve as the Product Owner. 
+- **Project Manager:** Government manager of the Agile process.  Also sometimes called Product Owner.  
+- **Legal:** Provides legal review of all documents and actions
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-Appendix B: Examples of Team Members (IPT) Needed to Support Agile Software Development 
-Government
-Title	Role
-Tester	Government user to test features and functionality of the system
-Contracting Officer (CO)	Authorized to bind the Government contractually and direct contractor action
-Contracting Officer’s Representative (COR)	Performs functions specifically delegated to them by the CO in writing for the particular contract/order.  This individual may also serve as the Product Owner. 
-Project Manager	Government manager of the Agile process.  Also sometimes called Product Owner.  
-Legal	Provides legal review of all documents and actions
-
-Contractor
-Title	Role
-Developers*	Software architects who design the system and write code
-Project Manager	Manages the team’s execution of the project
-Tester*	Tests features and functionality of system to uncover software bugs in functional and non-functional areas of the system; ensures system  functionality
-Interface	Ensures system can communicate with other systems or people as needed.  This is not a required team member; membership depends on project needs.
-
+#### Contractor
+- **Developers*:** Software architects who design the system and write code
+- **Project Manager:** Manages the team’s execution of the project
+- **Tester**: Tests features and functionality of system to uncover software bugs in functional and non-functional areas of the system; ensures system  functionality
+- **Interface:** Ensures system can communicate with other systems or people as needed.  This is not a required team member; membership depends on project needs.
 
 *Cross functional individuals should occupy these roles (developers and testers are both able to work each position).  Automated testing is encouraged where the tester can write and run automated tests that are supplemented with exploratory testing. 
     
- 
-
- 
-Apendix C: Sample Language for Government Contracts for Agile Software Development Services 
+#### Appendix C
+## Sample Language for Government Contracts for Agile Software Development Services 
 
 This text is to help illustrate how the Agile principles in this handbook may be applied.  It is not intended to set new policy or serve as default contract language.  
 
-Scope, Technical Evaluation Factors, and Functional Area for Statement of Objective
+#### Scope, Technical Evaluation Factors, and Functional Area for Statement of Objective
 
-Scope Language for BPA: “The goal is to implement cloud-based applications utilizing Agile processes that achieve results through continuous capability enhancements, minimal downtime, prompt response to emerging needs, demonstrated reliability, and optimized performance with resource utilization minimized. The scope of the BPA encompasses requirements for [insert certification standard] expert companies to provide the business analysis, development, implementation, enhancements, and maintenance services required to successfully implement the applications within a cloud-hosted environment.  The platform will allow the user to provide an environment to build business applications.  The Government wants to provide the option of a shared, enterprise service of hosting and platform support to drive down costs, realize efficiencies and allow Agency components to focus on the application rather than hosting.  The task orders can be placed under one or all of the Functional Areas: (1) Business Analysis, Development Integration: creation of a technical architecture to establish business application, including development, integration with Agency’s existing systems; (2) Data Management and Securitization: data management may include data migration efforts, securitization with a Government provided third party Encryption tool, and creation of policy surrounding data implementation; (3) Program Management Support: additional support to assist in overall process; (4) Post-Implementation Maintenance Support: for production applications on the collaboration platform; (5) Post-Implementation Development: expansion or updates of production applications to meet ongoing unique objectives and requirements of specific Agency components; (6) Support: ongoing issue tracking and support desk functions for software development; and (7) Training: end use, administrator, knowledge management support for application.”
-Technical Factors for BPA:  Technical submission should include the following: Factor 1 – Technical Approach to Agile methodology (overview of performance-based solution and quality control and performance measurement approach); Factor 2 – Method for planning and sizing of work to be performed; Factor 3 – Past Performance Information; Factor 4 – Real Technical Factors (unit testing, pair programming, test driven development, approach to refactoring, and design philosophy). 
-Functional Area for Statement of Objective: Functional Area 1:  Business Analysis, Development, Integration - Creation of a technical architecture to establish business applications, including development, and integration with Agency’s existing systems.
--	The contractor shall work with Agency stakeholders and technology professionals to properly understand business requirements and develop an industry best practice approach to technology solutions.
--	The contractor shall provide subject matter expertise for the [insert title] product suite including [insert applicable] coding languages.
--	The contractor shall develop or configure, test, stage, and release business applications by applying iterative processes utilizing the proposed Agile methodology and a frequent release cycle.
--	The contractor shall provide customer-friendly open source solutions that provide ease of use for non-technical Government users.
+**Scope Language for BPA: “The goal is to implement cloud-based applications utilizing Agile processes that achieve results through continuous capability enhancements, minimal downtime, prompt response to emerging needs, demonstrated reliability, and optimized performance with resource utilization minimized.** The scope of the BPA **encompasses requirements** for [insert certification standard] expert companies to provide the business analysis, development, implementation, enhancements, and maintenance services required to successfully implement the applications within a cloud-hosted environment.  The platform will allow the user to provide an environment to build business applications.  The Government wants to provide the option of a shared, enterprise service of hosting and platform support to drive down costs, realize efficiencies and allow Agency components to focus on the application rather than hosting.  The task orders can be placed under one or all of the Functional Areas: (1) Business Analysis, Development Integration: creation of a technical architecture to establish business application, including development, integration with Agency’s existing systems; (2) Data Management and Securitization: data management may include data migration efforts, securitization with a Government provided third party Encryption tool, and creation of policy surrounding data implementation; (3) Program Management Support: additional support to assist in overall process; (4) Post-Implementation Maintenance Support: for production applications on the collaboration platform; (5) Post-Implementation Development: expansion or updates of production applications to meet ongoing unique objectives and requirements of specific Agency components; (6) Support: ongoing issue tracking and support desk functions for software development; and (7) Training: end use, administrator, knowledge management support for application.”
+
+**Technical Factors for BPA:**  Technical submission should include the following: Factor 1 – Technical Approach to Agile methodology (overview of performance-based solution and quality control and performance measurement approach); Factor 2 – Method for planning and sizing of work to be performed; Factor 3 – Past Performance Information; Factor 4 – Real Technical Factors (unit testing, pair programming, test driven development, approach to refactoring, and design philosophy). 
+
+**Functional Area for Statement of Objective:** Functional Area 1:  Business Analysis, Development, Integration - Creation of a technical architecture to establish business applications, including development, and integration with Agency’s existing systems.
+
+- The contractor shall work with Agency stakeholders and technology professionals to properly understand business requirements and develop an industry best practice approach to technology solutions.
+- The contractor shall provide subject matter expertise for the [insert title] product suite including [insert applicable] coding languages.
+- **The contractor shall develop or configure, test, stage, and release business applications by applying iterative processes utilizing the proposed Agile methodology and a frequent release cycle.**
+- The contractor shall provide customer-friendly open source solutions that provide ease of use for non-technical Government users.
 -	The contractor shall ensure commercial best practices workflows shall come bundled with the solutions.
 -	The contractor shall design solutions that offer role or attribute based identity management, authorization, and authentication across all business applications. 
 -	The contractor shall ensure all content is preserved according to federal record retention requirements and applications shall have the ability to protect personally identifiable information (PII).
@@ -462,17 +462,19 @@ Functional Area for Statement of Objective: Functional Area 1:  Business Analysi
 -	The contractor shall develop system configuration in such a manner as to leverage maximum re-use and sharing across the platform by other federal agencies.
 -	The contractor shall provide incremental documentation through sprint cycles that results in full technical and end-user documentation or configuration for all software development efforts and product releases with all information necessary to document processes, procedures, code artifacts, and/or policies that were implemented in the creation of the development work.
 
-Key Personnel: The contractor shall identify key personnel and provide statements of qualifications for these individuals. Key personnel shall be current full time employees, contingent hires will not be accepted as key personnel submissions. The contractor shall identify key personnel who shall be the management lead and the technical lead for the task order as a whole. These individuals must have expertise in the Agile development methodology and experience using many of the tools included in the Development/Test Tool Suite identified previously.  The management lead shall ensure that all work on this contract complies with contract terms and conditions and shall have access to contractor corporate senior leadership when necessary. The contractor’s management lead shall be the primary interface with the Contracting Officer’s Representative (COR) and Contracting Officer (CO) and shall attend status meetings and ad hoc meetings with stakeholders as required, accompanied by the technical lead when necessary.
+**Key Personnel:** The contractor shall identify key personnel and provide statements of qualifications for these individuals. Key personnel shall be current full time employees, contingent hires will not be accepted as key personnel submissions. The contractor shall identify key personnel who shall be the management lead and the technical lead for the task order as a whole. These individuals must have expertise in the Agile development methodology and experience using many of the tools included in the Development/Test Tool Suite identified previously.  The management lead shall ensure that all work on this contract complies with contract terms and conditions and shall have access to contractor corporate senior leadership when necessary. The contractor’s management lead shall be the primary interface with the Contracting Officer’s Representative (COR) and Contracting Officer (CO) and shall attend status meetings and ad hoc meetings with stakeholders as required, accompanied by the technical lead when necessary.
 
-Pricing and Incentives
-Agile Language in Award Term Option Solicitation:  “For this task order the Government will offer Award Term Options which may encompass future enhancements, releases, development efforts, or operations & maintenance related to the establishment of the platform or the application. Award Terms may only be awarded for an overall “Excellent” performance rating based on mutually accepted metrics.  The Government will appoint an Award Term Determining Official (AFDO) who will provide the official performance review and approval for an Award Term Option to be exercised.  The AFDO, in conjunction with the CO, will make a unilateral decision as to the exclusion of any portion of the performance period from the evaluation of ratings and calculation of the award term.  Award Term Options are not required to be consecutive with the previous period of performance of the base period or additional options.  They are contingent on continued Government requirements and funding availability for the platform or application.  Award Term Options must adhere to the proposed Agile methodology and processes as awarded at the BPA level unless an exception is provided by the CO prior to award.”
-Performance Metrics
+#### Pricing and Incentives
+
+**Agile Language in Award Term Option Solicitation:** “For this task order the Government will offer Award Term Options which may encompass future enhancements, releases, development efforts, or operations & maintenance related to the establishment of the platform or the application. Award Terms may only be awarded for an overall “Excellent” performance rating based on mutually accepted metrics.  The Government will appoint an Award Term Determining Official (AFDO) who will provide the official performance review and approval for an Award Term Option to be exercised.  The AFDO, in conjunction with the CO, will make a unilateral decision as to the exclusion of any portion of the performance period from the evaluation of ratings and calculation of the award term.  Award Term Options are not required to be consecutive with the previous period of performance of the base period or additional options.  They are contingent on continued Government requirements and funding availability for the platform or application.  Award Term Options must adhere to the proposed Agile methodology and processes as awarded at the BPA level unless an exception is provided by the CO prior to award.”
+
+#### Performance Metrics
 
 Contract performance metrics should be relevant to the proposed methodology and should be tailored to the Agile process.  “Offerors shall describe the Quality Control and Performance Measurement approach, including how proposed performance standards will be monitored, evaluated, and reported. The purpose of the notional Quality Control Plan is to provide evaluators with an understanding of how measures and metrics will be applied based on the proposed technical solution. These metrics shall cover planning, inspecting, and understanding progress under time. The metrics shall correspond with the “definition of done” as proposed in the PWS. These may include such measures as sprint/release success rates, defect resolutions, time to market, end user satisfaction, etc.”
 
-Other 
+#### Other 
 
-Language for Enterprise Engineering Support:  “The contractor shall provide capabilities engineering design to improve data interoperability, integrity, and quality for new systems and initiatives.  The scope of this contract focuses more on integrating new systems and initiatives into the enterprise.  The contractor shall evaluate commercial and Government software, freeware, shareware, tools, techniques, processes and standards.  The contractor shall deliver design specifications, technical papers, reports, analyses, recommendations, and Service Level Agreements.  The work effort will be performed using the Agile method, with work planned in sprints, periodic sprint reviews and planning meetings and product deliverables planned as releases.”   
+**Language for Enterprise Engineering Support:**  “The contractor shall provide capabilities engineering design to improve data interoperability, integrity, and quality for new systems and initiatives.  The scope of this contract focuses more on integrating new systems and initiatives into the enterprise.  The contractor shall evaluate commercial and Government software, freeware, shareware, tools, techniques, processes and standards.  The contractor shall deliver design specifications, technical papers, reports, analyses, recommendations, and Service Level Agreements. **The work effort will be performed using the Agile method, with work planned in sprints, periodic sprint reviews and planning meetings and product deliverables planned as releases.”**
 
-Language for Maintenance of Software: “The contractor shall maintain the software to include fixing defects, application software, tools, capabilities, and databases for the software applications, and related functionality in support of the user community and the Program Management Office.  The contractor shall apply Agile and iterative development methodologies in order to provide timely capabilities to the user community.  The maintenance tasks also include maintaining system/software engineering, integration activities, system security, program lifecycle documentation, application documentation, and database documentation required for continued software support and requirements management. Target release timeframes will be conducted in 2-week iterations with releases to production at least once every two months.” 
+**Language for Maintenance of Software:** “The contractor shall maintain the software to include fixing defects, application software, tools, capabilities, and databases for the software applications, and related functionality in support of the user community and the Program Management Office. **The contractor shall apply Agile and iterative development methodologies in order to provide timely capabilities to the user community.** The maintenance tasks also include maintaining system/software engineering, integration activities, system security, program lifecycle documentation, application documentation, and database documentation required for continued software support and requirements management. Target release timeframes will be conducted in 2-week iterations with releases to production at least once every two months.” 
 

@@ -322,6 +322,24 @@ p {
   width: 74.41059%; }
   #plays p:last-child, #techfar p:last-child {
     margin-right: 0; }
+#plays ol, #plays ul, #techfar ol, #techfar ul {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  list-style-position: outside;
+  padding-left: 25px; }
+  #plays ol:last-child, #plays ul:last-child, #techfar ol:last-child, #techfar ul:last-child {
+    margin-right: 0; }
+#plays ol, #techfar ol {
+  list-style-image: url("../images/bullet-sq.svg");
+  margin-top: 0px; }
+#plays li, #techfar li {
+  font-size: 15px;
+  line-height: 25px;
+  padding-left: 5px; }
+#plays ul, #techfar ul {
+  list-style-image: url("../images/bullet-circle.svg"); }
 @media screen and (min-width: 0px) and (max-width: 640px) {
   #plays p, #techfar p {
     font-size: 16px;
@@ -352,30 +370,11 @@ p {
     #plays p:last-child, #techfar p:last-child {
       margin-right: 0; } }
 
-#plays ol, #plays ul, #techfar ol, #techfar ul {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%;
-  list-style-position: outside;
-  padding-left: 25px; }
-  #plays ol:last-child, #plays ul:last-child, #techfar ol:last-child, #techfar ul:last-child {
-    margin-right: 0; }
-#plays ol, #techfar ol {
-  list-style-image: url("../images/bullet-sq.svg");
-  margin-top: 0px; }
-#plays li, #techfar li {
-  font-size: 15px;
-  line-height: 25px;
-  padding-left: 5px; }
-#plays ul, #techfar ul {
-  list-style-image: url("../images/bullet-circle.svg"); }
-
 #techfar em {
   font-size: 12px;
   line-height: 0;
   vertical-align: super; }
-#techfar h2 {
+#techfar h2, #techfar h4 {
   margin-top: 20px; }
 #techfar img {
   max-width: 100%; }
