@@ -1,6 +1,8 @@
 ---
-title: 'This is my Site Title'
+permalink: /techfar/
+redirect_from: /techFAR/
 ---
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,7 +37,7 @@ title: 'This is my Site Title'
       </div>
 
       <p class="download_links">You can also <a href="https://github.com/WhiteHouse/playbook/raw/gh-pages/assets/TechFAR%20Handbook%208%207%2014.pdf" title="Link to download the TechFAR Handbook as a PDF">download the handbook as a PDF file</a> or <a href="https://github.com/WhiteHouse/playbook/raw/gh-pages/assets/TechFAR%20Handbook%208%207%2014.docx" title="Link to Download the TechFAR Handbook as a .docx document">.DOCX document</a></p>
-     
+
     </div>
   </div>
 </div>

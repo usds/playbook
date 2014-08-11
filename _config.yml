@@ -2,3 +2,6 @@ permalink: pretty
 markdown: rdiscount
 highlighter: pygments
 url: http://playbook.cio.gov
+
+gems:
+  - jekyll-redirect-from
