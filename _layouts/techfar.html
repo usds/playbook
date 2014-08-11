@@ -1,6 +1,3 @@
----
-title: 'This is my Site Title'
----
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,19 +22,18 @@ title: 'This is my Site Title'
 <div id="introduction" class="techfar_intro">
   <div class="outer_container">
     <div class="inner_container">
-      {% capture introduction %}{% include TechFAR_intro.md %}{% endcapture %}
-      {{ introduction | markdownify }}
-      <div class="button">
-        <a href="https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md" title="Link to View the Handbook">READ THE HANDBOOK</a>
-      </div>
-      <div class="button">
-        <a href="https://github.com/whitehouse/playbook#readme" title="Link to Comments and Discussion">SUBMIT COMMENTS</a>
-      </div>
+      {{ content }}
+    <div class="button">
+  <a href="https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md" title="Link to View the Handbook">READ THE HANDBOOK</a>
+</div>
+<div class="button">
+  <a href="https://github.com/whitehouse/playbook#readme" title="Link to Comments and Discussion">SUBMIT COMMENTS</a>
+</div>
 
-      <p class="download_links">You can also <a href="https://github.com/WhiteHouse/playbook/raw/gh-pages/assets/TechFAR%20Handbook%208%207%2014.pdf" title="Link to download the TechFAR Handbook as a PDF">download the handbook as a PDF file</a> or <a href="https://github.com/WhiteHouse/playbook/raw/gh-pages/assets/TechFAR%20Handbook%208%207%2014.docx" title="Link to Download the TechFAR Handbook as a .docx document">.DOCX document</a></p>
-     
-    </div>
-  </div>
+<p class="download_links">You can also <a href="https://github.com/WhiteHouse/playbook/raw/gh-pages/assets/TechFAR%20Handbook%208%207%2014.pdf" title="Link to download the TechFAR Handbook as a PDF">download the handbook as a PDF file</a> or <a href="https://github.com/WhiteHouse/playbook/raw/gh-pages/assets/TechFAR%20Handbook%208%207%2014.docx" title="Link to Download the TechFAR Handbook as a .docx document">.DOCX document</a></p>
+
+</div>
+</div>
 </div>
 
 <script src='{{site.baseurl}}/assets/js/jquery-1.11.1.min.js'></script>
