@@ -50,11 +50,11 @@
       <a class="anchor_offset" id="plays_index_anchor"></a>
       <h3>DIGITAL SERVICE PLAYS</h3>
       <div class="columns">
-        <ul>
+        <ol>
         {% for play in site.plays %}
-          <li><a href="play{{ play.id }}" title="View Play {{ play.id }}">{{ play.title }}</a></li>
+          <li><a href="#play{{ play.id }}" title="View Play {{ play.id }}">{{ play.title }}</a></li>
         {% endfor %}
-        </ul>
+        </ol>
       </div>
       <div class="button">
         <a href="#play1" title="View the In Detail">IN DETAIL</a>
