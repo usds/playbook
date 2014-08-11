@@ -90,8 +90,6 @@ A number of agencies have used (or are in the process of adopting) Agile softwar
 
 For many years, private industry has realized benefits from Agile software development*10*,  and some Government agencies have begun to benefit from Agile for their software development contracts.  Agile software development methods promote effective risk management through continuous testing and short feedback loops to improve outcomes on a recurring basis.  Because the Agile process forces problems to be identified early, failure occurs on a small scale with time for corrective action.  This reduces the risk of the Government ending up with a product after a long design period that may not meet its needs or that contains unused features, or of an outright failure.  In addition, use of Agile software development methods will increase focus on the development of mobile solutions, which are advantageous to today’s workforce.
 
->*10* In the 8th Annual State of Agile Survey conducted by VersionOne, 88% of respondents stated that their organizations are practicing Agile software development with the top business benefits being the ability to manage changing priorities (92%), productivity (87%), and project visibility (86%). Source: [8th Annual State of Agile Survey (2014)](http://www.versionone.com/pdf/2013-state-of-Agile-survey.pdf?utm_campaign=2014%20State%20of%20Agile%20Auto%20Responder&utm_medium=email&utm_source=Eloqua "Link to 8th Annual State of Agile Survey 2014 Download")
-
 >#### Use of Agile Processes by DOD’s Defense Health Service Systems to Improve Medical Readiness
 
 >Starting in 2012, DOD used Agile (Scrum) processes to enhance the Defense Medical Human Resources System-internet (DMHRSi).  This system helps to manage current and future medical human resources needs. DOD’s use of Agile processes resulted in:
@@ -491,7 +489,9 @@ Contract performance metrics should be relevant to the proposed methodology and 
 
 > *8* One of the core features of all agile processes is small team size, normally less than 10, with a clearly identified leader.
 
-> *9* **“Rather, absence of direction should be interpreted as permitting the Team to innovate and use sound business judgment that is otherwise consistent with law and within the limits of their authority.”**
+> *9* “Rather, absence of direction should be interpreted as permitting the Team to innovate and use sound business judgment that is otherwise consistent with law and within the limits of their authority.”
+
+> *10* In the 8th Annual State of Agile Survey conducted by VersionOne, 88% of respondents stated that their organizations are practicing Agile software development with the top business benefits being the ability to manage changing priorities (92%), productivity (87%), and project visibility (86%). Source: [8th Annual State of Agile Survey (2014)](http://www.versionone.com/pdf/2013-state-of-Agile-survey.pdf?utm_campaign=2014%20State%20of%20Agile%20Auto%20Responder&utm_medium=email&utm_source=Eloqua "Link to 8th Annual State of Agile Survey 2014 Download")
 
 > *11* Less than one-third of waterfall procurements (28%) succeed.  Larman, Craig. Agile and Interactive Development:  A Manager’s Guide (2001) at 101.  Only 20% of features are used often, 30% get used only sometimes or infrequently and 50% are almost never, if ever, used.  The Standish Group, Inc., [The CHAOS Manifesto 2013](http://versionone.com/assets/img/files/ChaosManifesto2013.pdf "Link to the Chaos Manifesto"). See also Appendix A: Comparison of Traditional to Agile Thinking on Software Development.
 
