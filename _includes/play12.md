@@ -19,7 +19,7 @@ At all stages of a digital project, we should measure how well our service is wo
 - What are the key metrics for the service?
 - How have these key metrics performed over the life of the service?
 - What system monitoring tool(s) are in place?
-- What is your target for your service’s average response time for your service? What percent of requests take more than 1 second, 2 seconds, 4 seconds, and 8 seconds?
+- What is the targeted average response time for your service? What percent of requests take more than 1 second, 2 seconds, 4 seconds, and 8 seconds?
 - What is the average response time and percentile breakdown (percent of requests taking more than 1s, 2s, 4s, and 8s) for your service’s top 10 transactions?
 - What is your service’s monthly uptime target?
 - What is your service’s monthly uptime percentage including scheduled maintenance? Excluding scheduled maintenance?
