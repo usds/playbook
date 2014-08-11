@@ -296,7 +296,11 @@ p {
 #navigation_bar.show {
   visibility: visible;
   display: block;
-  height: 48px;
+  height: 60px;
+  
+  @include media($mobile) {
+    height: 48px;
+  }
 }
 
 #plays_index {
