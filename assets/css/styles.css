@@ -10,7 +10,7 @@ body {
   line-height: 28px; }
 
 body#techfar_landing_page {
-  background: #32436e; }
+  background: #36495a; }
 
 a {
   color: inherit;
@@ -131,7 +131,7 @@ p {
     border: 1px solid #eeeeee; }
   .button a:hover {
     background: #eeeeee;
-    color: #32436e;
+    color: #36495a;
     text-decoration: none; }
   @media screen and (min-width: 0px) and (max-width: 640px) {
     .button {
@@ -145,7 +145,7 @@ p {
   font-family: "Open Sans", sans-serif; }
 
 #introduction {
-  background: #32436e;
+  background: #36495a;
   color: #eeeeee;
   padding-bottom: 60px; }
   #introduction p {
@@ -170,7 +170,7 @@ p {
   position: fixed;
   width: 100%;
   height: 0;
-  background: #32436e;
+  background: #36495a;
   color: #eeeeee;
   font-family: "Merriweather", serif; }
   #navigation_bar .outer_container {
@@ -326,7 +326,7 @@ p {
     margin-right: 0; }
 #plays h4, #techfar h4 {
   margin-top: 0px;
-  color: #32436e; }
+  color: #36495a; }
 #plays h2, #techfar h2 {
   margin-bottom: 24px; }
 #plays h5, #techfar h5 {
@@ -357,12 +357,12 @@ p {
 #plays ul, #techfar ul {
   list-style-image: url("../images/bullet-circle.svg"); }
 #plays a, #techfar a {
-  color: #32436e;
+  color: #36495a;
   text-decoration: underline;
   display: inline-block; }
 #plays a:hover, #techfar a:hover {
   color: #eeeeee;
-  background: #32436e; }
+  background: #36495a; }
 @media screen and (min-width: 0px) and (max-width: 640px) {
   #plays p, #techfar p {
     font-size: 16px;
