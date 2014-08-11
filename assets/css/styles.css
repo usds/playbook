@@ -4,13 +4,13 @@
   box-sizing: border-box; }
 
 body {
-  background: #eae4d2;
+  background: white;
   font-family: "Merriweather", serif;
   margin: 0;
   line-height: 28px; }
 
 body#techfar_landing_page {
-  background: #32436e; }
+  background: #36495a; }
 
 a {
   color: inherit;
@@ -37,7 +37,7 @@ ol, ul {
 h1 {
   font-size: 50px;
   font-weight: 300;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid white;
   padding-bottom: 0.25em;
   margin-bottom: 20px;
   line-height: 65px; }
@@ -128,12 +128,12 @@ p {
     display: inline-block;
     padding: 10px 30px;
     text-decoration: none;
-    border: 1px solid #eeeeee;
+    border: 1px solid white;
     min-width: 172px;
     text-align: center; }
   .button a:hover {
-    background: #eeeeee;
-    color: #32436e;
+    background: white;
+    color: #36495a;
     text-decoration: none; }
   @media screen and (min-width: 0px) and (max-width: 640px) {
     .button {
@@ -145,19 +145,19 @@ p {
 #alpha_tag {
   float: right;
   background: green;
-  color: #eeeeee;
+  color: white;
   padding: 10px;
   font-family: "Open Sans", sans-serif; }
 
 #introduction {
-  background: #32436e;
-  color: #eeeeee;
+  background: #36495a;
+  color: white;
   padding-bottom: 60px; }
   #introduction a {
     text-decoration: underline; }
   #introduction a:hover {
-    background: #eeeeee;
-    color: #32436e; }
+    background: white;
+    color: #36495a; }
   #introduction .button a {
     text-decoration: none; }
   #introduction p {
@@ -167,7 +167,7 @@ p {
     line-height: 38px;
     margin-top: 40px;
     font-weight: lighter;
-    color: #eeeeee; }
+    color: white; }
   #introduction p.download_links {
     font-size: 16px; }
   @media screen and (min-width: 0px) and (max-width: 640px) {
@@ -184,8 +184,8 @@ p {
   position: fixed;
   width: 100%;
   height: 0;
-  background: #32436e;
-  color: #eeeeee;
+  background: #36495a;
+  color: white;
   font-family: "Merriweather", serif; }
   #navigation_bar .outer_container {
     padding: 0 40px; }
@@ -193,7 +193,7 @@ p {
     padding: 20px 0;
     margin-top: 0;
     font-size: 20px;
-    color: #eeeeee;
+    color: white;
     font-weight: lighter;
     line-height: 20px;
     display: inline-block; }
@@ -206,7 +206,7 @@ p {
     list-style-position: outside; }
   #navigation_bar .active_play a {
     background: #3a96b7;
-    color: #eeeeee;
+    color: white;
     text-decoration: none; }
   #navigation_bar li {
     display: inline;
@@ -220,11 +220,11 @@ p {
       text-align: center;
       font-family: "Merriweather", serif;
       font-weight: lighter;
-      color: #eeeeee;
+      color: white;
       border: 1px solid #1164b0; }
     #navigation_bar li a:hover {
       background: #3a96b7;
-      color: #eeeeee;
+      color: white;
       text-decoration: none; }
   #navigation_bar #menu_icon {
     display: none;
@@ -273,7 +273,7 @@ p {
   color: #333333;
   padding-bottom: 60px; }
   #plays_index h3 {
-    color: #eeeeee;
+    color: white;
     font-size: 23px;
     font-weight: normal;
     margin-bottom: 38px; }
@@ -290,14 +290,14 @@ p {
     margin-top: 0px; }
     #plays_index ol a {
       vertical-align: top;
-      color: #eeeeee;
+      color: white;
       margin-top: 0;
       display: inline-block;
       width: 85%; }
     #plays_index ol a:hover {
       color: #333333; }
   #plays_index ol, #plays_index li {
-    color: #eeeeee;
+    color: white;
     font-size: 20px;
     font-weight: lighter;
     margin-top: 0; }
@@ -340,7 +340,7 @@ p {
     margin-right: 0; }
 #plays h4, #techfar h4 {
   margin-top: 0px;
-  color: #32436e; }
+  color: #36495a; }
 #plays h2, #techfar h2 {
   margin-bottom: 24px; }
 #plays h5, #techfar h5 {
@@ -371,12 +371,12 @@ p {
 #plays ul, #techfar ul {
   list-style-image: url("../images/bullet-circle.svg"); }
 #plays a, #techfar a {
-  color: #32436e;
+  color: #36495a;
   text-decoration: underline;
   display: inline-block; }
 #plays a:hover, #techfar a:hover {
-  color: #eeeeee;
-  background: #32436e; }
+  color: white;
+  background: #36495a; }
 @media screen and (min-width: 0px) and (max-width: 640px) {
   #plays p, #techfar p {
     font-size: 16px;
