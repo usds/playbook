@@ -137,12 +137,13 @@ p {
   display: inline-block;  
   margin-top: 40px;
   margin-right: 20px;
-  text-align: center;
   a {
     display: inline-block;
     padding: 10px 30px;
     text-decoration: none;
     border: 1px solid $white;
+    min-width: 172px;
+    text-align: center;
   }
   a:hover {
     background: $white;
@@ -151,6 +152,10 @@ p {
   }
   @include media($mobile) {
     margin-top: 20px;
+    display: block;
+    margin-right: 0;
+    text-align: left;
+    // width: 100%;
   }
 }
 
@@ -354,6 +359,18 @@ p {
     list-style-position: inside;
     padding-left: 0px;
     margin-top: 0px;
+
+    a {
+      vertical-align: top;
+      color: $white;
+      margin-top: 0;
+      display: inline-block;
+      width: 85%;
+    }
+
+    a:hover {
+      color: $black;
+    }
   }
   
   ol, li {
@@ -365,22 +382,11 @@ p {
   
   .button {
     a {
-      vertical-align: inherit;
-      margin-top: inherit;
-      width: 100%;
+      color: white;
     }
-  }
-
-  a {
-    vertical-align: top;
-    color: $white;
-    margin-top: 0;
-    display: inline-block;
-    width: 85%;
-  }
-
-  a:hover {
-    color: $black
+    a:hover {
+      color: $black;
+    }
   }
 
   @include media($mobile) {

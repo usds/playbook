@@ -123,20 +123,24 @@ p {
   font-family: "Open Sans", sans-serif;
   display: inline-block;
   margin-top: 40px;
-  margin-right: 20px;
-  text-align: center; }
+  margin-right: 20px; }
   .button a {
     display: inline-block;
     padding: 10px 30px;
     text-decoration: none;
-    border: 1px solid #eeeeee; }
+    border: 1px solid #eeeeee;
+    min-width: 172px;
+    text-align: center; }
   .button a:hover {
     background: #eeeeee;
     color: #32436e;
     text-decoration: none; }
   @media screen and (min-width: 0px) and (max-width: 640px) {
     .button {
-      margin-top: 20px; } }
+      margin-top: 20px;
+      display: block;
+      margin-right: 0;
+      text-align: left; } }
 
 #alpha_tag {
   float: right;
@@ -284,22 +288,22 @@ p {
     list-style-position: inside;
     padding-left: 0px;
     margin-top: 0px; }
+    #plays_index ol a {
+      vertical-align: top;
+      color: #eeeeee;
+      margin-top: 0;
+      display: inline-block;
+      width: 85%; }
+    #plays_index ol a:hover {
+      color: #333333; }
   #plays_index ol, #plays_index li {
     color: #eeeeee;
     font-size: 20px;
     font-weight: lighter;
     margin-top: 0; }
   #plays_index .button a {
-    vertical-align: inherit;
-    margin-top: inherit;
-    width: 100%; }
-  #plays_index a {
-    vertical-align: top;
-    color: #eeeeee;
-    margin-top: 0;
-    display: inline-block;
-    width: 85%; }
-  #plays_index a:hover {
+    color: white; }
+  #plays_index .button a:hover {
     color: #333333; }
   @media screen and (min-width: 0px) and (max-width: 640px) {
     #plays_index {

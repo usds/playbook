@@ -2,6 +2,7 @@ $(function(){
   $(document).ready( function() {
     var navBarHeight = $('#navigation_bar').height();
     var showNavBarMinimum = $('#introduction').height() - navBarHeight;
+
     $(window).scroll(function() {
       var scroll = getCurrentScroll();
         if ( scroll >= showNavBarMinimum ) {
@@ -42,6 +43,7 @@ $(function($) {
 });
 
 $(function() {
+  // Scroll Animations
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
