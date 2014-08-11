@@ -128,6 +128,7 @@ p {
   .button a {
     display: inline-block;
     padding: 10px 30px;
+    text-decoration: none;
     border: 1px solid #eeeeee; }
   .button a:hover {
     background: #eeeeee;
@@ -148,6 +149,13 @@ p {
   background: #32436e;
   color: #eeeeee;
   padding-bottom: 60px; }
+  #introduction a {
+    text-decoration: underline; }
+  #introduction a:hover {
+    background: #eeeeee;
+    color: #32436e; }
+  #introduction .button a {
+    text-decoration: none; }
   #introduction p {
     max-width: 600px;
     font-family: "Open Sans", sans-serif;
@@ -156,6 +164,8 @@ p {
     margin-top: 40px;
     font-weight: lighter;
     color: #eeeeee; }
+  #introduction p.download_links {
+    font-size: 16px; }
   @media screen and (min-width: 0px) and (max-width: 640px) {
     #introduction {
       padding-bottom: 20px; }

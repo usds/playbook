@@ -141,7 +141,7 @@ p {
   a {
     display: inline-block;
     padding: 10px 30px;
-    // width: 160px;
+    text-decoration: none;
     border: 1px solid $white;
   }
   a:hover {
@@ -168,6 +168,19 @@ p {
   color: $white;
   padding-bottom: 60px;
 
+  a {
+    text-decoration: underline;
+  }
+
+  a:hover {
+    background: $white;
+    color: $atlantic_blue;
+  }
+
+  .button a {
+    text-decoration: none;
+  }
+
   p {
     max-width: 600px;
     font-family: $sans-serif;
@@ -176,6 +189,12 @@ p {
     margin-top: 40px;
     font-weight: lighter;
     color: $white;
+  }
+
+  p.download_links {
+    // color: red;
+    font-size: 16px;
+    // margin-top: 16px;
   }
 
   @include media($mobile) {
