@@ -9,6 +9,9 @@ body {
   margin: 0;
   line-height: 28px; }
 
+body#techfar_landing_page {
+  background: #32436e; }
+
 a {
   color: inherit;
   font-family: inherit;

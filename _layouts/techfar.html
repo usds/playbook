@@ -12,45 +12,29 @@ title: 'This is my Site Title'
   <link href='{{site.baseurl}}/assets/css/styles.css' rel='stylesheet' />
 </head>
 
-<body>
+<body id="techfar_landing_page">
 
 <div id="navigation_bar">
    <div class="outer_container">
     <div class="inner_container">
       <a href="#introduction"><h4>The TechFAR Handbook</h4></a>
-<!--       <ul>
-        {% for play in page.plays %}
-          <li class="play_square"><a href="#{{play}}">{{ play | remove: "play" }}</a></li>
-        {% endfor %}
-      </ul> -->
-<!--       <div id="menu_icon">
-        <a href="#plays_index_anchor" title="Return to Index"></a>
-      </div> -->
     </div>
   </div>
 </div>
 
-<div id="introduction">
+<div id="introduction" class="techfar_intro">
   <div class="outer_container">
     <div class="inner_container">
       {% capture introduction %}{% include TechFAR_intro.md %}{% endcapture %}
       {{ introduction | markdownify }}
       <div class="button">
-        <a href="#techfar_anchor_offset" title="Read the Handbook">READ THE HANDBOOK</a>
+        <a href="https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md" title="Link to View the Handbook">READ THE HANDBOOK</a>
       </div>
       <div class="button">
         <a href="http://www.github.com/whitehouse/playbook" title="Link to Comments and Discussion">SUBMIT COMMENTS</a>
       </div>
     </div>
   </div>
-</div>
-
-<div id="techfar" class="outer_container">
-    <div class="inner_container">
-      <a class="anchor_offset" id="techfar_anchor_offset"></a>
-      {% capture techfar %}{% include TechFAR.md %}{% endcapture %}
-      {{ techfar | markdownify }}
-    </div>
 </div>
 
 <script src='{{site.baseurl}}/assets/js/jquery-1.11.1.min.js'></script>
