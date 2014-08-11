@@ -11,561 +11,622 @@ $gray:                #4D4D4D;
 $background_white:    #fff;
 
 // Fonts
-$serif:               'Merriweather', serif;
+$serif:               'Merriweather', Georgia, serif;
 $sans-serif:          'Open Sans', sans-serif;
 
 // Mobile Breakpoints
 $mobile: new-breakpoint(min-width 0px max-width 640px 4);
 $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
-
-body {
-  background: $background_white;
-  font-family: $serif;
-  margin: 0;
-  line-height: 28px;
-}
-
-body#techfar_landing_page {
-  background: $atlantic_blue;
-}
-
-a {
-  color: inherit;
-  font-family: inherit;
-  font-weight: inherit;
-  text-decoration: none;
-}
-
-a.anchor_offset {
-  display: block;
-  position: relative;
-  top: -60px;
-  visibility: hidden;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-ol, ul {
-  list-style-type: decimal;
-  list-style-position: inside;
-  li {
-    margin: 1em 0;
-    color: $black;
-  }
-}
-
-h1 {
-  font-size: 50px;
-  font-weight: 300;
-  border-bottom: 1px solid $white;
-  padding-bottom: 0.25em;
-  margin-bottom: 20px;
-  line-height: 65px;
-  @include media($mobile){
-    font-size: 28px;
-    line-height: 36px;
-  }
-}
-
-h2 {
-  font-family: $serif;
-  font-size: 54px;
-  line-height: 65px;
-  font-weight: 300;
-  margin-top: 0;
-  color: $black;
-  @include media($mobile) {
-    font-size: 32px;
-    line-height: 42px;
-  }
-}
-
-h3 {
-  font-family: $sans-serif;
-  font-size: 18px;
-}
-
-h4 {
-  font-family: $serif;
-  font-size: 18px;
-  color: $miami_vice_blue;
-  margin-bottom: 0;
-}
-
-h5 {
-  font-family: $sans-serif;
-  font-size: 14px;
-  margin-bottom: 15px;
-  color: $black;
-  font-weight: lighter;
-}
-
-p {
-  color: $black;
-}
-
-.outer_container {
-  @include outer-container();
-  padding: 40px;
-
-  @include media($mobile) {
-    padding: 20px;
-  }
-}
-
-.inner_container {
-  @include shift(1);
-  @include span-columns(10);
-
-  @include media($mobile) {
-    @include shift(0);
-    @include span-columns(4);
+@media screen {
+  body {
+    background: $background_white;
+    font-family: $serif;
+    margin: 0;
+    line-height: 28px;
   }
 
-  @include media($slimmer) {
-    @include shift(0);
-    @include span-columns(12);
-  }
-}
-
-.button {
-  font-size: inherit;
-  font-family: $sans-serif;
-  display: inline-block;  
-  margin-top: 40px;
-  margin-right: 20px;
-  a {
-    display: inline-block;
-    padding: 10px 30px;
-    text-decoration: none;
-    border: 1px solid $white;
-    min-width: 172px;
-    text-align: center;
-  }
-  a:hover {
-    background: $white;
-    color: $atlantic_blue;
-    text-decoration: none;
-  }
-  @include media($mobile) {
-    margin-top: 20px;
-    display: block;
-    margin-right: 0;
-    text-align: left;
-    // width: 100%;
-  }
-}
-
-#alpha_tag {
-  float: right;
-  background: green;
-  color: $white;
-  padding: 10px;
-  font-family: $sans-serif;
-}
-
-
-#introduction {
-  background: $atlantic_blue;
-  color: $white;
-  padding-bottom: 60px;
-
-  a {
-    text-decoration: underline;
-  }
-
-  a:hover {
-    background: $white;
-    color: $atlantic_blue;
-  }
-
-  .button a {
-    text-decoration: none;
-  }
-
-  p {
-    max-width: 600px;
-    font-family: $sans-serif;
-    font-size: 20px;
-    line-height: 38px;
-    margin-top: 40px;
-    font-weight: lighter;
-    color: $white;
-  }
-
-  p.download_links {
-    // color: red;
-    font-size: 16px;
-    // margin-top: 16px;
-  }
-
-  @include media($mobile) {
-    p {
-      font-size: 16px;
-      line-height: 24px;
-      margin-top: 20px;
-    }
-    padding-bottom: 20px;
-  }
-}
-
-#navigation_bar {
-  visibility: hidden;
-  display: none;
-  position: fixed;
-  width: 100%;
-  height: 0;
-  background: $atlantic_blue;
-  color: $white;
-  font-family: $serif;
-  .outer_container {
-    padding: 0 40px;
-  }
-
-  h4 {
-    padding: 20px 0;
-    margin-top: 0;
-    font-size: 20px;
-    color: $white;
-    font-weight: lighter;
-    line-height: 20px;
-    display: inline-block;
-  }
-  h4:hover {
-    text-decoration: underline;
-  }
-
-  ul {
-    float: right;
-    display: inline;
-    padding: 0;
-    list-style-position: outside;
-  }
-
-  .active_play {
-    a {
-      background: $miami_vice_blue;
-      color: $white;
-      text-decoration: none;
-    }
-  }
-
-  li {
-    display: inline;
-    margin-left: 5px;
-    list-style-type: none;
-
-    a {
-      display: inline-block;
-      height: 24px;
-      width: 24px;
-      line-height: 22px;
-      text-align: center;
-      font-family: $serif;
-      font-weight: lighter;
-      color: $white;
-      border: 1px solid $pacific_blue;
-    }
-    a:hover {
-      background: $miami_vice_blue;
-      color: $white;
-      text-decoration: none;
-    }
-  }
-
-  #menu_icon {
-    display: none;
-    height: 14px;
-    width: 16px;
-    margin-top: 16px;
-    float: right;
-    background-image: url('../images/menu_icon.svg');
-    background-size: contain;
-    a {
-      display: block;
-      height: 100%;
-      width: 100%;
-    }
-  }
-
-  @include media($mobile) {
-    ul {
-      display: none;
-    }
-    #menu_icon {
-      display: inline-block;
-    }
-    .outer_container {
-      padding: 0 20px;
-    }
-    h4 {
-      font-size: 16px;
-      padding: 16px 0;
-      line-height: 16px;
-    }
-  }
-
-  @include media($slimmer) {
-    ul { 
-      display: none;
-    }
-    #menu_icon {
-      display: inline-block;
-      margin-top: 20px;
-      height: 18px;
-      width: 20px;
-    }
-  }
-}
-
-#navigation_bar.show {
-  visibility: visible;
-  display: block;
-  height: 60px;
-  
-  @include media($mobile) {
-    height: 48px;
-    visibility: visible;
-    display: block;
-  }
-}
-
-#plays_index {
-  background: $miami_vice_blue;
-  color: $black;
-  padding-bottom: 60px;
-
-
-  h3 { 
-    color: $white;
-    font-size: 23px;
-    font-weight: normal;
-    margin-bottom: 38px;
-  }
-  
-  .columns {
-    -moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
-    column-count: 2;
-    column-gap: 20px;
-  }
-
-  ol {
-    list-style-position: inside;
-    padding-left: 0px;
-    margin-top: 0px;
-
-    a {
-      vertical-align: top;
-      color: $white;
-      margin-top: 0;
-      display: inline-block;
-      width: 85%;
-    }
-
-    a:hover {
-      color: $black;
-    }
-  }
-  
-  ol, li {
-    color: $white;
-    font-size: 20px;
-    font-weight: lighter;
-    margin-top: 0;
-  }
-  
-  .button {
-    a {
-      color: white;
-    }
-    a:hover {
-      color: $black;
-    }
-  }
-
-  @include media($mobile) {
-    h3 {
-      font-size: 18px;
-      margin-bottom: 20px;
-    }
-    ol, li {
-      font-size: 16px;
-      line-height: 24px;
-    }
-    padding-bottom: 20px;
-  }
-
-  @include media($slimmer) {
-    .columns {
-      -moz-column-count: 1;
-      -moz-column-gap: 0px;
-      -webkit-column-count: 1;
-      -webkit-column-gap: 0px;
-      column-count: 1;
-      column-gap: 00px;
-    }
-  }
-
-   @include media($mobile) {
-    .columns {
-      -moz-column-count: 1;
-      -moz-column-gap: 0px;
-      -webkit-column-count: 1;
-      -webkit-column-gap: 0px;
-      column-count: 1;
-      column-gap: 00px;
-    }
-  }
-}
-
-#plays, #techfar {
-
-  h2, h4 {
-    @include span-columns(8);
-  }
-  h4 {
-    margin-top: 0px;
-    color: $atlantic_blue;
-  }
-
-  h2 {
-    margin-bottom: 24px;
-  }
-
-  h5 {
-    font-size: 14px;
-  }
-
-  p {
-    @include span-columns(9);
-  }
-
-  ol, ul {
-    @include span-columns(8);
-    list-style-position: outside;
-    padding-left: 25px;
-  }
-
-  ol {
-    list-style-image: url("../images/bullet-sq.svg");
-    margin-top: 0px;
-  }
-
-  li {
-    font-size: 15px;
-    line-height: 25px;
-    padding-left: 5px;
-  }
-
-  ul {
-    list-style-image: url("../images/bullet-circle.svg");
-  }
-
-  a {
-    color: $atlantic_blue;
-    // border-bottom: 1px solid $atlantic_blue;
-    text-decoration: underline;
-    display: inline-block;
-  }
-
-  a:hover {
-    color: $white;
-    // border-bottom: 1px solid $white;
+  body#techfar_landing_page {
     background: $atlantic_blue;
   }
 
-  @include media($mobile) {
-    p {
-      font-size: 16px;
-      line-height: 24px;
-    }
-    ol, li {
-      font-size: 14px;
-      line-height: 20px;
-    }
+  a {
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+  }
 
-    h2, h4, p, ol, ul {
+  a.anchor_offset {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  ol, ul {
+    list-style-type: decimal;
+    list-style-position: inside;
+    li {
+      margin: 1em 0;
+      color: $black;
+    }
+  }
+
+  h1 {
+    font-size: 50px;
+    font-weight: 300;
+    border-bottom: 1px solid $white;
+    padding-bottom: 0.25em;
+    margin-bottom: 20px;
+    line-height: 65px;
+    @include media($mobile){
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+
+  h2 {
+    font-family: $serif;
+    font-size: 54px;
+    line-height: 65px;
+    font-weight: 300;
+    margin-top: 0;
+    color: $black;
+    @include media($mobile) {
+      font-size: 32px;
+      line-height: 42px;
+    }
+  }
+
+  h3 {
+    font-family: $sans-serif;
+    font-size: 18px;
+  }
+
+  h4 {
+    font-family: $serif;
+    font-size: 18px;
+    color: $miami_vice_blue;
+    margin-bottom: 0;
+  }
+
+  h5 {
+    font-family: $sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: $black;
+    font-weight: lighter;
+  }
+
+  p {
+    color: $black;
+  }
+
+  .outer_container {
+    @include outer-container();
+    padding: 40px;
+
+    @include media($mobile) {
+      padding: 20px;
+    }
+  }
+
+  .inner_container {
+    @include shift(1);
+    @include span-columns(10);
+
+    @include media($mobile) {
+      @include shift(0);
       @include span-columns(4);
     }
+
+    @include media($slimmer) {
+      @include shift(0);
+      @include span-columns(12);
+    }
   }
 
-  @include media($slimmer) {
+  .button {
+    font-size: inherit;
+    font-family: $sans-serif;
+    display: inline-block;  
+    margin-top: 40px;
+    margin-right: 20px;
+    a {
+      display: inline-block;
+      padding: 10px 30px;
+      text-decoration: none;
+      border: 1px solid $white;
+      min-width: 172px;
+      text-align: center;
+    }
+    a:hover {
+      background: $white;
+      color: $atlantic_blue;
+      text-decoration: none;
+    }
+    @include media($mobile) {
+      margin-top: 20px;
+      display: block;
+      margin-right: 0;
+      text-align: left;
+      // width: 100%;
+    }
+  }
+
+  #alpha_tag {
+    float: right;
+    background: green;
+    color: $white;
+    padding: 10px;
+    font-family: $sans-serif;
+  }
+
+
+  #introduction {
+    background: $atlantic_blue;
+    color: $white;
+    padding-bottom: 60px;
+
+    a {
+      text-decoration: underline;
+    }
+
+    a:hover {
+      background: $white;
+      color: $atlantic_blue;
+    }
+
+    .button a {
+      text-decoration: none;
+    }
+
+    p {
+      max-width: 600px;
+      font-family: $sans-serif;
+      font-size: 20px;
+      line-height: 38px;
+      margin-top: 40px;
+      font-weight: lighter;
+      color: $white;
+    }
+
+    p.download_links {
+      // color: red;
+      font-size: 16px;
+      // margin-top: 16px;
+    }
+
+    @include media($mobile) {
+      p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 20px;
+      }
+      padding-bottom: 20px;
+    }
+  }
+
+  #navigation_bar {
+    visibility: hidden;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 0;
+    background: $atlantic_blue;
+    color: $white;
+    font-family: $serif;
+    .outer_container {
+      padding: 0 40px;
+    }
+
+    h4 {
+      padding: 20px 0;
+      margin-top: 0;
+      font-size: 20px;
+      color: $white;
+      font-weight: lighter;
+      line-height: 20px;
+      display: inline-block;
+    }
+    h4:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      float: right;
+      display: inline;
+      padding: 0;
+      list-style-position: outside;
+    }
+
+    .active_play {
+      a {
+        background: $miami_vice_blue;
+        color: $white;
+        text-decoration: none;
+      }
+    }
+
+    li {
+      display: inline;
+      margin-left: 5px;
+      list-style-type: none;
+
+      a {
+        display: inline-block;
+        height: 24px;
+        width: 24px;
+        line-height: 22px;
+        text-align: center;
+        font-family: $serif;
+        font-weight: lighter;
+        color: $white;
+        border: 1px solid $pacific_blue;
+      }
+      a:hover {
+        background: $miami_vice_blue;
+        color: $white;
+        text-decoration: none;
+      }
+    }
+
+    #menu_icon {
+      display: none;
+      height: 14px;
+      width: 16px;
+      margin-top: 16px;
+      float: right;
+      background-image: url('../images/menu_icon.svg');
+      background-size: contain;
+      a {
+        display: block;
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    @include media($mobile) {
+      ul {
+        display: none;
+      }
+      #menu_icon {
+        display: inline-block;
+      }
+      .outer_container {
+        padding: 0 20px;
+      }
+      h4 {
+        font-size: 16px;
+        padding: 16px 0;
+        line-height: 16px;
+      }
+    }
+
+    @include media($slimmer) {
+      ul { 
+        display: none;
+      }
+      #menu_icon {
+        display: inline-block;
+        margin-top: 20px;
+        height: 18px;
+        width: 20px;
+      }
+    }
+  }
+
+  #navigation_bar.show {
+    visibility: visible;
+    display: block;
+    height: 60px;
+    
+    @include media($mobile) {
+      height: 48px;
+      visibility: visible;
+      display: block;
+    }
+  }
+
+  #plays_index {
+    background: $miami_vice_blue;
+    color: $black;
+    padding-bottom: 60px;
+
+
+    h3 { 
+      color: $white;
+      font-size: 23px;
+      font-weight: normal;
+      margin-bottom: 38px;
+    }
+    
+    .columns {
+      -moz-column-count: 2;
+      -moz-column-gap: 20px;
+      -webkit-column-count: 2;
+      -webkit-column-gap: 20px;
+      column-count: 2;
+      column-gap: 20px;
+    }
+
+    ol {
+      list-style-position: inside;
+      padding-left: 0px;
+      margin-top: 0px;
+
+      a {
+        vertical-align: top;
+        color: $white;
+        margin-top: 0;
+        display: inline-block;
+        width: 85%;
+      }
+
+      a:hover {
+        color: $black;
+      }
+    }
+    
+    ol, li {
+      color: $white;
+      font-size: 20px;
+      font-weight: lighter;
+      margin-top: 0;
+    }
+    
+    .button {
+      a {
+        color: white;
+      }
+      a:hover {
+        color: $black;
+      }
+    }
+
+    @include media($mobile) {
+      h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+      ol, li {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      padding-bottom: 20px;
+    }
+
+    @include media($slimmer) {
+      .columns {
+        -moz-column-count: 1;
+        -moz-column-gap: 0px;
+        -webkit-column-count: 1;
+        -webkit-column-gap: 0px;
+        column-count: 1;
+        column-gap: 00px;
+      }
+    }
+
+     @include media($mobile) {
+      .columns {
+        -moz-column-count: 1;
+        -moz-column-gap: 0px;
+        -webkit-column-count: 1;
+        -webkit-column-gap: 0px;
+        column-count: 1;
+        column-gap: 00px;
+      }
+    }
+  }
+
+  #plays, #techfar {
+
     h2, h4 {
+      @include span-columns(8);
+    }
+    h4 {
+      margin-top: 0px;
+      color: $atlantic_blue;
+    }
+
+    h2 {
+      margin-bottom: 24px;
+    }
+
+    h5 {
+      font-size: 14px;
+    }
+
+    p {
       @include span-columns(9);
     }
-    p {
-      @include span-columns(10);
+
+    ol, ul {
+      @include span-columns(8);
+      list-style-position: outside;
+      padding-left: 25px;
+    }
+
+    ol {
+      list-style-image: url("../images/bullet-sq.svg");
+      margin-top: 0px;
+    }
+
+    li {
+      font-size: 15px;
+      line-height: 25px;
+      padding-left: 5px;
+    }
+
+    ul {
+      list-style-image: url("../images/bullet-circle.svg");
+    }
+
+    a {
+      color: $atlantic_blue;
+      // border-bottom: 1px solid $atlantic_blue;
+      text-decoration: underline;
+      display: inline-block;
+    }
+
+    a:hover {
+      color: $white;
+      // border-bottom: 1px solid $white;
+      background: $atlantic_blue;
+    }
+
+    @include media($mobile) {
+      p {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      ol, li {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      h2, h4, p, ol, ul {
+        @include span-columns(4);
+      }
+    }
+
+    @include media($slimmer) {
+      h2, h4 {
+        @include span-columns(9);
+      }
+      p {
+        @include span-columns(10);
+      }
     }
   }
+
+  #techfar {
+    em {
+      font-size: 12px;
+      // margin-right: 5px;
+      line-height: 0;
+      vertical-align: super;
+    }
+    h2, h4 {
+      margin-top: 20px;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+
+  // #heart {
+  //  belongs-to: $jessica;
+  //  display: forever;
+  //  date: August 23, 2014;
+  //}
+   
+    // #play_navigation {
+    //   ul, ol {
+    //     @include span-columns(12);
+    //   }
+
+    //   ul {
+    //     padding: 0;
+    //     list-style-position: outside;
+    //     background: $background_white;
+    //   }
+
+    //   .active_play {
+    //     a {
+    //       background: $miami_vice_blue;
+    //       color: $white;
+    //       text-decoration: none;
+    //     }
+    //   }
+
+    //   li {
+    //     float: left;
+    //     margin-right: 20px;
+    //     list-style-type: none;
+    //     a {
+    //       display: inline-block;
+    //       background: none;
+    //       height: 40px;
+    //       width: 40px;
+    //       text-align: center;
+    //       padding: 7px 0px;
+    //       font-size: 18px;
+    //       font-family: $sans-serif;
+    //       color: $miami_vice_blue;
+    //       border: 1px solid $miami_vice_blue;
+    //     }
+
+    //     a:hover {
+    //       background: $miami_vice_blue;
+    //       color: $white;
+    //       text-decoration: none;
+    //     }
+    //   }
+    // }
 }
 
-#techfar {
-  em {
+@media print {
+  body {
+    background: white;
+    font-family: $serif;
+    font-weight: lighter;
+    line-height: 1.5em;
     font-size: 12px;
-    // margin-right: 5px;
-    line-height: 0;
-    vertical-align: super;
+    margin-left: 16.5%;
+    margin-right: 16.5%
   }
+
+  #plays_index {
+    ol {
+      list-style-type: decimal;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+
+  #navigation_bar {
+    display: none;
+  }
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  ol, ul {
+    width: 80%;
+  }
+  
+  ol {
+    list-style-type: square;
+  }
+
+  p {
+    width: 100%;
+  }
+
   h2, h4 {
-    margin-top: 20px;
+    width: 66%;
   }
-  img {
-    max-width: 100%;
+
+  h2 {
+    margin-top: 0px;
+  }
+
+  h5 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+  }
+
+  .button {
+    display: none;
   }
 }
 
-// #heart {
-//  belongs-to: $jessica;
-//  display: forever;
-//  date: August 23, 2014;
-//}
- 
-  // #play_navigation {
-  //   ul, ol {
-  //     @include span-columns(12);
-  //   }
-
-  //   ul {
-  //     padding: 0;
-  //     list-style-position: outside;
-  //     background: $background_white;
-  //   }
-
-  //   .active_play {
-  //     a {
-  //       background: $miami_vice_blue;
-  //       color: $white;
-  //       text-decoration: none;
-  //     }
-  //   }
-
-  //   li {
-  //     float: left;
-  //     margin-right: 20px;
-  //     list-style-type: none;
-  //     a {
-  //       display: inline-block;
-  //       background: none;
-  //       height: 40px;
-  //       width: 40px;
-  //       text-align: center;
-  //       padding: 7px 0px;
-  //       font-size: 18px;
-  //       font-family: $sans-serif;
-  //       color: $miami_vice_blue;
-  //       border: 1px solid $miami_vice_blue;
-  //     }
-
-  //     a:hover {
-  //       background: $miami_vice_blue;
-  //       color: $white;
-  //       text-decoration: none;
-  //     }
-  //   }
-  // }
