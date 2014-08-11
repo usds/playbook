@@ -1,6 +1,3 @@
----
-title: 'Page Not Found'
----
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,8 +14,7 @@ title: 'Page Not Found'
 
 <div id="introduction">
   <div class="outer_container">
-    {% capture notfound %}{% include notfound.md %}{% endcapture %}
-    {{ notfound | markdownify }}
+    {{ content }}
   </div>
 </div>
 <script src='{{site.baseurl}}/assets/site.js'></script>

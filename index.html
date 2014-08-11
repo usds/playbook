@@ -1,19 +1,4 @@
 ---
-title: 'This is my Site Title'
-plays:
-  - play1
-  - play2
-  - play3
-  - play4
-  - play5
-  - play6
-  - play7
-  - play8
-  - play9
-  - play10
-  - play11
-  - play12
-  - play13
 ---
 <!DOCTYPE html>
 <html>
@@ -33,8 +18,8 @@ plays:
     <div class="inner_container">
       <a href="#introduction"><h4>U.S. Digital Services Playbook</h4></a>
       <ul>
-        {% for play in page.plays %}
-          <li class="play_square"><a href="#{{play}}" title="View Play {{ play | remove: "play" }}">{{ play | remove: "play" }}</a></li>
+        {% for play in site.plays %}
+          <li class="play_square"><a href="#play{{ play.id }}" title="View Play {{ play.title }}">{{ play.id }}</a></li>
         {% endfor %}
       </ul>
       <div id="menu_icon">
@@ -65,8 +50,11 @@ plays:
       <a class="anchor_offset" id="plays_index_anchor"></a>
       <h3>DIGITAL SERVICE PLAYS</h3>
       <div class="columns">
-        {% capture plays_index %}{% include plays_index.md %}{% endcapture %}
-        {{ plays_index | markdownify }}
+        <ul>
+        {% for play in site.plays %}
+          <li><a href="play{{ play.id }}" title="View Play {{ play.id }}">{{ play.title }}</a></li>
+        {% endfor %}
+        </ul>
       </div>
       <div class="button">
         <a href="#play1" title="View the In Detail">IN DETAIL</a>
@@ -76,11 +64,13 @@ plays:
 </div>
 
 <div id="plays" class="outer_container">
-  {% for play in page.plays %}
+  {% for play in site.plays %}
     <div class="inner_container">
-      <a class="anchor_offset" id="{{ play }}"></a>
-      {% capture play_content %}{% include {{ play | append: '.md'}} %}{% endcapture %}
-      {{ play_content | markdownify }}
+      <a class="anchor_offset" id="play{{ play.id }}"></a>
+      <h5>PLAY {{ play.id }}</h5>
+      <h2>{{ play.title }}</h2>
+
+      {{ play.output }}
     </div>
   {% endfor %}
 </div>
