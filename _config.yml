@@ -5,6 +5,3 @@ url: http://playbook.cio.gov
 
 collections:
   - plays
-
-gems:
-  - jekyll-redirect-from
