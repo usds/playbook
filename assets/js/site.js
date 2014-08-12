@@ -1,26 +1,34 @@
 $(function(){
-  $(document).ready( function() {
-    var navBarHeight = $('#navigation_bar').height();
-    var showNavBarMinimum = $('#introduction').height() - navBarHeight;
 
-    if ( getCurrentScroll() >= showNavBarMinimum ) {
-      $('#navigation_bar').addClass('show');
-    }
+  var $navBar = $('#navigation_bar');
+  var showNavBarMinimum = $('#introduction').height() - $navBar.height();
 
-    $(window).scroll(function() {
-      var scroll = getCurrentScroll();
-        if ( scroll >= showNavBarMinimum ) {
-          $('#navigation_bar').addClass('show');
-        }
-        else {
-          $('#navigation_bar').removeClass('show');
-        }
-      });
-    function getCurrentScroll() {
-      return window.pageYOffset;
+  var wasNavBarVisible = false;
+  // change nav bar visibility on scroll
+  function onScroll() {
+    var isNavBarVisible = window.pageYOffset >= showNavBarMinimum;
+    if ( isNavBarVisible != wasNavBarVisible ) {
+      $navBar.toggleClass('show');
+      wasNavBarVisible = isNavBarVisible;
     }
-  });
-});
+  }
+  // initial check
+  onScroll();
+
+  // http://davidwalsh.name/function-debounce
+  function debounce( fn, wait ) {
+    var timeout;
+    return function() {
+      var _this = this;
+      var args = arguments;
+      var later = function() {
+        timeout = null;
+        fn.apply( _this, args );
+      };
+      clearTimeout( timeout );
+      timeout = setTimeout( later, wait || 100 );
+    };
+  };
 
 $(function($) {
   $(document).ready( function() {
@@ -43,10 +51,11 @@ $(function($) {
                   itemClass: 'play_square',
                   itemHover: 'active_play'
                 });
+  $(window).scroll( debounce( onScroll ) );
+
   });
 });
 
-$(function() {
   // Scroll Animations
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
