@@ -32,7 +32,7 @@ plays:
    <div class="outer_container">
     <div class="inner_container">
       <a href="#introduction"><h4>U.S. Digital Services Playbook</h4></a>
-      <ul>
+      <ul class="nav">
         {% for play in page.plays %}
           <li class="play_square"><a href="#{{play}}" title="View Play {{ play | remove: "play" }}">{{ play | remove: "play" }}</a></li>
         {% endfor %}
@@ -86,7 +86,7 @@ plays:
 </div>
 
 <script src='{{site.baseurl}}/assets/js/jquery-1.11.1.min.js'></script>
-<script src='{{site.baseurl}}/assets/js/stickUp.min.js'></script>
+<script src='{{site.baseurl}}/assets/js/scrollspy.js'></script>
 <script src='{{site.baseurl}}/assets/js/site.js'></script>
 <script id="_fed_an_js_tag" type="text/javascript" src="{{site.baseurl}}/assets/js/federated-analytics.all.min.js?agency=GSA&sub-agency=OGP"></script>
 </body>

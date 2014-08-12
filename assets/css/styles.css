@@ -204,7 +204,7 @@ p {
     display: inline;
     padding: 0;
     list-style-position: outside; }
-  #navigation_bar .active_play a {
+  #navigation_bar .active a {
     background: #3a96b7;
     color: white;
     text-decoration: none; }
