@@ -14,9 +14,9 @@ We must begin digital projects by exploring and pinpointing the needs of the peo
 7. As the digital service is being built, regularly test it with potential users to ensure it will meet peoples’ needs 
 
 #### key questions
+- Who are your key users?
 - What user needs will this service address?
 - Why does the user want or need this service? 
-- Who are your key users?
 - Which people will have the most difficulty with your service?
 - What research methods were used?
 - What were the key findings from users’ current experience?
