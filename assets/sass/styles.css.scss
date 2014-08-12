@@ -245,7 +245,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
       list-style-position: outside;
     }
 
-    .active_play {
+    .active {
       a {
         background: $miami_vice_blue;
         color: $white;
@@ -524,51 +524,8 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   //  belongs-to: $jessica;
   //  display: forever;
   //  date: August 23, 2014;
+  //  url: jandc2014.com;
   //}
-   
-    // #play_navigation {
-    //   ul, ol {
-    //     @include span-columns(12);
-    //   }
-
-    //   ul {
-    //     padding: 0;
-    //     list-style-position: outside;
-    //     background: $background_white;
-    //   }
-
-    //   .active_play {
-    //     a {
-    //       background: $miami_vice_blue;
-    //       color: $white;
-    //       text-decoration: none;
-    //     }
-    //   }
-
-    //   li {
-    //     float: left;
-    //     margin-right: 20px;
-    //     list-style-type: none;
-    //     a {
-    //       display: inline-block;
-    //       background: none;
-    //       height: 40px;
-    //       width: 40px;
-    //       text-align: center;
-    //       padding: 7px 0px;
-    //       font-size: 18px;
-    //       font-family: $sans-serif;
-    //       color: $miami_vice_blue;
-    //       border: 1px solid $miami_vice_blue;
-    //     }
-
-    //     a:hover {
-    //       background: $miami_vice_blue;
-    //       color: $white;
-    //       text-decoration: none;
-    //     }
-    //   }
-    // }
 }
 
 @media print {
