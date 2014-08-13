@@ -19,7 +19,7 @@
       <a href="#introduction"><h4>U.S. Digital Services Playbook</h4></a>
       <ul class="nav">
         {% for play in site.plays %}
-          <li class="play_square"><a href="#play{{ play.id }}" title="View Play {{ play.title }}">{{ play.id }}</a></li>
+          <li class="play_square"><a href="#play{{ play.id }}" title="View Play {{ play.id }}: {{ play.title }}">{{ play.id }}</a></li>
         {% endfor %}
       </ul>
       <div id="menu_icon">
