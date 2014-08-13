@@ -14,9 +14,9 @@ Feedback collected before September 1, 2014 will be incorporated into the next r
 
 ## Technical Details
 
-The Playbook and the TechFAR Handbook are compiled from Markdown files using Jekyll. To propose a specific change, you can submit a [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests") with your change to one of these source Markdown files, [available in the `_includes` folder](https://github.com/WhiteHouse/playbook/tree/gh-pages/_includes "Link to the Markdown files").
+The Playbook and the TechFAR Handbook are compiled from Markdown files using Jekyll. To propose a specific change, you can submit a [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests") with your change to one of these source Markdown files, [available in the `_includes` folder](https://github.com/WhiteHouse/playbook/tree/gh-pages/_includes "Link to the TechFAR Markdown files") or the plays themselves [available in the `_plays` folder](https://github.com/WhiteHouse/playbook/tree/gh-pages/_plays "Link to the Plays Markdown files").
 
-You can also use Github's in-browser editing feature to make an edit to one of [these Markdown files](https://github.com/WhiteHouse/playbook/tree/gh-pages/_includes "Link to the Markdown Files") and submit your change for consideration without needing to install any additional software.
+You can also use Github's in-browser editing feature to make an edit to one of [these Markdown files](https://github.com/WhiteHouse/playbook/tree/gh-pages/_includes "Link to the TechFAR Markdown Files") or [these Markdown files](https://github.com/WhiteHouse/playbook/tree/gh-pages/_plays "Link to the Plays Markdown files") and submit your change for consideration without needing to install any additional software.
 
 ### Running the Site Locally
 
