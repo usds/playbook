@@ -10,7 +10,11 @@ One way to advance smarter digital service delivery is by putting the right proc
 ## We Want Your Feedback
 We encourage your feedback and suggestions on these documents. Content and feature suggestions and discussions are welcome via [GitHub Issues](https://github.com/WhiteHouse/playbook/issues). You may also propose changes to the content directly by submitting a [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests").
 
-Feedback collected before September 1, 2014 will be incorporated into the next release of the Digital Services Playbook and the TechFAR Handbook.
+You don't need to install any software to suggest a change. To propose a change from your browser, [select a play in the `_plays` folder](https://github.com/WhiteHouse/playbook/tree/gh-pages/_plays "Link to the Plays Markdown files"), or open the [TechFAR file](https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md "Link to the TechFAR Markdown File"). You can use Github's in-browser editor to edit files and submit a "pull request" for your changes to be merged into the document. 
+
+If you would like to see and discuss the changes that other people have proposed, [visit the "Pull Requests" section](https://github.com/WhiteHouse/playbook/pulls "Link to the Pull Requests Section of Github") and [browse the issues](https://github.com/WhiteHouse/playbook/issues "Link to the Issues Section of Github").
+
+Feedback collected before September 1, 2014 will be considered for inclusion in the next release of the Digital Services Playbook and the TechFAR Handbook.
 
 ## Technical Details
 
