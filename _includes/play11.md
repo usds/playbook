@@ -13,6 +13,7 @@ The following checklist provides a starting point, but teams should work closely
 4. Consider whether the user should be able to access, delete, or remove their information from the service
 5. “Pre-certify” the hosting infrastructure used for the project using FedRAMP
 6. Use deployment scripts to ensure configuration of production environment remains consistent and controllable
+7. Encrypt all user communications with your site with SSL by default.
 
 #### key questions
 - Does the service collect personal information from the user (whether government or public)?  How is the user notified of this collection?
