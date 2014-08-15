@@ -483,7 +483,7 @@ Contract performance metrics should be relevant to the proposed methodology and 
 
 > *6* “The term “contract” is being used generically in this document and may also include purchase orders, task orders and/or delivery orders.
 
-> *7* See [http://www.fai.gov/drupal/certification/certification-and-career-development-programs](http://www.fai.gov/drupal/certification/certification-and-career-development-programs) ;  https://acc.dau.mil/CommunityBrowser.aspx?id=17631](https://acc.dau.mil/CommunityBrowser.aspx?id=17631)
+> *7* See [http://www.fai.gov/drupal/certification/certification-and-career-development-programs](http://www.fai.gov/drupal/certification/certification-and-career-development-programs) ;  [https://acc.dau.mil/CommunityBrowser.aspx?id=17631](https://acc.dau.mil/CommunityBrowser.aspx?id=17631)
 
 > *8* One of the core features of all agile processes is small team size, normally less than 10, with a clearly identified leader.
  
