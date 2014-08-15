@@ -7,10 +7,11 @@ The technology decisions we make need to enable development teams to work effici
 #### checklist
 1. Choose software frameworks that are commonly used by private-sector companies creating similar services
 2. To the extent practical, ensure that software can be deployed on a variety of commodity hardware types
-3. Ensure that each project has easy to understand instructions for setting up a local development environment, and that team members can be quickly added or removed from projects
+3. Ensure that each project has easy to understand instructions for creating reproducible and identical local development environments, and that team members can be quickly added or removed from projects
 4. Consider open source software solutions at all layers of the stack
 
 #### key questions
 - What is your development stack and why did you choose it?
 - What database(s) are you using and why did you choose them?
-- How long does it take for a new team member to set up a local development environment?
+- How long does it take for a new team member to start developing?
+- Is setup of local development environments automated and identical across developer machines?

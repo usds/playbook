@@ -7,7 +7,7 @@ Today, developers write automated scripts that can verify thousands of scenarios
 #### checklist
 1. Create automated tests that verify all user-facing functionality
 2. Create unit and integration tests to verify modules and components
-3. Run tests automatically as part of the build process
+3. Run tests automatically as part of the build process whenever developers commit code to version control
 4. Perform deployments automatically with deployment scripts, continuous delivery services, or similar techniques
 5. Conduct load and performance tests at regular intervals, including before public launch
 
