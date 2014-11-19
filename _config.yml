@@ -1,7 +1,8 @@
 permalink: pretty
 markdown: rdiscount
 highlighter: pygments
-url: http://playbook.cio.gov
+url: http://mxabierto.github.io/playbook
+baseurl: /playbook
 title: Guía de Datos Abiertos para México
 
 collections:
