@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>The U.S. Digital Services Playbook</title>
+<title>{{ site.title }}</title>
   <meta charset='UTF-8'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
@@ -16,7 +16,7 @@
 <div id="navigation_bar">
    <div class="outer_container">
     <div class="inner_container">
-      <a href="#introduction"><h4>U.S. Digital Services Playbook</h4></a>
+      <a href="#introduction"><h4>{{ site.title }}</h4></a>
       <ul class="nav">
         {% for play in site.plays %}
           <li class="play_square"><a href="#play{{ play.id }}" title="View Play {{ play.id }}: {{ play.title }}">{{ play.id }}</a></li>

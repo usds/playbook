@@ -2,6 +2,7 @@ permalink: pretty
 markdown: rdiscount
 highlighter: pygments
 url: http://playbook.cio.gov
+title: Guía de Datos Abiertos para México
 
 collections:
   - plays
