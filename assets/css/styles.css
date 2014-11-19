@@ -156,7 +156,7 @@
     font-family: "Open Sans", sans-serif; }
 
   #introduction {
-    background: #36435a;
+    background: #474747;
     color: white;
     padding-bottom: 60px; }
     #introduction a {
@@ -191,7 +191,7 @@
     position: fixed;
     width: 100%;
     height: 0;
-    background: #36435a;
+    background: #474747;
     color: white;
     font-family: "Merriweather", Georgia, serif; }
     #navigation_bar .outer_container {

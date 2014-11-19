@@ -7,6 +7,7 @@ $pacific_blue:        #3A96B7;
 $miami_vice_blue:     #3A96B7;
 $white:               #fff;
 $black:               #333;
+$light_black:         #474747;
 $gray:                #4D4D4D;
 $background_white:    #fff;
 
@@ -169,7 +170,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
 
   #introduction {
-    background: $atlantic_blue;
+    background: $light_black;
     color: $white;
     padding-bottom: 60px;
 
@@ -218,7 +219,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     position: fixed;
     width: 100%;
     height: 0;
-    background: $atlantic_blue;
+    background: $light_black;
     color: $white;
     font-family: $serif;
     .outer_container {
