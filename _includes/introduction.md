@@ -1,5 +1,4 @@
-# U.S. Digital Services Playbook
+# {{ site.title }}
 
-The American people expect to interact with government through digital channels such as websites, email, and mobile applications. By building better digital services that meet the needs of the people that use our services, we can make the delivery of our policy and programs more effective.   
+Los datos abiertos del gobierno son un activo público usable y reutilizable por cualquier sector, que contribuyen a impulsar el crecimiento económico, fortalecer la competitividad y promover la innovación, incrementar la transparencia y rendición de cuentas, fomentar la participación ciudadana, así como detonar una mayor eficiencia gubernamental y mejora de los servicios públicos, en apoyo a los objetivos de desarrollo, buena gobernanza y generación de conocimiento.
 
-Today, too many of our digital services projects do not work well, are delivered late, or are over budget. To increase the success rate of these projects, the U.S. Government needs a new approach. We created a playbook of 13 key “plays” drawn from successful best practices from the private sector and government that, if followed together, will help government build effective digital services.
