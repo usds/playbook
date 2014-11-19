@@ -2,9 +2,9 @@
 @import "neat/neat";
 
 // Colors
-$atlantic_blue:       #36435a;
-$pacific_blue:        #3A96B7;
-$miami_vice_blue:     #3A96B7;
+$open_green:          #00cc99;
+$graph_purple:        #663399
+$machine_gray:        #d9d9d9;
 $white:               #fff;
 $black:               #333;
 $light_black:         #474747;
@@ -12,7 +12,6 @@ $gray:                #4D4D4D;
 $background_white:    #fff;
 
 // Fonts
-$serif:               'Merriweather', Georgia, serif;
 $sans-serif:          'Open Sans', sans-serif;
 
 // Mobile Breakpoints
@@ -22,13 +21,13 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 @media screen {
   body {
     background: $background_white;
-    font-family: $serif;
+    font-family: $sans-serif;
     margin: 0;
     line-height: 28px;
   }
 
   body#techfar_landing_page {
-    background: $atlantic_blue;
+    background: $open_green;
   }
 
   a {
@@ -54,7 +53,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     list-style-position: inside;
     li {
       margin: 1em 0;
-      color: $black;
+      color: $graph_purple;
     }
   }
 
@@ -72,7 +71,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 
   h2 {
-    font-family: $serif;
+    font-family: $sans-serif;
     font-size: 54px;
     line-height: 65px;
     font-weight: 300;
@@ -90,9 +89,9 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 
   h4 {
-    font-family: $serif;
+    font-family: $sans-serif;
     font-size: 18px;
-    color: $miami_vice_blue;
+    color: $machine_gray;
     margin-bottom: 0;
   }
 
@@ -142,13 +141,13 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
       display: inline-block;
       padding: 10px 30px;
       text-decoration: none;
-      border: 1px solid $white;
+      border: 1px solid $open_green;
       min-width: 172px;
       text-align: center;
     }
     a:hover {
-      background: $white;
-      color: $atlantic_blue;
+      background: $open_green;
+      color: $open_green;
       text-decoration: none;
     }
     @include media($mobile) {
@@ -179,8 +178,8 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
 
     a:hover {
-      background: $white;
-      color: $atlantic_blue;
+      background: $open_green;
+      color: $light_black;
     }
 
     .button a {
@@ -221,7 +220,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     height: 0;
     background: $light_black;
     color: $white;
-    font-family: $serif;
+    font-family: $sans-serif;
     .outer_container {
       padding: 0 40px;
     }
@@ -235,6 +234,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
       line-height: 20px;
       display: inline-block;
     }
+
     h4:hover {
       text-decoration: underline;
     }
@@ -248,7 +248,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
     .active {
       a {
-        background: $miami_vice_blue;
+        background: $open_green;
         color: $white;
         text-decoration: none;
       }
@@ -265,13 +265,13 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
         width: 24px;
         line-height: 22px;
         text-align: center;
-        font-family: $serif;
+        font-family: $sans-serif;
         font-weight: lighter;
         color: $white;
-        border: 1px solid $pacific_blue;
+        border: 1px solid $open_green;
       }
       a:hover {
-        background: $miami_vice_blue;
+        background: $open_green;
         color: $white;
         text-decoration: none;
       }
@@ -335,7 +335,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 
   #plays_index {
-    background: $miami_vice_blue;
+    background: $open_green;
     color: $black;
     padding-bottom: 60px;
 
@@ -383,7 +383,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     
     .button {
       a {
-        color: white;
+        color: $white;
       }
       a:hover {
         color: $black;
@@ -432,7 +432,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
     h4 {
       margin-top: 0px;
-      color: $atlantic_blue;
+      color: $graph_purple;
     }
 
     h2 {
@@ -469,16 +469,15 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
 
     a {
-      color: $atlantic_blue;
-      // border-bottom: 1px solid $atlantic_blue;
+      color: $open_green;
+      // border-bottom: 1px solid $open_green;
       text-decoration: underline;
       display: inline-block;
     }
 
     a:hover {
-      color: $white;
+      color: $black;
       // border-bottom: 1px solid $white;
-      background: $atlantic_blue;
     }
 
     @include media($mobile) {
@@ -525,7 +524,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 @media print {
   body {
     background: white;
-    font-family: $serif;
+    font-family: $sans-serif;
     font-weight: lighter;
     line-height: 1.5em;
     font-size: 12px;
