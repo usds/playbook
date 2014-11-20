@@ -1,4 +1,4 @@
-![Logo Datos Abiertos](/assets/images/datos.gob.mx_logo.svg)
+![Logo Datos Abiertos](/assets/images/datos.gob.mx_logo.png)
 
 # {{ site.title }}
 
