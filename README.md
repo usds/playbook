@@ -1,47 +1,36 @@
-## About This Project
+## La guía de datos abiertos
+Los datos abiertos del gobierno son un activo público usable y reutilizable por cualquier sector, que contribuyen a impulsar el crecimiento económico, fortalecer la competitividad y promover la innovación, incrementar la transparencia y rendición de cuentas, fomentar la participación ciudadana, así como detonar una mayor eficiencia gubernamental y mejora de los servicios públicos, en apoyo a los objetivos de desarrollo, buena gobernanza y generación de conocimiento.
 
-The American people expect to interact with government through digital channels such as websites, email, and mobile applications. By building better digital services that meet the needs of the people that use our services, we can make the delivery of our policy and programs more effective.
+[Ésta es una guía](http://mxabierto.github.io/playbook/) en constante evolución para abrir datos en México. Plantea principios básicos y tareas a realizar para guiar a las iniciativas de datos abiertos.
 
-One way to advance smarter digital service delivery is by putting the right processes and practices in place to drive outcomes and accountability and allow people and companies to do their best work.  The Digital Services Playbook and the TechFAR Handbook document these best practices and processes: 
+¡Cualquier sugerencia y comentario son bienvenidos!
 
-- [**The Digital Services Playbook**](http://playbook.cio.gov "Link to the Digital Services Playbook") identifies a series of “plays” drawn from successful best practices from the private sector and government that, if followed together, will help government build effective digital services.  The plays outline an approach to delivering services that increases our ability to be flexible, iterative and, most importantly, to focus on the needs of the people that use our services.
-- [**The TechFAR Handbook**](http://playbook.cio.gov/techfar "Link to the TechFAR Handbook") highlights the flexibilities in the Federal Acquisition Regulation (FAR) that can help agencies implement “plays” from the Playbook that would be accomplished with acquisition support – with a particular focus on how to use contractors to support an iterative, customer-driven software development process, as is routinely done in the private sector.
+## Sugerencias
+Te invitamos a que nos retroalimentes sobre esta propuesta. Para comentarios utilizamos [GitHub Issues](https://github.com/mxabierto/playbook/issues), para propuestas y sugerencias envíanos un [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests").
 
-## We Want Your Feedback
-We encourage your feedback and suggestions on these documents. Content and feature suggestions and discussions are welcome via [GitHub Issues](https://github.com/WhiteHouse/playbook/issues). You may also propose changes to the content directly by submitting a [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests").
+No se requiere software para sugerir cambios. Para proponer cambios desde tu navegador, [selecciona un paso en el directorio `_plays`](https://github.com/mxabierto/playbook/tree/gh-pages/_plays "Liga a los markdowns de los pasos"). Puedes utilizar el editor web de Github para editar archivos y enviar un "pull request" para sugerir cambios y abrir un canal de discusión. 
 
-You don't need to install any software to suggest a change. To propose a change from your browser, [select a play in the `_plays` folder](https://github.com/WhiteHouse/playbook/tree/gh-pages/_plays "Link to the Plays Markdown files"), or open the [TechFAR file](https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md "Link to the TechFAR Markdown File"). You can use Github's in-browser editor to edit files and submit a "pull request" for your changes to be merged into the document. 
+## Detalles técnicos
 
-If you would like to see and discuss the changes that other people have proposed, [visit the "Pull Requests" section](https://github.com/WhiteHouse/playbook/pulls "Link to the Pull Requests Section of Github") and [browse the issues](https://github.com/WhiteHouse/playbook/issues "Link to the Issues Section of Github").
+El sitio de la Guía de Datos Abiertos está basado en el [Playbook de Servicios Digitales de EEUU](https://github.com/WhiteHouse/playbook), el cual utiliza archivos [Markdown](https://help.github.com/articles/github-flavored-markdown "Link to More Information About Markdown") y [Jekyll](https://github.com/jekyll/jekyll "Link to More Information about Jekyll") para compilar y construir el sitio.
 
-Feedback collected before September 1, 2014 will be considered for inclusion in the next release of the Digital Services Playbook and the TechFAR Handbook.
+### Correr el sitio localmente
 
-## Technical Details
+Para ejecutar el proyecto localmente se requiere Ruby y Bundler, te recomendamos seguir [las instrucciones para instalar Jekyll](https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll "Installation instructions for Jekyll").
 
-The Playbook and the TechFAR Handbook are compiled from [Markdown](https://help.github.com/articles/github-flavored-markdown "Link to More Information About Markdown") files using [Jekyll](https://github.com/jekyll/jekyll "Link to More Information about Jekyll"). To propose a specific change, you can submit a [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests") with your change to one of these source Markdown files. The Plays from the Playbook are [available in the `_plays` folder](https://github.com/WhiteHouse/playbook/tree/gh-pages/_plays "Link to the Plays Markdown files"), while the [TechFAR is contained in this markdown file](https://github.com/WhiteHouse/playbook/blob/gh-pages/_includes/techfar-online.md "Link to the TechFAR Markdown File").
+Siguiente, [copia el repositorio](http://help.github.com/fork-a-repo/ "Instructions for Forking Your Repository") y clónalo a tu computadora.
 
-You can also use Github's in-browser editing feature to make an edit to one of these Markdown files and submit your change for consideration without needing to install any additional software.
+Dentro del directorio ejecuta en la terminal:
 
-### Running the Site Locally
+`$ bundle install`  
+`$ rake`
 
-To run the site locally on your own computer (most helpful for previewing your own changes), you will need to install Jekyll and other dependencies:
+Visita  `http://localhost:4000/` para ver el sitio en tu navegador.
 
-If you don't already have Ruby and Bundler installed, follow [the first two steps in these Jekyll installation instructions](https://help.github.com/articles/using-jekyll-with-pages#installing-jekyll "Installation instructions for Jekyll").
+### Para editar el estilo
 
-Next, [fork this repository](http://help.github.com/fork-a-repo/ "Instructions for Forking Your Repository") and clone it on your computer.
+El proyecto utiliza [Sass](http://sass-lang.com/ "Link to Learn More About Sass"). Para hacer cambios basta con editar `styles.css.scss` y compilar `styles.css` ejecutando: `$ sass --watch assets/sass/styles.css.scss:assets/css/styles.css`. O ejecutar `rake`.
 
-Navigate to the folder on your computer, and run the command `$ bundle install` at the command line prompt.
+## Licencia
 
-To run the site locally, run `jekyll serve --watch`, then visit `http://localhost:4000/` in your browser to preview the site.
-
-### Editing the Stylesheets
-
-This project uses [Sass](http://sass-lang.com/ "Link to Learn More About Sass") for managing its style sheets. If you would like to make changes to the site's styles, you should edit the `assets/sass/styles.css.scss` file. 
-**Do not** make changes to the `styles.css` file directly, as this file is auto-generated from the `styles.css.scss` file.
-
-To compile changes in the `styles.css.scss` Sass file into a new `styles.css` file, you can run: `$ sass --watch assets/sass/styles.css.scss:assets/css/styles.css`. This command will watch for any changes you make to the Sass file and automatically update the CSS file, making it easy to check your work when you are running the site locally (see above).
-
-## License
-As a work of the United States Government, this project is in the public domain within the United States.
-
-Additionally, we waive copyright and related rights in the work worldwide through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+Se respeta la licencia original del proyecto [Playbook de Servicios Digitales de EEUU](https://github.com/WhiteHouse/playbook), equivalente a [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).

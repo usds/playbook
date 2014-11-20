@@ -6,12 +6,12 @@
 @media screen {
   body {
     background: white;
-    font-family: "Merriweather", Georgia, serif;
+    font-family: "Open Sans", sans-serif;
     margin: 0;
     line-height: 28px; }
 
   body#techfar_landing_page {
-    background: #36435a; }
+    background: #00cc99; }
 
   a {
     color: inherit;
@@ -33,7 +33,7 @@
     list-style-position: inside; }
     ol li, ul li {
       margin: 1em 0;
-      color: #333333; }
+      color: #663399; }
 
   h1 {
     font-size: 50px;
@@ -49,7 +49,7 @@
 
 @media screen {
   h2 {
-    font-family: "Merriweather", Georgia, serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 54px;
     line-height: 65px;
     font-weight: 300;
@@ -66,9 +66,9 @@
     font-size: 18px; }
 
   h4 {
-    font-family: "Merriweather", Georgia, serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
-    color: #3a96b7;
+    color: #d9d9d9;
     margin-bottom: 0; }
 
   h5 {
@@ -137,8 +137,8 @@
       min-width: 172px;
       text-align: center; }
     .button a:hover {
-      background: white;
-      color: #36435a;
+      background: #00cc99;
+      color: #00cc99;
       text-decoration: none; } }
   @media screen and (min-width: 0px) and (max-width: 640px) {
     .button {
@@ -156,14 +156,14 @@
     font-family: "Open Sans", sans-serif; }
 
   #introduction {
-    background: #36435a;
+    background: #474747;
     color: white;
     padding-bottom: 60px; }
     #introduction a {
       text-decoration: underline; }
     #introduction a:hover {
       background: white;
-      color: #36435a; }
+      color: #474747; }
     #introduction .button a {
       text-decoration: none; }
     #introduction p {
@@ -191,9 +191,9 @@
     position: fixed;
     width: 100%;
     height: 0;
-    background: #36435a;
+    background: #474747;
     color: white;
-    font-family: "Merriweather", Georgia, serif; }
+    font-family: "Open Sans", sans-serif; }
     #navigation_bar .outer_container {
       padding: 0 40px; }
     #navigation_bar h4 {
@@ -212,7 +212,7 @@
       padding: 0;
       list-style-position: outside; }
     #navigation_bar .active a {
-      background: #3a96b7;
+      background: #00cc99;
       color: white;
       text-decoration: none; }
     #navigation_bar li {
@@ -225,12 +225,12 @@
         width: 24px;
         line-height: 22px;
         text-align: center;
-        font-family: "Merriweather", Georgia, serif;
+        font-family: "Open Sans", sans-serif;
         font-weight: lighter;
         color: white;
-        border: 1px solid #3a96b7; }
+        border: 1px solid #00cc99; }
       #navigation_bar li a:hover {
-        background: #3a96b7;
+        background: #00cc99;
         color: white;
         text-decoration: none; }
     #navigation_bar #menu_icon {
@@ -278,7 +278,7 @@
 
 @media screen {
   #plays_index {
-    background: #3a96b7;
+    background: #00cc99;
     color: #333333;
     padding-bottom: 60px; }
     #plays_index h3 {
@@ -313,7 +313,8 @@
     #plays_index .button a {
       color: white; }
     #plays_index .button a:hover {
-      color: #333333; } }
+      color: #00cc99;
+      background: white; } }
   @media screen and (min-width: 0px) and (max-width: 640px) {
     #plays_index {
       padding-bottom: 20px; }
@@ -350,7 +351,7 @@
       margin-right: 0; }
   #plays h4, #techfar h4 {
     margin-top: 0px;
-    color: #36435a; }
+    color: #663399; }
   #plays h2, #techfar h2 {
     margin-bottom: 24px; }
   #plays h5, #techfar h5 {
@@ -381,12 +382,11 @@
   #plays ul, #techfar ul {
     list-style-image: url("../images/bullet-circle.svg"); }
   #plays a, #techfar a {
-    color: #36435a;
+    color: #663399;
     text-decoration: underline;
     display: inline-block; }
   #plays a:hover, #techfar a:hover {
-    color: white;
-    background: #36435a; } }
+    color: #00cc99; } }
 @media screen and (min-width: 0px) and (max-width: 640px) {
   #plays p, #techfar p {
     font-size: 16px;
@@ -429,7 +429,7 @@
 @media print {
   body {
     background: white;
-    font-family: "Merriweather", Georgia, serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: lighter;
     line-height: 1.5em;
     font-size: 12px;

@@ -3,11 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>The U.S. Digital Services Playbook</title>
+<title>{{ site.title }}</title>
   <meta charset='UTF-8'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
   <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,700|Open+Sans:300,400' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | prepend: site.baseurl }}">
   <link href='{{site.baseurl}}/assets/css/styles.css' rel='stylesheet' />
 </head>
 
@@ -16,7 +17,7 @@
 <div id="navigation_bar">
    <div class="outer_container">
     <div class="inner_container">
-      <a href="#introduction"><h4>U.S. Digital Services Playbook</h4></a>
+      <a href="#introduction"><h4>{{ site.title }}</h4></a>
       <ul class="nav">
         {% for play in site.plays %}
           <li class="play_square"><a href="#play{{ play.id }}" title="View Play {{ play.id }}: {{ play.title }}">{{ play.id }}</a></li>
@@ -35,10 +36,13 @@
       {% capture introduction %}{% include introduction.md %}{% endcapture %}
       {{ introduction | markdownify }}
       <div class="button">
-        <a href="#plays_index_anchor" title="View the Plays">SEE THE PLAYS</a>
+        <a href="#plays_index_anchor" title="View the Plays">VE LOS
+          PASOS</a>
       </div>
       <div class="button">
-        <a href="https://github.com/whitehouse/playbook#readme" title="Visit Github to Improve This Content">HELP IMPROVE THIS CONTENT</a>
+        <a href="https://github.com/mxabierto/playbook#readme"
+          title="Visit Github to Improve This Content">AYUDA A MEJORAR
+        ESTE CONTENIDO</a>
       </div>
     </div>
   </div>
@@ -48,7 +52,7 @@
   <div class="outer_container">
     <div class="inner_container">
       <a class="anchor_offset" id="plays_index_anchor"></a>
-      <h3>DIGITAL SERVICE PLAYS</h3>
+      <h3>PASOS PARA ABRIR DATOS</h3>
       <div class="columns">
         <ol>
         {% for play in site.plays %}
@@ -57,7 +61,7 @@
         </ol>
       </div>
       <div class="button">
-        <a href="#play1" title="View the In Detail">IN DETAIL</a>
+        <a href="#play1" title="View the In Detail">VE EN DETALLE</a>
       </div>
     </div>
   </div>
@@ -67,7 +71,7 @@
   {% for play in site.plays %}
     <div class="inner_container">
       <a class="anchor_offset" id="play{{ play.id }}"></a>
-      <h5>PLAY {{ play.id }}</h5>
+      <h5>PASO {{ play.id }}</h5>
       <h2>{{ play.title }}</h2>
 
       {{ play.output }}
