@@ -33,7 +33,7 @@
     list-style-position: inside; }
     ol li, ul li {
       margin: 1em 0;
-      color: #00cc99; }
+      color: #663399; }
 
   h1 {
     font-size: 50px;
@@ -133,7 +133,7 @@
       display: inline-block;
       padding: 10px 30px;
       text-decoration: none;
-      border: 1px solid #00cc99;
+      border: 1px solid white;
       min-width: 172px;
       text-align: center; }
     .button a:hover {
@@ -162,7 +162,7 @@
     #introduction a {
       text-decoration: underline; }
     #introduction a:hover {
-      background: #00cc99;
+      background: white;
       color: #474747; }
     #introduction .button a {
       text-decoration: none; }
@@ -313,7 +313,8 @@
     #plays_index .button a {
       color: white; }
     #plays_index .button a:hover {
-      color: #333333; } }
+      color: #00cc99;
+      background: white; } }
   @media screen and (min-width: 0px) and (max-width: 640px) {
     #plays_index {
       padding-bottom: 20px; }
@@ -350,7 +351,7 @@
       margin-right: 0; }
   #plays h4, #techfar h4 {
     margin-top: 0px;
-    color: #00cc99; }
+    color: #663399; }
   #plays h2, #techfar h2 {
     margin-bottom: 24px; }
   #plays h5, #techfar h5 {
@@ -381,12 +382,11 @@
   #plays ul, #techfar ul {
     list-style-image: url("../images/bullet-circle.svg"); }
   #plays a, #techfar a {
-    color: white;
+    color: #663399;
     text-decoration: underline;
     display: inline-block; }
   #plays a:hover, #techfar a:hover {
-    color: white;
-    background: #00cc99; } }
+    color: #00cc99; } }
 @media screen and (min-width: 0px) and (max-width: 640px) {
   #plays p, #techfar p {
     font-size: 16px;

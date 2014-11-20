@@ -3,7 +3,7 @@
 
 // Colors
 $open_green:          #00cc99;
-$graph_purple:        #663399
+$graph_purple:        #663399;
 $machine_gray:        #d9d9d9;
 $white:               #fff;
 $black:               #333;
@@ -137,14 +137,16 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     display: inline-block;  
     margin-top: 40px;
     margin-right: 20px;
+
     a {
       display: inline-block;
       padding: 10px 30px;
       text-decoration: none;
-      border: 1px solid $open_green;
+      border: 1px solid $white;
       min-width: 172px;
       text-align: center;
     }
+
     a:hover {
       background: $open_green;
       color: $open_green;
@@ -178,7 +180,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
 
     a:hover {
-      background: $open_green;
+      background: $white;
       color: $light_black;
     }
 
@@ -334,7 +336,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
   }
 
-  #plays_index {
+    #plays_index {
     background: $open_green;
     color: $black;
     padding-bottom: 60px;
@@ -383,10 +385,11 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     
     .button {
       a {
-        color: $white;
+        color: white;
       }
       a:hover {
-        color: $black;
+        color: $open_green;
+        background: $white;
       }
     }
 
@@ -469,14 +472,14 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
 
     a {
-      color: $open_green;
+      color: $graph_purple;
       // border-bottom: 1px solid $open_green;
       text-decoration: underline;
       display: inline-block;
     }
 
     a:hover {
-      color: $black;
+      color: $open_green;
       // border-bottom: 1px solid $white;
     }
 
