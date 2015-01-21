@@ -9,6 +9,7 @@ $white:               #fff;
 $black:               #333;
 $gray:                #4D4D4D;
 $background_white:    #fff;
+$gray_blue:           #a5a8b7;
 
 // Fonts
 $serif:               'Merriweather', Georgia, serif;
@@ -155,7 +156,6 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
       display: block;
       margin-right: 0;
       text-align: left;
-      // width: 100%;
     }
   }
 
@@ -182,6 +182,18 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
       color: $atlantic_blue;
     }
 
+    #usds_logo {
+      display: inline-block;
+      img {
+        max-height: 100%;
+        max-width: 100%;
+      }
+    }
+    
+    #usds_logo:hover {
+      background: $gray_blue;
+    }
+
     .button a {
       text-decoration: none;
     }
@@ -197,9 +209,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
 
     p.download_links {
-      // color: red;
       font-size: 16px;
-      // margin-top: 16px;
     }
 
     @include media($mobile) {
@@ -233,6 +243,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
       font-weight: lighter;
       line-height: 20px;
       display: inline-block;
+
     }
     h4:hover {
       text-decoration: underline;
