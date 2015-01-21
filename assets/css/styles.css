@@ -164,6 +164,13 @@
     #introduction a:hover {
       background: white;
       color: #36435a; }
+    #introduction #usds_logo {
+      display: inline-block; }
+      #introduction #usds_logo img {
+        max-height: 100%;
+        max-width: 100%; }
+    #introduction #usds_logo:hover {
+      background: #a5a8b7; }
     #introduction .button a {
       text-decoration: none; }
     #introduction p {
