@@ -5,3 +5,6 @@ url: http://playbook.cio.gov
 
 collections:
   - plays
+
+sass:
+    sass_dir: assets/_sass
