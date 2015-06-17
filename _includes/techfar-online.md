@@ -441,7 +441,7 @@ This text is to help illustrate how the Agile principles in this handbook may be
 - The contractor shall work with Agency stakeholders and technology professionals to properly understand business requirements and develop an industry best practice approach to technology solutions.
 - The contractor shall provide subject matter expertise for the [insert title] product suite including [insert applicable] coding languages.
 - **The contractor shall develop or configure, test, stage, and release business applications by applying iterative processes utilizing the proposed Agile methodology and a frequent release cycle.**
-- The contractor shall provide customer-friendly open source solutions that provide ease of use for non-technical Government users.
+- The contractor shall provide customer-friendly solutions which carry [OSI Approved Open Source Licenses](http://opensource.org/licenses) and provide ease of use for non-technical Government users.
 -	The contractor shall ensure commercial best practices workflows shall come bundled with the solutions.
 -	The contractor shall design solutions that offer role or attribute based identity management, authorization, and authentication across all business applications. 
 -	The contractor shall ensure all content is preserved according to federal record retention requirements and applications shall have the ability to protect personally identifiable information (PII).
