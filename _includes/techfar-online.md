@@ -418,6 +418,7 @@ As discussed in Section E: Pricing considerations, incentives may be used as lev
 - **Legal:** Provides legal review of all documents and actions
 
 #### Contractor
+- **UX Designers:** For systems with a user experience, visual and interaction designers, user researchers and usability experts create and validate that the designs and resulting software meet the user need
 - **Developers*:** Software architects who design the system and write code
 - **Project Manager:** Manages the team’s execution of the project
 - **Tester**: Tests features and functionality of system to uncover software bugs in functional and non-functional areas of the system; ensures system  functionality
