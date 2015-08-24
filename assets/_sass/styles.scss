@@ -8,6 +8,7 @@ $atlantic_blue:       #112E51; // primary-darkest
 $pacific_blue:        #046B99; // primary-alt-darkest
 // $pacific_blue:        #0071BC; // primary
 // $pacific_blue:     #3A96B7; // original
+$miami_vice_blue:     #0071BC; // original
 $white:               #fff;
 // $black:               #212121; // base
 $black:               #323A45; // gray-dark
@@ -153,9 +154,11 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     display: inline-block;  
     margin-top: 40px;
     margin-right: 20px;
+
     a {
       display: inline-block;
-      padding: 10px 30px;
+      border-radius: 3px;
+      padding: 10px 20px;
       text-decoration: none;
       border: 1px solid $white;
       min-width: 172px;
@@ -272,7 +275,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
     .active {
       a {
-        background: $pacific_blue;
+        background: $miami_vice_blue;
         color: $white;
         text-decoration: none;
       }
@@ -292,10 +295,10 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
         font-family: $serif;
         font-weight: lighter;
         color: $white;
-        border: 1px solid $pacific_blue;
+        border: 1px solid $miami_vice_blue;
       }
       a:hover {
-        background: $pacific_blue;
+        background: $miami_vice_blue;
         color: $white;
         text-decoration: none;
       }
