@@ -79,14 +79,13 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
   h2.display {
     font-family: $serif;
-    font-size: 54px;
-    line-height: 65px;
+    font-size: 40px;
+    line-height: 1.375em;
     font-weight: 300;
     margin-top: 0;
     color: $black;
     @include media($mobile) {
       font-size: 32px;
-      line-height: 42px;
     }
   }
 
@@ -98,21 +97,26 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
   h4 {
     font-family: $serif;
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.375em;
     color: $miami_vice_blue;
     margin-bottom: 0;
   }
 
-  h5 {
+  h6 {
     font-family: $sans-serif;
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.375em;
     margin-bottom: 15px;
-    color: $black;
-    font-weight: lighter;
   }
 
   p {
     color: $black;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.375em;
   }
 
   .outer_container {
@@ -240,22 +244,20 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     height: 0;
     background: $atlantic_blue;
     color: $white;
-    font-family: $serif;
     .outer_container {
       padding: 0 40px;
     }
 
-    h4 {
+    h3 {
       padding: 20px 0;
       margin-top: 0;
-      font-size: 20px;
+      // font-size: 20px;
       color: $white;
-      font-weight: lighter;
-      line-height: 20px;
+      // line-height: 20px;
       display: inline-block;
 
     }
-    h4:hover {
+    h3:hover {
       text-decoration: underline;
     }
 
@@ -322,7 +324,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
       .outer_container {
         padding: 0 20px;
       }
-      h4 {
+      h3 {
         font-size: 16px;
         padding: 16px 0;
         line-height: 16px;
@@ -443,20 +445,16 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 
   #plays, #techfar {
-    h2, h4 {
+    h2, h3 {
       @include span-columns(8);
     }
-    h4 {
-      margin-top: 0px;
+    h3 {
+      // margin-top: 0px;
       color: $atlantic_blue;
     }
 
     h2 {
       margin-bottom: 24px;
-    }
-
-    h5 {
-      font-size: 14px;
     }
 
     p {
@@ -475,9 +473,8 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
 
     li {
-      font-size: 15px;
-      line-height: 25px;
       padding-left: 5px;
+      font-size: 17px;
     }
 
     ul {
@@ -486,14 +483,12 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
     a {
       color: $atlantic_blue;
-      // border-bottom: 1px solid $atlantic_blue;
       text-decoration: underline;
       display: inline-block;
     }
 
     a:hover {
       color: $white;
-      // border-bottom: 1px solid $white;
       background: $atlantic_blue;
     }
 
@@ -507,13 +502,13 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
         line-height: 20px;
       }
 
-      h2, h4, p, ol, ul {
+      h2, h3, p, ol, ul {
         @include span-columns(4);
       }
     }
 
     @include media($slimmer) {
-      h2, h4 {
+      h2, h3 {
         @include span-columns(9);
       }
       p {

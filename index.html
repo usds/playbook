@@ -17,7 +17,7 @@
    <div class="outer_container">
     <div class="inner_container">
 
-      <a href="#introduction"><h4>U.S. Digital Services Playbook</h4></a>
+      <a href="#introduction"><h3>U.S. Digital Services Playbook</h3></a>
       <ul class="nav">
         {% for play in site.plays %}
           <li class="play_square"><a href="#play{{ play.id }}" title="View Play {{ play.id }}: {{ play.title }}">{{ play.id }}</a></li>
@@ -69,8 +69,8 @@
   {% for play in site.plays %}
     <div class="inner_container">
       <a class="anchor_offset" id="play{{ play.id }}"></a>
-      <h5>PLAY {{ play.id }}</h5>
-      <h2>{{ play.title }}</h2>
+      <h6>PLAY {{ play.id }}</h6>
+      <h2 class="display">{{ play.title }}</h2>
 
       {{ play.output }}
     </div>
