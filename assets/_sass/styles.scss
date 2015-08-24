@@ -493,11 +493,11 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     @include media($mobile) {
       p {
         font-size: 16px;
-        line-height: 24px;
+        // line-height: 24px;
       }
       ol, li {
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 16px;
+        // line-height: 20px;
       }
 
       h2, h3, p, ol, ul {
