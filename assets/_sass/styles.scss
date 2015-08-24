@@ -9,9 +9,8 @@ $pacific_blue:        #046B99; // primary-alt-darkest
 // $pacific_blue:        #0071BC; // primary
 // $pacific_blue:     #3A96B7; // original
 $white:               #fff;
-$black:               #333;
-$gray:                #4D4D4D;
-$background_white:    #fff;
+// $black:               #212121; // base
+$black:               #323A45; // gray-dark
 $gray_blue:           #a5a8b7;
 
 // Fonts
@@ -24,7 +23,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
 @media screen {
   body {
-    background: $background_white;
+    background: $white;
     font-family: $serif;
     margin: 0;
     line-height: 1.375em;
@@ -561,7 +560,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 
   a {
-    color: black;
+    color: $black;
     text-decoration: underline;
   }
 
