@@ -13,7 +13,7 @@ $gray_blue:           #a5a8b7;
 
 // Fonts
 $serif:               'Merriweather', Georgia, serif;
-$sans-serif:          'Open Sans', sans-serif;
+$sans-serif:          'Source Sans Pro', sans-serif;
 
 // Mobile Breakpoints
 $mobile: new-breakpoint(min-width 0px max-width 640px 4);
@@ -24,7 +24,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     background: $background_white;
     font-family: $serif;
     margin: 0;
-    line-height: 28px;
+    line-height: 1.375em;
   }
 
   body#techfar_landing_page {
@@ -59,19 +59,25 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 
   h1 {
-    font-size: 50px;
-    font-weight: 300;
+    font-size: 52px;
+    font-weight: 700;
     border-bottom: 1px solid $white;
     padding-bottom: 0.25em;
     margin-bottom: 20px;
-    line-height: 65px;
+    line-height: 1.375em;
     @include media($mobile){
       font-size: 28px;
-      line-height: 36px;
     }
   }
 
   h2 {
+    font-family: $serif;
+    font-size: 30px;
+    line-height: 1.375em;
+    font-weight: 700;
+  }
+
+  h2.display {
     font-family: $serif;
     font-size: 54px;
     line-height: 65px;
@@ -85,8 +91,9 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 
   h3 {
-    font-family: $sans-serif;
-    font-size: 18px;
+    font-family: $serif;
+    font-size: 20px;
+    font-weight: 700;
   }
 
   h4 {
@@ -133,8 +140,10 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 
   .button {
-    font-size: inherit;
+    font-size: 17px;
     font-family: $sans-serif;
+    font-weight: 700;
+    line-height: 1.375em;
     display: inline-block;  
     margin-top: 40px;
     margin-right: 20px;
@@ -200,11 +209,12 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
     p {
       max-width: 600px;
-      font-family: $sans-serif;
+      font-family: $serif;
       font-size: 20px;
-      line-height: 38px;
+      font-weight: 300;
+      line-height: 1.375em;
       margin-top: 40px;
-      font-weight: lighter;
+
       color: $white;
     }
 
@@ -346,14 +356,10 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
   #plays_index {
     background: $miami_vice_blue;
-    color: $black;
     padding-bottom: 60px;
+    color: $white;
 
-
-    h3 { 
-      color: $white;
-      font-size: 23px;
-      font-weight: normal;
+    h2 { 
       margin-bottom: 38px;
     }
     
@@ -385,10 +391,11 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
     
     ol, li {
-      color: $white;
       font-size: 20px;
-      font-weight: lighter;
+      font-weight: 300;
+      line-height: 1.375em;
       margin-top: 0;
+      color: $white;
     }
     
     .button {
@@ -401,7 +408,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
 
     @include media($mobile) {
-      h3 {
+      h2 {
         font-size: 18px;
         margin-bottom: 20px;
       }
@@ -436,7 +443,6 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 
   #plays, #techfar {
-
     h2, h4 {
       @include span-columns(8);
     }
