@@ -2,11 +2,11 @@
 @import "neat/neat";
 
 // Colors
-// $atlantic_blue:       #323A45; // gray-dark
-$atlantic_blue:       #112E51; // primary-darkest
+$atlantic_blue:       #323A45; // gray-dark
+// $atlantic_blue:       #112E51; // primary-darkest
 // $atlantic_blue:       #36435a; // original
-$pacific_blue:        #046B99; // primary-alt-darkest
-// $pacific_blue:        #0071BC; // primary
+// $pacific_blue:        #046B99; // primary-alt-darkest
+$pacific_blue:        #0071BC; // primary
 // $pacific_blue:     #3A96B7; // original
 $miami_vice_blue:     #0071BC; // original
 $white:               #fff;
@@ -205,6 +205,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
       img {
         max-height: 100%;
         max-width: 100%;
+        width: 160px;
       }
     }
     
@@ -275,7 +276,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
     .active {
       a {
-        background: $miami_vice_blue;
+        background: $pacific_blue;
         color: $white;
         text-decoration: none;
       }
