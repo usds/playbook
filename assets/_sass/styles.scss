@@ -63,11 +63,11 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
   h1 {
     font-size: 52px;
-    font-weight: 700;
+    font-weight: 300;
     border-bottom: 1px solid $white;
     padding-bottom: 0.25em;
     margin-bottom: 20px;
-    line-height: 1.5em;
+    line-height: 1.375em;
     @include media($mobile){
       font-size: 28px;
     }
@@ -210,7 +210,9 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
     
     #usds_logo:hover {
-      background: $gray_blue;
+      background: none;
+      // background: $gray_blue;
+      opacity: 0.7;
     }
 
     .button a {
