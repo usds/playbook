@@ -490,14 +490,13 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
 
     a {
-      color: $atlantic_blue;
+      color: #0071bc;
       text-decoration: underline;
       display: inline-block;
     }
 
-    a:hover {
-      color: $white;
-      background: $atlantic_blue;
+    a:visited {
+      color: #4c2c92;
     }
 
     @include media($mobile) {
