@@ -160,7 +160,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
       border-radius: 3px;
       padding: 10px 20px;
       text-decoration: none;
-      border: 1px solid $white;
+      border: 2px solid $white;
       min-width: 172px;
       text-align: center;
     }
@@ -400,8 +400,12 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
       font-size: 20px;
       font-weight: 300;
       line-height: 1.5em;
-      margin-top: 0;
+      margin: 0;
       color: $white;
+    }
+
+    li {
+      padding-bottom: 20px;
     }
     
     .button {
