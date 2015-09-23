@@ -3,16 +3,10 @@
 
 // Colors
 $atlantic_blue:       #323A45; // gray-dark
-// $atlantic_blue:       #112E51; // primary-darkest
-// $atlantic_blue:       #36435a; // original
-// $pacific_blue:        #046B99; // primary-alt-darkest
-$pacific_blue:        #0071BC; // primary
-// $pacific_blue:     #3A96B7; // original
-$miami_vice_blue:     #0071BC; // original
+$pacific_blue:        #046B99; // primary-alt-darkest
+$miami_vice_blue:     $pacific_blue; // original
 $white:               #fff;
-// $black:               #212121; // base
 $black:               #323A45; // gray-dark
-$gray_blue:           #a5a8b7;
 
 // Fonts
 $serif:               'Merriweather', Georgia, serif;
@@ -211,7 +205,6 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     
     #usds_logo:hover {
       background: none;
-      // background: $gray_blue;
       opacity: 0.7;
     }
 
