@@ -1,13 +1,15 @@
 ---
 ---
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>The U.S. Digital Services Playbook</title>
   <meta charset='UTF-8'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <link rel='shortcut icon' href='{{site.baseurl}}/img/favicon.ico' type='image/x-icon' />
-  <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,700|Open+Sans:300,400' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,700|Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+  <link rel='shortcut icon' href='{{site.baseurl}}/assets/images/favicon.ico' type='image/x-icon' />
+  <link rel="icon" type="image/png" href="{{site.baseurl}}/assets/images/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="{{site.baseurl}}/assets/images/favicon-16x16.png" sizes="16x16" />
   <link href='{{site.baseurl}}/assets/css/styles.css' rel='stylesheet' />
 </head>
 
@@ -17,7 +19,7 @@
    <div class="outer_container">
     <div class="inner_container">
 
-      <a href="#introduction"><h4>U.S. Digital Services Playbook</h4></a>
+      <a href="#introduction"><h3>U.S. Digital Services Playbook</h3></a>
       <ul class="nav">
         {% for play in site.plays %}
           <li class="play_square"><a href="#play{{ play.id }}" title="View Play {{ play.id }}: {{ play.title }}">{{ play.id }}</a></li>
@@ -33,14 +35,14 @@
 <div id="introduction">
   <div class="outer_container">
     <div class="inner_container">
-      <a id="usds_logo" href="http://whitehouse.gov/digital/united-states-digital-service" title="Link to the United States Digital Service"><img src='{{site.baseurl}}/assets/images/usds_logo.png' alt="Logo of the United States Digital Service"></a>
+      <a id="usds_logo" href="http://whitehouse.gov/digital/united-states-digital-service" title="Link to the United States Digital Service"><img src='{{site.baseurl}}/assets/images/USDS-logo-rays-transparent.png' alt="Logo of the United States Digital Service"></a>
       {% capture introduction %}{% include introduction.md %}{% endcapture %}
       {{ introduction | markdownify }}
       <div class="button">
-        <a href="#plays_index_anchor" title="View the Plays">SEE THE PLAYS</a>
+        <a href="#plays_index_anchor" title="View the Plays">See the plays</a>
       </div>
       <div class="button">
-        <a href="https://github.com/whitehouse/playbook#readme" title="Visit Github to Improve This Content">HELP IMPROVE THIS CONTENT</a>
+        <a href="https://github.com/whitehouse/playbook#readme" title="Visit Github to Improve This Content">Help improve this content</a>
       </div>
     </div>
   </div>
@@ -50,7 +52,7 @@
   <div class="outer_container">
     <div class="inner_container">
       <a class="anchor_offset" id="plays_index_anchor"></a>
-      <h3>DIGITAL SERVICE PLAYS</h3>
+      <h2>Digital Service Plays</h2>
       <div class="columns">
         <ol>
         {% for play in site.plays %}
@@ -59,7 +61,7 @@
         </ol>
       </div>
       <div class="button">
-        <a href="#play1" title="View the In Detail">IN DETAIL</a>
+        <a href="#play1" title="View the In Detail">In detail</a>
       </div>
     </div>
   </div>
@@ -69,8 +71,8 @@
   {% for play in site.plays %}
     <div class="inner_container">
       <a class="anchor_offset" id="play{{ play.id }}"></a>
-      <h5>PLAY {{ play.id }}</h5>
-      <h2>{{ play.title }}</h2>
+      <h6>PLAY {{ play.id }}</h6>
+      <h2 class="display">{{ play.title }}</h2>
 
       {{ play.output }}
     </div>
