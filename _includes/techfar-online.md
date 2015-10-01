@@ -25,8 +25,8 @@ This handbook is not intended to usurp existing laws, regulations, or Agency pol
 - [Contract Administration](#contract-administration)
 - [Appendix](#appendix)
 
-
-## Purpose of this Document <a id="purpose-of-this-document"></a>
+<a id="purpose-of-this-document"></a>
+## Purpose of this Document 
 
 The President’s Management Agenda lays the foundation for creating a 21st century Government that delivers better results to our citizens and improves the way we deliver digital services to better serve the American people.  This foundation includes an efficient and effective acquisition system that maximizes the value of every taxpayer dollar invested in technology.
 
