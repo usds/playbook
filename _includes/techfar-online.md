@@ -117,7 +117,8 @@ Part 24 of the FAR implements the provisions of the Privacy Act. Contractors and
 
 Additionally, FAR 39.107 states that FAR 52.239-1, Privacy or Security Safeguards or other similar language, is to be included in all procurement actions for information technology which require security of information technology, and/or are for the design, development, or operation of a system of records using Commercial information technology services or support services.  See also [Fair Information Practice Principles available at: http://www.nist.gov/nstic/NSTIC-FIPPs.pdf](http://www.nist.gov/nstic/NSTIC-FIPPs.pdf "Link to Fair Information Practice Principles"). 
 
-## Requirements Development & Acquisition Planning <a id="requirements-development"></a>
+<a id="requirements-development"></a>
+## Requirements Development & Acquisition Planning 
 
 **Question** — FAR 15.203 requires agencies to identify requirements in their requests for proposals (RFPs).  How does this requirement fit with Agile processes, which are based on the premise that it is not realistic to expect users to know exactly what they need before they see it and rely on refinement of system requirements based on testing and customer feedback after the contract is awarded? 
 
