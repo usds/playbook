@@ -1,5 +1,5 @@
-# U.S. Digital Services Playbook
+# Information Sharing and Safeguarding Playbook
 
-The American people expect to interact with government through digital channels such as websites, email, and mobile applications. By building digital services that meet their needs, we can make the delivery of our policy and programs more effective.   
+This Playbook is intended to help users in their quest to create or enhance an effective and efficient Information Sharing and Safeguarding (IS&S) Environment, and can be used at any point in the environment’s lifecycle.
 
-Today, too many of our digital services projects do not work well, are delivered late, or are over budget. To increase the success rate of these projects, the U.S. Government needs a new approach. We created a playbook of 13 key “plays” drawn from successful practices from the private sector and government that, if followed together, will help government build effective digital services.
+One way to advance the IS&S Environment is by putting the right processes and practices in place to drive outcomes and accountability and allow people and companies to do their best work. The IS&S Playbook documents these best practices and processes.
