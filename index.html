@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>The U.S. Digital Services Playbook</title>
+  <title>The Information Sharing and Safeguarding Playbook</title>
   <meta charset='UTF-8'/>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,700|Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
@@ -19,7 +19,7 @@
    <div class="outer_container">
     <div class="inner_container">
 
-      <a href="#introduction"><h3>U.S. Digital Services Playbook</h3></a>
+      <a href="#introduction"><h3>IS&S Playbook</h3></a>
       <ul class="nav">
         {% for play in site.plays %}
           <li class="play_square"><a href="#play{{ play.id }}" title="View Play {{ play.id }}: {{ play.title }}">{{ play.id }}</a></li>
@@ -35,14 +35,14 @@
 <div id="introduction">
   <div class="outer_container">
     <div class="inner_container">
-      <a id="usds_logo" href="http://whitehouse.gov/digital/united-states-digital-service" title="Link to the United States Digital Service"><img src='{{site.baseurl}}/assets/images/USDS-logo-rays-transparent.png' alt="Logo of the United States Digital Service"></a>
+      <a id="usds_logo" href="http://www.standardscoordination.org/" title="Link to the Standards Coordinating Council"><img src='{{site.baseurl}}/assets/images/USDS-logo-rays-transparent.png' alt="Logo of the Standards Coordinating Council"></a>
       {% capture introduction %}{% include introduction.md %}{% endcapture %}
       {{ introduction | markdownify }}
       <div class="button">
         <a href="#plays_index_anchor" title="View the Plays">See the plays</a>
       </div>
       <div class="button">
-        <a href="https://github.com/whitehouse/playbook#readme" title="Visit Github to Improve This Content">Help improve this content</a>
+        <a href="https://github.com/project-interoperability/playbook#readme" title="Visit Github to Improve This Content">Help improve this content</a>
       </div>
     </div>
   </div>
@@ -52,7 +52,7 @@
   <div class="outer_container">
     <div class="inner_container">
       <a class="anchor_offset" id="plays_index_anchor"></a>
-      <h2>Digital Service Plays</h2>
+      <h2>Information Sharing and Safeguarding Environment Plays</h2>
       <div class="columns">
         <ol>
         {% for play in site.plays %}
