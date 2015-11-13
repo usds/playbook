@@ -23,7 +23,7 @@ There are also a few key principles that will help guide the use of this Playboo
 ## We Want Your Feedback
 The IS&S Playbook was developed by the IJIS Institute for the Standards Coordinating Council using the U.S. Digital Services Playbook as the foundational framework. This is a draft version and user feedback is always welcome. We are especially interested in hearing from the community of interest about additional resources for the plays. 
 
-We encourage your feedback and suggestions on these documents. Content and feature suggestions and discussions are welcome via [GitHub Issues](https://github.com/Project-Interoperability/playbook/issues). You may also propose changes to the content directly by submitting a [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests").
+We encourage your feedback and suggestions on these documents. Content and feature suggestions and discussions are welcome via [GitHub Issues](https://github.com/Project-Interoperability/playbook/issues). You may also propose changes to the content directly by submitting a [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests"). Or if you prefer, you can just email us at info@standardscoordination.org. 
 
 You don't need to install any software to suggest a change. To propose a change from your browser, [select a play in the `_plays` folder](https://github.com/Project-Interoperability/playbook/tree/gh-pages/_plays "Link to the Plays Markdown files"). You can use GitHub's in-browser editor to edit files and submit a "pull request" for your changes to be merged into the document. 
 
