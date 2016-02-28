@@ -16,15 +16,16 @@ This handbook is not intended to usurp existing laws, regulations, or Agency pol
 
 ## TechFAR Handbook Table of Contents
 
-- Purpose of This Document
-- General Considerations
-- Requirements Development & Acquisition Planning
-- Contract Vehicles and Use of Existing IT Contracts
-- Pricing Considerations
-- Use of Competition	
-- Contract Administration
+- [Purpose of This Document](#purpose-of-this-document)
+- [General Considerations](#general-considerations)
+- [Requirements Development & Acquisition Planning](#requirements-development)
+- [Contract Vehicles and Use of Existing IT Contracts](#contract-vehicles)
+- [Pricing Considerations](#pricing-considerations)
+- [Use of Competition](#use-of-competition)	
+- [Contract Administration](#contract-administration)
+- [Appendix](#appendix)
 
-
+<a id="purpose-of-this-document"></a>
 ## Purpose of this Document 
 
 The President’s Management Agenda lays the foundation for creating a 21st century Government that delivers better results to our citizens and improves the way we deliver digital services to better serve the American people.  This foundation includes an efficient and effective acquisition system that maximizes the value of every taxpayer dollar invested in technology.
@@ -34,8 +35,9 @@ The FAR and each agency’s supplement to the FAR, set forth Government-wide ove
 Within the realm of IT acquisition, this handbook concentrates primarily on software development procurements (excluding nondevelopmental and commercially available off-the-shelf items) and, in particular, the use of Agile principles. Software represents a significant component of IT contract[6] spending and plays a role in the success of most, if not all, Federal programs.  The handbook assumes familiarity with OMB’s Digital Services Playbook, which discusses strategies and best practices for agencies building digital services, and specifies Agile, iterative development as a critical component for success.
 
 For each stage of the acquisition lifecycle, this document highlights key regulatory provisions and explains how Agile approaches can be effectively and successfully implemented consistent with core values of public procurement, including impartiality, accountability for results, and providing the best value to the taxpayer.  It does not teach Agile software development, but includes practice tips and sample language from agencies that have successfully used these tools to support mission needs.  
- 
-## General Considerations
+
+<a id="general-considerations"></a> 
+## General Considerations 
 
 
 **Question** — Generally speaking, what is Agile software development, and how does it fit into the acquisition development lifecycle?
@@ -115,7 +117,8 @@ Part 24 of the FAR implements the provisions of the Privacy Act. Contractors and
 
 Additionally, FAR 39.107 states that FAR 52.239-1, Privacy or Security Safeguards or other similar language, is to be included in all procurement actions for information technology which require security of information technology, and/or are for the design, development, or operation of a system of records using Commercial information technology services or support services.  See also [Fair Information Practice Principles available at: http://www.nist.gov/nstic/NSTIC-FIPPs.pdf](http://www.nist.gov/nstic/NSTIC-FIPPs.pdf "Link to Fair Information Practice Principles"). 
 
-## Requirements Development & Acquisition Planning
+<a id="requirements-development"></a>
+## Requirements Development & Acquisition Planning 
 
 **Question** — FAR 15.203 requires agencies to identify requirements in their requests for proposals (RFPs).  How does this requirement fit with Agile processes, which are based on the premise that it is not realistic to expect users to know exactly what they need before they see it and rely on refinement of system requirements based on testing and customer feedback after the contract is awarded? 
 
@@ -181,7 +184,8 @@ Additionally, FAR 9.505-3 applies in the respect that contracts for the evaluati
 
 As explained in FAR 9.505-2(a)(3), for development work, it is normal to select firms that have done the most advanced work in the field and would be expected to design and develop around their own prior knowledge.  FAR 9.505-2(b)(1) allows a contractor to supply a system if it has participated in the development and design work.  Given that the agency will be testing this software repeatedly throughout the development, it should already have the hardware on which it will be operating (or at least it will have already identified what hardware must be used).  Consequently, even if there is a subsequent need to acquire a hardware system to run the software, the development of the software should not be considered preparing or assisting in preparing a work statement for the acquisition of the hardware system.  
 
-## Contract  Vehicles and Use of Existing IT Contracts
+<a id="contract-vehicles"></a>
+## Contract  Vehicles and Use of Existing IT Contracts 
 
 **Question** — Are IDIQ contracts the only contract vehicle responsive enough to support the flexibility needed in Agile software development processes?
 
@@ -195,7 +199,8 @@ OMB’s 2012 Contracting Guidance to Support Modular Development states that IDI
 
 Per FAR 8.002 and 8.004, agencies should be evaluating whether existing contract vehicles are suitable before creating new ones.  Many agencies have established enterprise-wide contracts to reduce duplicative contract actions for a wide range of IT needs.  That said, if a contract does not effectively support Agile software development (e.g., because contract holders do not have the requisite expertise with Agile software development processes, or other limitations on the contract vehicles), COs should follow agency procedures to document why the existing contract vehicle does not meet the particular requirements and why a new contract vehicle is necessary. 
 
-## Pricing Considerations
+<a id="pricing-considerations"></a>
+## Pricing Considerations 
 
 **Question** — Because Agile software development is heavily process-driven, must agencies only use fixed-price contracts to get the desired result?
 
@@ -301,7 +306,8 @@ When preparing an Independent Government Cost Estimate (IGCE), the agency should
 
 When developing the IGCE, one strategy is to take the user stories at high levels (epics) and estimate the amount of effort involved in each epic on a coarse abstract scale (e.g., small, medium, large).  Then assign a dollar value range to each value on the scale, and tally up the final figures to provide an upper and lower bound for the total estimated cost.  Another strategy is for the Government to fix the sprint timeframes and dictate how many sprints it will be purchasing.  In this case, the IGCE would be the estimated cost/sprint times the number of sprints.
 
-## Use of Competition
+<a id="use-of-competition"></a>
+## Use of Competition 
 
 **Question** —  FAR 11.002 states that agencies should specify needs in a manner that promotes competition.  Given that requirements may not be fully defined when the agency solicits offers and that not every offeror knows how to perform Agile software development, what is the best way to ensure effective use of competition? 
 
@@ -346,7 +352,8 @@ The contract requirements description for Agile software development contracts a
 
 FAR generally requires agencies to provide maximum practicable opportunities in its acquisitions to small businesses.  Agencies have small business goals and they should give strong consideration to those goals when determining acquisition strategy.  Agile software development is consistent with this long-standing policy.  Many small businesses in this field have the expertise and capacity to perform Agile software development services, and they are as capable as large businesses to perform this type of work.  Methods of increasing small business utilization are encouraged, such as mentor-protégé relationships or having subcontracting arrangements to be required and submitted with the respective proposals.
 
-## Contract Administration
+<a id="contract-administration"></a>
+## Contract Administration 
 
 **Question** — FAR 42.302 lists the contract administration functions to be performed by the Government.  When performing contract administration, agencies have noted challenges in committing staff to support Agile software development.  Is Agile software development feasible given agencies’ limited resources? 
 
@@ -402,7 +409,8 @@ If the contractor is unable to delivery working software within budget and on sc
 
 As discussed in Section E: Pricing considerations, incentives may be used as leverage.  Incentives should drive the contractor to high performance.  If there are incentives in the contract, the contractor will not get the incentive if the work is not produced.  
 
-#### Appendix A
+<a id="appendix"></a>
+#### Appendix A 
 ## Comparison of Traditional to Agile Thinking on Software Development
 
 !["Comparison of Agile to Waterfall"](../assets/images/techfar5.png "Comparison of Traditional Software Development with Agile Software Development")
