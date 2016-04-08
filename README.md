@@ -36,7 +36,7 @@ To run the site locally, run `jekyll serve --watch`, then visit `http://localhos
 
 ### Editing the Stylesheets
 
-This project uses [Sass](http://sass-lang.com/ "Link to Learn More About Sass") for managing its style sheets. These styles are defined in the [`styles.scss` file](assets/_sass/styles.scss). We use [Jekyll's native SASS support](http://jekyllrb.com/docs/assets/) to auto-generates the required CSS when you run the site locally, as described above.
+This project uses [Sass](http://sass-lang.com/ "Link to Learn More About Sass") for managing its style sheets. These styles are defined in the [`styles.scss` file](assets/_sass/styles.scss). We use [Jekyll's native SASS support](http://jekyllrb.com/docs/assets/) to auto-generate the required CSS when you run the site locally, as described above.
 
 ## License
 As a work of the United States Government, this project is in the public domain within the United States.
