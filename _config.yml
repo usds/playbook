@@ -1,5 +1,5 @@
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 url: http://playbook.cio.gov
 
 collections:
