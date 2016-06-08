@@ -1,4 +1,4 @@
-# U.S. Digital Services Playbook
+# Digital Services Playbook
 
 The American people expect to interact with government through digital channels such as websites, email, and mobile applications. By building digital services that meet their needs, we can make the delivery of our policy and programs more effective.   
 
