@@ -129,7 +129,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bourbon
+  bourbon (~> 4.0.2)
   github-pages (~> 82)
-  neat
-  sass
+  neat (~> 1.6.0)
+  sass (~> 3.4.22)
+
+BUNDLED WITH
+   1.12.4
