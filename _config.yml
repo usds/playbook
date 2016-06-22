@@ -1,6 +1,6 @@
 permalink: pretty
 highlighter: rouge
-url: https://playbook.cio.gov
+url: https://gpsdd.github.io/playbook/
 
 collections:
   - plays
