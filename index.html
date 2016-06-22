@@ -36,8 +36,12 @@
   <div class="outer_container">
     <div class="inner_container">
       <a id="usds_logo" href="https://www.data4sdgs.org" title="Link to the Global Partnership"><img src='{{site.url}}/assets/images/gpsdd.png' alt="Logo of the Global Partnership"></a>
+      
       {% capture introduction %}{% include introduction.md %}{% endcapture %}
       {{ introduction | markdownify }}
+
+      <img src='{{site.url}}/assets/images/horizontal-icons.png' alt="Logo of the Global Partnership">
+      <br>
       <div class="button">
         <a href="#plays_index_anchor" title="View the Plays">See the plays</a>
       </div>
