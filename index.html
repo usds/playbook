@@ -40,8 +40,6 @@
       {% capture introduction %}{% include introduction.md %}{% endcapture %}
       {{ introduction | markdownify }}
 
-      <img src='{{site.url}}/assets/images/horizontal-icons.png' alt="Logo of the Global Partnership">
-      <br>
       <div class="button">
         <a href="#plays_index_anchor" title="View the Plays">See the plays</a>
       </div>
@@ -71,13 +69,19 @@
   </div>
 </div>
 
+
+<div id="plays" class="outer_container">
+  <div class="inner_container">    
+    <img src='{{site.url}}/assets/images/horizontal-icons.png' alt="SDGs">
+  </div>
+</div>
+
 <div id="plays" class="outer_container">
   {% for play in site.plays %}
     <div class="inner_container">
       <a class="anchor_offset" id="play{{ play.play_number }}"></a>
       <h6>PLAY {{ play.play_number }}</h6>
       <h2 class="display">{{ play.title }}</h2>
-
       {{ play.output }}
     </div>
   {% endfor %}

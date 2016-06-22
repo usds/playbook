@@ -1,4 +1,4 @@
-## The Data Playbook
+<!-- ## The Data Playbook -->
 
 The global community has adopted 17 Goals to improve the lives of everyone on Earth.  These Sustainable Development Goals (SDGs) include eliminating extreme poverty and protecting our natural environment.  We need data to monitor and evaluate progress toward these goals.  We can't expect to reach the goals blindly.  
 
