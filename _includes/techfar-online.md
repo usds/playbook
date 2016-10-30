@@ -6,9 +6,9 @@
 
 In the Government, digital services projects too often fail to meet user expectations or contain unused or unusable features.  Several factors contribute to these outcomes, including the use of outdated development practices and, in some cases, overly narrow interpretations of what is allowed by acquisition regulations.  OMB is developing tools to significantly upgrade the ability of Government digital services to deliver better results to our citizens and improve the way we capitalize on information technology (IT [1]) to better serve the American people.  
 
-One tool is the [Digital Services Playbook](http://playbook.cio.gov "Link to Digital Services Playbook"), which identifies a series of “plays” drawn from proven private sector best practices to help agencies successfully deliver digital services.  Another tool is the TechFAR, which highlights flexibilities [2]  in the Federal Acquisition Regulation (FAR [3]) that can help agencies implement “plays” in the Playbook that would be accomplished with acquisition support.
+One tool is the [Digital Services Playbook](http://playbook.cio.gov "Link to Digital Services Playbook"), which identifies a series of “plays” drawn from proven private sector best practices to help agencies successfully deliver digital services.  Another tool is the TechFAR, which highlights flexibilities[2]  in the Federal Acquisition Regulation (FAR [3]) that can help agencies implement “plays” in the Playbook that would be accomplished with acquisition support.
 
-The vision for the TechFAR is that it will be expanded in future iterations to address many areas of IT.  This edition of the TechFAR is aligned with the [Digital Services Playbook's](http://playbook.cio.gov "Link to Digital Services Playbook") guidance to use contractors to support an iterative development process.  In particular, it emphasizes Agile software development [4],  a technique for doing modular contracting and a proven commercial methodology that is characterized by incremental and iterative processes where releases are produced in close collaboration with the customer.  This process improves investment manageability, lowers risk of project failure, shortens the time to realize value, and allows agencies to better adapt to changing needs.  Agile software development is geared towards projects where significant design and development are needed, such as digital services (e.g., healthcare.gov or recreation.gov) as well as internal digital services and business systems.  It is not designed to be used for commodity IT purchases, especially where commercially available off-the-shelf items can be used as-is at a lower cost and lower risk to the Government.  
+The vision for the TechFAR is that it will be expanded in future iterations to address many areas of IT.  This edition of the TechFAR is aligned with the [Digital Services Playbook's](http://playbook.cio.gov "Link to Digital Services Playbook") guidance to use contractors to support an iterative development process.  In particular, it emphasizes Agile software development[4],  a technique for doing modular contracting and a proven commercial methodology that is characterized by incremental and iterative processes where releases are produced in close collaboration with the customer.  This process improves investment manageability, lowers risk of project failure, shortens the time to realize value, and allows agencies to better adapt to changing needs.  Agile software development is geared towards projects where significant design and development are needed, such as digital services (e.g., healthcare.gov or recreation.gov) as well as internal digital services and business systems.  It is not designed to be used for commodity IT purchases, especially where commercially available off-the-shelf items can be used as-is at a lower cost and lower risk to the Government.  
 
 In every agency, there are multiple stakeholders who share in the responsibility for achieving successful results from their IT investments and who form the acquisition team, including program officials, IT officials, acquisition officials, and agency legal counsel.  Agencies need to ensure adequate resources are dedicated to these stakeholders involved in Agile software development efforts.   The TechFAR is designed to facilitate a common understanding among these stakeholders of the best ways to use acquisition authorities in making these investments to level set expectations and maximize the likelihood for success.  The TechFAR consists of a handbook, which discusses relevant FAR authorities and includes practice tips, sample language, and a compilation of FAR provisions that are relevant to Agile software development.  
 
@@ -115,7 +115,7 @@ FAR 1.602-1(b), provides that no contract shall be entered into unless the Contr
 
 Part 24 of the FAR implements the provisions of the Privacy Act. Contractors and their employees who contract for the design, development, operation, or maintenance of a system of records on individuals, on behalf of the agency to accomplish an agency function, are subject to the civil and criminal provisions of the Privacy Act.  Pursuant to FAR 24.103(b)(1), the Contracting Officer will ensure that the contract work statement specifically identifies the system of records on individuals and the design, development, or operation work to be performed.  Procurement actions involving the design, development or operation of a system of records as defined by the Privacy Act will contain the Privacy Act Notification and a clause entitled "PRIVACY ACT," both of which are at FAR 52.224-1 and FAR 52.224-2, respectively. 
 
-Additionally, FAR 39.107 states that FAR 52.239-1, Privacy or Security Safeguards or other similar language, is to be included in all procurement actions for information technology which require security of information technology, and/or are for the design, development, or operation of a system of records using Commercial information technology services or support services.  See also [Fair Information Practice Principles available at: http://www.nist.gov/nstic/NSTIC-FIPPs.pdf](http://www.nist.gov/nstic/NSTIC-FIPPs.pdf "Link to Fair Information Practice Principles"). 
+Additionally, FAR 39.107 states that FAR 52.239-1, Privacy or Security Safeguards or other similar language, is to be included in all procurement actions for information technology which require security of information technology, and/or are for the design, development, or operation of a system of records using Commercial information technology services or support services.  See also [Fair Information Practice Principles available at: https://www.dhs.gov/xlibrary/assets/privacy/privacy_policyguide_2008-01.pdf](https://www.dhs.gov/xlibrary/assets/privacy/privacy_policyguide_2008-01.pdf "Link to Fair Information Practice Principles"). 
 
 <a id="requirements-development"></a>
 ## Requirements Development & Acquisition Planning 
@@ -160,7 +160,7 @@ Under the Agile methodology, documentation is produced through interactions betw
 - Working software is produced in short iterations (which can be as frequently as every 1-4 weeks[*17*]), which produces a segment of functionality (e.g., end user being able to schedule an appointment online).
 - Each iteration is small in scale (i.e., encompass a single or a few function(s) within a multistep process).  Multiple iterations form releases.  
 - For each iteration, requirements, design, and development of software are identified through “user stories” produced by the product owner to identify and prioritize core requirements that are needed to produce a minimum viable product (MVP).  The MVP contains the just enough core functions of the system to be able to get validated learning from users about the system.  Features that may be useful, but not essential, are not considered until the MVP is delivered.  
-- Testing of the software determines whether it meets the stated requirements.Product backlogs are maintained to ensure that functionalities not included in early iterations that remain desirable are incorporated into future iterations.
+- Testing of the software determines whether it meets the stated requirements. Product backlogs are maintained to ensure that functionalities not included in early iterations that remain desirable are incorporated into future iterations.
 
 In each iteration, the Product Owner may evaluate whether working software is responsive by looking at documentation from user stories, acceptance criteria, tasks to be completed to fulfill the “definition of done,” code quality, and standards compliance. The agency must generate all documentation required by law, regulation, and policy. 
 
@@ -239,7 +239,7 @@ To ensure results, the Government must ensure that the “definition of done” 
 
 Agile practices bring to light projects likely to fail much sooner than traditional practices.  Because of the small initial scale, this practice reduces the scope of failure and allows projects to take corrective action quickly, irrespective of whether the contract is fixed-price or cost-based.  As a result, although a contractor will only be held to best efforts if a cost-based contract type is used, the Government’s exposure to major cost overruns will be significantly limited.
 
-In fact, the Government’s exposure to risk under other than a fixed-price (e.g., T&M, Labor-Hour) contract is arguably less than that under a fixed-price contract that follows the traditional methodology.  History shows that the likelihood of significant problems being surfaced late in a traditional project is substantial – by some accounts at least 70 percent*21* -- along with the likelihood that the Government will end up sharing, or paying for, the cost of the overrun because the initial specifications turn out to be faulty or otherwise inconsistent with what customers determine they ultimately need.
+In fact, the Government’s exposure to risk under other than a fixed-price (e.g., T&M, Labor-Hour) contract is arguably less than that under a fixed-price contract that follows the traditional methodology.  History shows that the likelihood of significant problems being surfaced late in a traditional project is substantial – by some accounts at least 70 percent[21] -- along with the likelihood that the Government will end up sharing, or paying for, the cost of the overrun because the initial specifications turn out to be faulty or otherwise inconsistent with what customers determine they ultimately need.
 
 **Question** — When using a FP contract, how could the line items be structured?
 
@@ -251,7 +251,7 @@ For this sample line item, iterations are listed as “sprints,” but would be 
 
 >**Fixed Price Contract.**
 
->**Item No.	Supplies/Services	Quantity	Unit		Unit Price	Amount**
+>**Item No. - Supplies/Services - Quantity - Unit - Unit Price - Amount**
 
 >Period of Performance: Base Period [insert date of award through a set date]
 
@@ -270,7 +270,7 @@ For this sample line item, iterations are listed as “sprints,” but would be 
 
 **Scenario 2: Follow-on Effort or New Competition. This method works when the iteration has already been defined and agreed upon by the Government, whether this is through historical knowledge of a previous effort or through the solicitation requirements established in a competition.** 
 
->**Item No.	Supplies/Services	Quantity	Unit		Unit Price	Amount**
+>**Item No. - Supplies/Services - Quantity - Unit - Unit Price - Amount**
 
 >Period of Performance: Base Period = 12 months
 
@@ -497,9 +497,9 @@ Contract performance metrics should be relevant to the proposed methodology and 
  
 >*9* The Contracting Officer is responsible for the determination to use business process innovations in accordance with FAR 1.102-4(e). This determination is distinct from the IPT determination of which Agile methodology will be used. Additionally, the processes used by the agency are subject to any restrictions imposed on the appropriated funds used to pay for the software development.
 
-> *10* In the 8th Annual State of Agile Survey conducted by VersionOne, 88% of respondents stated that their organizations are practicing Agile software development with the top business benefits being the ability to manage changing priorities (92%), productivity (87%), and project visibility (86%). Source: [8th Annual State of Agile Survey (2014)](http://www.versionone.com/pdf/2013-state-of-Agile-survey.pdf?utm_campaign=2014%20State%20of%20Agile%20Auto%20Responder&utm_medium=email&utm_source=Eloqua "Link to 8th Annual State of Agile Survey 2014 Download")
+> *10* In the 8th Annual State of Agile Survey conducted by VersionOne, 88% of respondents stated that their organizations are practicing Agile software development with the top business benefits being the ability to manage changing priorities (92%), productivity (87%), and project visibility (86%). Source: [8th Annual State of Agile Survey (2014)](https://www.versionone.com/pdf/2013-state-of-agile-survey.pdf "Link to 8th Annual State of Agile Survey 2014 Download")
 
-> *11* Less than one-third of waterfall procurements (28%) succeed.  Larman, Craig. Agile and Interactive Development:  A Manager’s Guide (2001) at 101.  Only 20% of features are used often, 30% get used only sometimes or infrequently and 50% are almost never, if ever, used.  The Standish Group, Inc., [The CHAOS Manifesto 2013](http://versionone.com/assets/img/files/ChaosManifesto2013.pdf "Link to the Chaos Manifesto"). See also Appendix A: Comparison of Traditional to Agile Thinking on Software Development.
+> *11* Less than one-third of waterfall procurements (28%) succeed.  Larman, Craig. Agile and Interactive Development:  A Manager’s Guide (2001) at 101.  Only 20% of features are used often, 30% get used only sometimes or infrequently and 50% are almost never, if ever, used.  The Standish Group, Inc., [The CHAOS Manifesto 2013](http://www.immagic.com/eLibrary/ARCHIVES/GENERAL/GENREF/S130301C.pdf "Link to the Chaos Manifesto"). See also Appendix A: Comparison of Traditional to Agile Thinking on Software Development.
 
 > *12* See Section 804 of the National Defense Authorization Act (2010); FAR 39.103(a); FAR 2.101 definition of “major system.”
 
@@ -529,7 +529,7 @@ Contract performance metrics should be relevant to the proposed methodology and 
 
 > *25* [Effective Practices and Federal Challenges in Applying Agile Methods, GAO-12-681, July 27, 2012](http://www.gao.gov/products/GAO-12-681 "Link to The GAO Document").
 
-> *26* The Standish Group, Inc., [The CHAOS Manifesto 2013](http://versionone.com/assets/img/files/ChaosManifesto2013.pdf "Link to the CHAOS Manifesto 2013").
+> *26* The Standish Group, Inc., [The CHAOS Manifesto 2013](http://www.immagic.com/eLibrary/ARCHIVES/GENERAL/GENREF/S130301C.pdf "Link to the CHAOS Manifesto 2013").
 
 > *27* Velocity is calculated by adding up the story points that the team successfully delivers in each iteration (five 2-point stories = velocity of 10).  Within a short period of time, velocity typically stabilizes and provides a reliable basis for improving the accuracy of planning.  Agile delivery cycles are short in length, so velocity is validated very early in a project and then relied upon to improve project predictability.
 
