@@ -1,0 +1,77 @@
+Plays: 
+
+-  Be a part of the community
+	- seek advice, ask for help
+	- contribute to open source
+
+- Build Trust
+	- open and frequent communication
+	- clarify what you are going to support
+	- service quality of what you're providing
+	- be clear about limitations
+	- clear licensing - open license
+
+- Document Everything
+	- Roadmap
+	- Architecture
+	- Governance & Contribution
+	- Team & Process
+	- Deployment & Operations
+	- Examples
+	- API explorer
+
+- Make it easy to use
+	- Provide Reference implementation
+	- not just showing the implementation, but showing how to use it
+	- modifiable examples
+	- client-side wrappers, show use
+	-  erify by Try it out yourself
+
+- Support and open forum for support
+	- issues
+	- questions
+
+- Be a good part of the web
+	- Durable URL
+	- Readable URL
+	- HTTP Status codes
+	- SEO
+	- 'Discoverable'
+
+- Consider the Developer Experience (DX)
+	- structure of sucessful responses
+	- how to build a good API
+	- structure of unsuccessful responses
+	- Consistency across resources
+	- well-named (singular vs. plural)
+	- (levels of aggregation/nesting)
+	- clear (linked) pagination & limits & filters
+	- How it Feels: Well Designed API (API 'good bones') solid, confident, indicators of trust, signage, 'sniff test', 
+		- Twilio developer usability testing (watching how someone the first time used your api)
+
+- Consider the future
+	- plan for 15 years
+	- Extensibility (new resources)
+	- Version API structure
+
+- Plan for the long tail, the edge cases
+	- full data download
+	- we don't know
+	- equity issue as well as long tail (graceful fallback)
+
+
+- Data Integrity
+	- Version data (time of data, time of update)
+	- Identify sources of data (authoritative, crowdsource (but more recent))
+	- Secure data transfer (SSL)
+	- API testing
+
+
+
+
+- Create Incentives?
+	- Propose hackathon
+	- Usage metrics
+	- Trackbacks (I built something for you, highlight me!)
+	- Discoverability (National Data Catalogs, SEO)
+
