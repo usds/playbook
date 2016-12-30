@@ -7,7 +7,7 @@ $(function(){
   // change nav bar visibility on scroll
   function onScroll() {
     var isNavBarVisible = window.pageYOffset >= showNavBarMinimum;
-    if ( isNavBarVisible != wasNavBarVisible ) {
+    if ( isNavBarVisible !== wasNavBarVisible ) {
       $navBar.toggleClass('show');
       wasNavBarVisible = isNavBarVisible;
     }
@@ -36,7 +36,7 @@ $(function(){
 
   // Scroll Animations
   $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
