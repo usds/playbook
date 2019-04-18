@@ -247,7 +247,7 @@ PLATFORMS
 DEPENDENCIES
   bourbon (~> 4.0.2)
   github-pages
-  jekyll (~> 3.7.3)
+  jekyll (~> 3.7.4)
   neat (~> 1.6.0)
   sass (~> 3.4.22)
 
