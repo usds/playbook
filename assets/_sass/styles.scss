@@ -2,11 +2,18 @@
 @import "neat/neat";
 
 // Colors
-$atlantic_blue:       #323A45; // gray-dark
-$pacific_blue:        #046B99; // primary-alt-darkest
-$miami_vice_blue:     $pacific_blue; // original
-$white:               #fff;
-$black:               #323A45; // gray-dark
+$atlantic_blue:         #323A45; // gray-dark
+$pacific_blue:          #046B99; // primary-alt-darkest
+$miami_vice_blue:       $pacific_blue; // original
+$white:                 #fff;
+$black:                 #323A45; // gray-dark
+$usds-navy:             #103c68;
+$usds-navy-dark:        #122d44;
+$usds-navy-light:       #577795;
+$usds-blue-medium:      #064e96;
+$usds-blue-bright-dark: #0071bc;
+$usds-gray:             #5d5d5d;
+$usds-gray-dark:        #3f3f3f;
 
 // Fonts
 $serif:               'Merriweather', Georgia, serif;
@@ -145,7 +152,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     font-family: $sans-serif;
     font-weight: 700;
     line-height: 1.5em;
-    display: inline-block;  
+    display: inline-block;
     margin-top: 40px;
     margin-right: 20px;
 
@@ -181,7 +188,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
 
   #introduction {
-    background: $atlantic_blue;
+    background: $usds-navy;
     color: $white;
     padding-bottom: 60px;
 
@@ -199,13 +206,15 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
       img {
         max-height: 100%;
         max-width: 100%;
-        width: 200px;
+        width: 150px;
       }
     }
-    
+
     #usds_logo:hover {
       background: none;
-      opacity: 0.7;
+      img{
+       opacity: 0.9;
+      }
     }
 
     .button a {
@@ -243,7 +252,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     position: fixed;
     width: 100%;
     height: 0;
-    background: $atlantic_blue;
+    background: $usds-navy;
     color: $white;
     .outer_container {
       padding: 0 40px;
@@ -271,7 +280,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
     .active {
       a {
-        background: $pacific_blue;
+        background: $usds-blue-bright-dark;
         color: $white;
         text-decoration: none;
       }
@@ -291,10 +300,10 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
         font-family: $serif;
         font-weight: lighter;
         color: $white;
-        border: 1px solid $miami_vice_blue;
+        border: 1px solid $usds-blue-bright-dark;
       }
       a:hover {
-        background: $miami_vice_blue;
+        background: $usds-blue-bright-dark;
         color: $white;
         text-decoration: none;
       }
@@ -333,7 +342,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
 
     @include media($slimmer) {
-      ul { 
+      ul {
         display: none;
       }
       #menu_icon {
@@ -349,7 +358,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     visibility: visible;
     display: block;
     height: 60px;
-    
+
     @include media($mobile) {
       height: 48px;
       visibility: visible;
@@ -358,14 +367,14 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 
   #plays_index {
-    background: $pacific_blue;
+    background: $usds-blue-bright-dark;
     padding-bottom: 60px;
     color: $white;
 
-    h2 { 
+    h2 {
       margin-bottom: 38px;
     }
-    
+
     .columns {
       -moz-column-count: 2;
       -moz-column-gap: 20px;
@@ -388,7 +397,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
         width: 85%;
       }
     }
-    
+
     ol, li {
       font-size: 20px;
       font-weight: 300;
@@ -400,7 +409,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     li {
       padding-bottom: 20px;
     }
-    
+
     .button {
       a {
         color: white;
@@ -565,7 +574,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   ol, ul {
     width: 80%;
   }
-  
+
   ol {
     list-style-type: square;
   }
@@ -591,4 +600,3 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     display: none;
   }
 }
-
