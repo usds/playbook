@@ -15,7 +15,7 @@ $(function(){
   // initial check
   onScroll();
 
-  // http://davidwalsh.name/function-debounce
+  // https://davidwalsh.name/function-debounce
   function debounce( fn, wait ) {
     var timeout;
     return function() {
