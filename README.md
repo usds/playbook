@@ -1,6 +1,31 @@
-## About This Project
+## Welcome!
 
-TBA
+You are here because you’ve discovered a challenge or an opportunity in the public sector, and you suspect that software might help. 
+…Now what? 
+Well, you are in the right place. 
+
+What is this guide: 
+Every day, civil servants around the world carry out public processes. And as they face increasingly complex issues – challenges like effective COVID response, public WiFi installation, or software procurement – they need new approaches to those existing public processes. Cities that are using new approaches can learn from each other, adapt what others have done, and create best practices using a shared online document – what we call “process code.”
+
+Software & Public Procurement: 
+This document is a process code for software procurement. It walks through government contracting step-by-step, aligning legitimate public procurement with the cutting edge best practices of software development. Because every jurisdiction and every software is unique, this process code is general enough to be widely applicable. It is not an inflexible legal document – rather, it’s a set of guidelines and best practices, with links to additional resources. 
+
+This process code introduces a digital-native approach to procurement, while maintaining the integrity of a legitimate, fair, transparent and objective process. It is important because it empowers public sector employees to be in control of how their digital tools are designed, purchased and used. 
+
+Who should use this guide: 
+Several people from different departments should be involved in a software procurement process – from legal counsel to IT to the end users themselves – each bringing their own expertise and perspective. This guide is intended for all of them. The table below shows who will have a starring role in each phase. 
+
+There is also someone who follows the process from beginning to end: the “product owner.” Product owners are expert generalists who deeply understand end users and their needs, work across different departments, ask good questions, and carry the project from start to finish. The product owner should read this whole guide, and be comfortable with each step of the process, while specialists can read the introduction and basic principles, then focus on the particular step that is most relevant to them.
+
+Next Steps: 
+This guide will start from the very beginning – a discovery phase when we build a shared understanding, become familiar with the procurement process, and use various research and ideation methods to define the problem, the market, and the opportunity precisely.
+
+We then decide one of four paths: buying a product off-the-shelf, buying or building a custom instance of an open source software, buying a new custom software, or building software from scratch, in-house. Depending on the path, we either walk through writing an RFP and managing ethical, productive vendor relations, or planning and resourcing an in-house software development process. 
+
+Then we deep-dive into agile software development, ensuring that public sector contracting supports the best practices of state-of-the-art software. Finally, we manage deployment, integration, and issues of long-term software maintenance.  
+
+This process code is a living document. It is meant to be shared, revised, tested, and expanded by the public administrations who use it. Welcome to a growing community of cities, states and provinces who believe that software can serve the public better!
+
 
 ## We Want Your Feedback
 We encourage your feedback and suggestions on these documents. Content and feature suggestions and discussions are welcome via [GitHub Issues](https://github.com/publiccodenet/process-code/issues). You may also propose changes to the content directly by submitting a [pull request](https://help.github.com/articles/creating-a-pull-request "More Information on Submitting Pull Requests").
