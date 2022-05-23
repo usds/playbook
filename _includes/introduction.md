@@ -32,19 +32,19 @@ Step 1: Capacity-building
 Step 2: Discovery Research
 Step 3: Market Research
 Step 4: Strategic Analysis
-*Output: Choice of a Strategy
+*Output: Choice of a Strategy*
 
 ###### PHASE 2: Planning: Documentation & Resourcing
 Step 5 (A,B,C): RFP Writing
 Output: RFP is issued
 Step 5 (D): Project Resourcing
-*Output: Agile development is planned
+*Output: Agile development is planned*
 
 ###### PHASE 3: Assessment: Compliance & Contracting
 Step 6 (A,B,C): Vendor interactions
 Step 7 (A,B,C): Bid Evaluation
 Step 8 (A,B,C): Contracting
-*Output: Purchase order or software license procurement
+*Output: Purchase order or software license procurement*
 
 ###### PHASE 4: Implementation: Building & Deploying
 Step 9 (B, C, D): Agile Development & Deployment
