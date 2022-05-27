@@ -28,6 +28,8 @@ We encourage your feedback and suggestions on these documents. Content and featu
 
 You don't need to install any software to suggest a change. To propose a change from your browser, [select a play in the `_plays` folder](https://github.com/publiccodenet/process-code/tree/gh-pages/_plays "Link to the Plays Markdown files"). You can use GitHub's in-browser editor to edit files and submit a "pull request" for your changes to be merged into the document.
 
+Changes will be reviewed by staff at the Foundation for Public Code, to ensure that the content is accurate and that the change supports the purpose and vision of the process code initiative. 
+
 If you would like to see and discuss the changes that other people have proposed, [visit the "Pull Requests" section](https://github.com/publiccodenet/process-code/pulls "Link to the Pull Requests Section of GitHub") and [browse the issues](https://github.com/publiccodenet/process-code/issues "Link to the Issues Section of GitHub").
 
 ## Technical Details
