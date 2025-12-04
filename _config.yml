@@ -9,3 +9,6 @@ markdown: kramdown
 
 sass:
     sass_dir: assets/_sass
+
+exclude:
+    - vendor/bundle
